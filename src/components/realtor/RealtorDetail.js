@@ -7,7 +7,7 @@ import { useHistory } from "react-router-dom"
 export const RealtorDetail = (props) => {
     const { realtors } = useContext(RealtorContext)
     const { deleteRealtor } = useContext(RealtorContext)
-    const [realtor, setrealtor] = useState(props.realtor || { loanpartner: {} })
+    const [realtor, setRealtor] = useState(props.realtor || { lead: {} })
 
     const { realtorId } = useParams();
     const history = useHistory()
@@ -21,8 +21,8 @@ export const RealtorDetail = (props) => {
 
     useEffect(() => {
         if (!props.realtor) {
-            const thisRealtor = realtors.find(realtor => realtor.id === parseInt(realtorId)) || { loanpartner: {} }
-            setrealtor(thisRealtor)
+            const thisRealtor = realtors.find(realtor => realtor.id === parseInt(realtorId)) || { lead: {} }
+            setRealtor(thisRealtor)
         }
     }, [realtorId])
 

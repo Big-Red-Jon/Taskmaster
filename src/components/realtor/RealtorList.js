@@ -28,7 +28,7 @@ export const RealtorList = () => {
 
             <h1>Realtors</h1>
             <section className="newButton">
-                <button onClick={() => history.push("/create")}>
+                <button onClick={() => history.push("/realtors/create")}>
                     Add New Realtor
                 </button>
             </section>

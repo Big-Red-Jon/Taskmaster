@@ -10,13 +10,13 @@ import { LeadSearch } from "./lead/LeadSearch"
 import { RealtorProvider } from "./realtor/RealtorProvider"
 import { RealtorList } from "./realtor/RealtorList"
 import { RealtorDetail } from "./realtor/RealtorDetail"
-// import { RealtorForm } from "./realtor/RealtorForm"
+import { RealtorForm } from "./realtor/RealtorForm"
 import { RealtorSearch } from "./realtor/RealtorSearch"
 //Tasks
 import { TaskProvider } from "./task/TaskProvider"
 import { TaskList } from "./task/TaskList"
 import { TaskDetail } from "./task/TaskDetail"
-// import { TaskForm } from "./task/TaskForm"
+import { TaskForm } from "./task/TaskForm"
 import { TaskSearch } from "./task/TaskSearch"
 //Calculator
 
@@ -33,6 +33,12 @@ export const ApplicationViews = () => {
                         <Route path="/tasks/detail/:leadId(/d+)">
                             <TaskDetail />
                         </Route>
+                        <Route path="/tasks/edit/:taskId(\d+)">
+                            <TaskForm />
+                        </Route>
+                        <Route path="/tasks/create">
+                            <TaskForm />
+                        </Route>
 
                         <Route exact path="/realtors">
                             <RealtorSearch />
@@ -40,6 +46,12 @@ export const ApplicationViews = () => {
                         </Route>
                         <Route path="/realtors/detail/:realtorId(\d+)">
                             <RealtorDetail />
+                        </Route>
+                        <Route path="/realtors/edit/:realtorId(\d+)">
+                            <RealtorForm />
+                        </Route>
+                        <Route path="/realtors/create">
+                            <RealtorForm />
                         </Route>
 
                         <Route exact path="/leads">

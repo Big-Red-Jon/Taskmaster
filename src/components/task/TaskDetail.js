@@ -3,7 +3,7 @@ import { TaskContext } from "./TaskProvider"
 import "./Task.css"
 import { useParams } from "react-router-dom"
 import { useHistory } from "react-router-dom"
-import { PropertyTaxContext } from "../propertytax/PropertyTaxProvider"
+// import { PropertyTaxContext } from "../propertytax/PropertyTaxProvider"
 
 export const TaskDetail = (props) => {
     const { tasks } = useContext(TaskContext)
@@ -20,6 +20,11 @@ export const TaskDetail = (props) => {
             })
     }
 
+    const toggleCheckedObject = () => setTask({
+        ...task,
+        completed: !task.isComplete
+    });
+
     useEffect(() => {
         if (!props.task) {
             const thisTask = tasks.find(task => task.id === parseInt(taskId)) || { lead: {} }
@@ -33,7 +38,13 @@ export const TaskDetail = (props) => {
             <h3>{task.leadId.name}</h3>
             <div>Task: {task.task} </div>
             <div>Due: {task.dueDate}</div>
-            <div>Completed? {task.iscomplete ? "Yes" : "No"} </div>
+            {/* <div>Completed? {task.iscomplete ? "Yes" : "No"} </div> */}
+            <fieldset>
+                <div>
+                    <label htmlFor="isComplete"> TaskComplete: </label>
+                    <input type="checkbox" id="isComplete" checked={task.isComplete} onChange={toggleCheckedObject} />
+                </div>
+            </fieldset>
 
             <button onClick={handleRelease}>Complete</button>
 
