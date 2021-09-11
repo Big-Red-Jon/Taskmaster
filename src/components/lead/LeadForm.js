@@ -3,11 +3,18 @@ import { LeadContext } from "./LeadProvider"
 import { RealtorContext } from "../realtor/RealtorProvider";
 import "./Lead.css"
 import { useHistory, useParams } from 'react-router-dom';
+import 'react-phone-number-input/style.css'
+import PhoneInput from 'react-phone-number-input/input'
+import DatePicker from "react-datepicker";
+
+import "react-datepicker/dist/react-datepicker.css";
 
 export const LeadForm = () => {
     const { addLead, getLeadById, updateLead } = useContext(LeadContext)
     const { realtors, getRealtors } = useContext(RealtorContext)
     const [lead, setLead] = useState({})
+    const [value, setValue] = useState()
+    const [startDate, setStartDate] = useState(new Date());
 
     const [isLoading, setIsLoading] = useState(true);
 
@@ -90,7 +97,7 @@ export const LeadForm = () => {
             <h2>Add New Lead</h2>
             <fieldset>
                 <div>
-                    <label htmlFor="name">name</label><br />
+                    <label htmlFor="name">Name</label><br />
                     <input className="form--item" type="text" id="name" name="name" required autoFocus
                         placeholder="Lead Name"
                         onChange={editInputChange}
@@ -109,15 +116,16 @@ export const LeadForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="phone">Phone:</label><br />
-                    <input maxLength="16" className="form--item" type="text" id="Phone" name="Phone" required autoFocus
-                        placeholder="Lead Phone"
-                        onChange={editInputChange}
+                    <PhoneInput maxLength="16" country="US" className="form--item" id="phone" name="phone" required autoFocus
+                        placeholder="Enter phone number"
+                        value={value}
+                        onChange={setValue}
                         defaultValue={lead.phone} />
                 </div>
             </fieldset>
             <fieldset>
                 <div>
-                    <label htmlFor="preferredContact">Preferred Method of Contact</label>
+                    <label htmlFor="preferredContact">Preferred Method of Contact</label> < br />
                     <select name="preferredContact" id="preferredContact" onChange={editInputChange}
                         defaultValue={lead.email} >
                         <option value="Email">Email</option>
@@ -128,7 +136,7 @@ export const LeadForm = () => {
             </fieldset>
             <fieldset>
                 <div>
-                    <label htmlFor="notes">Notes:
+                    <label htmlFor="notes">Notes: <br />
                         <textarea className="form--item" type="text" id="notes" name="notes" required autoFocus
                             placeholder="Notes on Lead"
                             onChange={editInputChange}
@@ -151,6 +159,18 @@ export const LeadForm = () => {
                     </select>
                 </div>
             </fieldset><br />
+            <fieldset>
+                <div className="form-group">
+                    <label htmlFor="dateLastCalled"> Date Last Called: </label>
+                    <DatePicker id="dateLastCalled" selected={startDate} onChange={(date) => setStartDate(date)} />
+                </div>
+            </fieldset>
+            <fieldset>
+                <div className="form-group">
+                    <label htmlFor="dateReceived"> Date Received: </label>
+                    <DatePicker id="dateReceived" selected={startDate} onChange={(date) => setStartDate(date)} />
+                </div>
+            </fieldset>
             <fieldset>
                 <div className="form-group">
                     <label htmlFor="isPreapproved"> Client Preapproved: </label>
