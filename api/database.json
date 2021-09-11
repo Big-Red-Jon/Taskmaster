@@ -35,6 +35,20 @@
       "leadId": 2,
       "dueDate": "12/31/2021",
       "iscomplete": false
+    },
+    {
+      "id": 3,
+      "task": "Follow Up Today",
+      "leadId": 3,
+      "dueDate": "12/31/2021",
+      "iscomplete": false
+    },
+    {
+      "id": 4,
+      "task": "Follow Up Today",
+      "leadId": 4,
+      "dueDate": "12/31/2021",
+      "iscomplete": false
     }
   ],
   "leads": [
@@ -51,7 +65,6 @@
       "isPreapproved": true,
       "docsComplete": false,
       "lpId": 1,
-      "docsId": 1,
       "underContract": false,
       "isApptSet": true
     },

@@ -33,12 +33,10 @@ export const TaskDetail = (props) => {
             <h3>{task.leadId.name}</h3>
             <div>Task: {task.task} </div>
             <div>Due: {task.dueDate}</div>
-            <div>Complete {task.iscomplete} </div>
+            <div>Completed? {task.iscomplete ? "Yes" : "No"} </div>
 
-            <button onClick={handleRelease}>Delete Task</button>
-            <button onClick={() => {
-                history.push(`/edit/${task.id}`)
-            }}>Edit Task </button>
+            <button onClick={handleRelease}>Complete</button>
+
         </section>
     )
 }

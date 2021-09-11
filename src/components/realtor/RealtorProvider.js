@@ -11,13 +11,13 @@ export const RealtorProvider = (props) => {
     const [searchTerms, setSearchTerms] = useState("")
 
     const getRealtors = () => {
-        return fetch(`${URL}/leads?_expand=userId`)
+        return fetch(`${URL}/realtors?_expand=userId`)
             .then(res => res.json())
             .then(setRealtors)
     }
 
     const addRealtor = realtorSelect => {
-        return fetch(`${URL}/leads`, {
+        return fetch(`${URL}/realtors`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -28,7 +28,7 @@ export const RealtorProvider = (props) => {
     }
 
     const updateRealtor = realtor => {
-        return fetch(`${URL}/leads/${realtor.id}`, {
+        return fetch(`${URL}/realtors/${realtor.id}`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json"
@@ -39,7 +39,7 @@ export const RealtorProvider = (props) => {
     }
 
     const deleteRealtor = realtorId => {
-        return fetch(`${URL}/leads/${realtorId}`, {
+        return fetch(`${URL}/realtors/${realtorId}`, {
             method: "Delete"
         })
             .then(getRealtors)

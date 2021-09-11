@@ -35,7 +35,7 @@ export const LeadDetail = (props) => {
             <button onClick={handleRelease}>Delete Lead </button>
             <button onClick={() => {
                 history.push(`/leads/edit/${lead.id}`)
-            }}>Edit</button>
+            }}>Update Lead</button>
         </section>
     )
 

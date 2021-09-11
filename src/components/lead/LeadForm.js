@@ -50,7 +50,7 @@ export const LeadForm = () => {
                 isApptSet: lead.isApptSet,
 
             })
-                .then(() => history.push("/leads"))
+                .then(() => history.push(`/leads`))
         } else {
             addLead({
                 // userId: parseInt(userId),
@@ -67,7 +67,7 @@ export const LeadForm = () => {
                 underContract: lead.underContract,
                 isApptSet: lead.isApptSet
             })
-                .then(() => history.push("/leads"))
+                .then(() => history.push(`/leads`))
         }
 
     }
@@ -109,10 +109,10 @@ export const LeadForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="phone">Phone:</label><br />
-                    <input className="form--item" type="text" id="Phone" name="Phone" required autoFocus
+                    <input maxLength="16" className="form--item" type="text" id="Phone" name="Phone" required autoFocus
                         placeholder="Lead Phone"
                         onChange={editInputChange}
-                        defaultValue={lead.email} />
+                        defaultValue={lead.phone} />
                 </div>
             </fieldset>
             <fieldset>
@@ -159,15 +159,13 @@ export const LeadForm = () => {
             </fieldset>
             <fieldset>
                 <div className="form-group">
-                    <label htmlFor="underContract"> Client Preapproved: </label>
+                    <label htmlFor="underContract"> Client Under Contract: </label>
                     <input type="checkbox" id="underContract" checked={lead.underContract} onChange={toggleCheckedObject} />
                 </div>
             </fieldset>
-
-            isApptSet
             <fieldset>
                 <div className="form-group">
-                    <label htmlFor="isApptSet"> Client Preapproved: </label>
+                    <label htmlFor="isApptSet"> Appointment Set: </label>
                     <input type="checkbox" id="isApptSet" checked={lead.isApptSet} onChange={toggleCheckedObject} />
                 </div>
             </fieldset>

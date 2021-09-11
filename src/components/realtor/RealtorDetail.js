@@ -15,7 +15,7 @@ export const RealtorDetail = (props) => {
     const handleRelease = () => {
         deleteRealtor(realtor.id)
             .then(() => {
-                history.push("/")
+                history.push("/realtors")
             })
     }
 
@@ -33,9 +33,9 @@ export const RealtorDetail = (props) => {
             <div>Email: {realtor.email}</div>
 
             <button onClick={handleRelease}>Delete Realtor </button>
-            <button> onClick={() => {
+            <button onClick={() => {
                 history.push(`/realtors/edit/${realtor.id}`)
-            }}</button>
+            }}>Edit</button>
         </section>
     )
 

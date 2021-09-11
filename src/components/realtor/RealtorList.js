@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react"
 import { RealtorContext } from "./RealtorProvider"
 import { RealtorDetail } from "./RealtorDetail"
-// import { useHistory } from "react-router-dom"g
+import { useHistory } from "react-router-dom"
 
 export const RealtorList = () => {
     const { realtors, getRealtors, searchTerms } = useContext(RealtorContext)
@@ -27,7 +27,7 @@ export const RealtorList = () => {
         <>
 
             <h1>Realtors</h1>
-            <section classname="newButton">
+            <section className="newButton">
                 <button onClick={() => history.push("/create")}>
                     Add New Realtor
                 </button>

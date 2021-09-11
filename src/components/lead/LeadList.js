@@ -26,7 +26,7 @@ export const LeadList = () => {
     return (
         <>
             <h1>Leads</h1>
-            <button className="newButton" onClick={() => history.push("/create")}>
+            <button className="newButton" onClick={() => history.push("/leads/create")}>
                 Add New Lead
             </button>
             <div className="leads">
