@@ -20,14 +20,14 @@ export const PropertyTaxProvider = (props) => {
             },
             body: JSON.stringify(propertytaxSelect)
         })
-            .then(getPropertyTaxs)
+            .then(getPropertyTaxes)
     }
 
     const deletePropertyTax = propertytaxId => {
         return fetch(`${URL}/propertytaxes/${propertytaxId}`, {
             method: "DELETE"
         })
-            .then(getPropertyTaxs)
+            .then(getPropertyTaxes)
     }
 
     const getPropertyTaxById = (propertytaxId) => {

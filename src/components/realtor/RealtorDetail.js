@@ -27,7 +27,7 @@ export const RealtorDetail = (props) => {
     }, [realtorId])
 
     return (
-        <section classname="realtor">
+        <section className="realtor">
             <h4>{realtor.name}</h4>
             <div>Phone: {realtor.phone}</div>
             <div>Email: {realtor.email}</div>

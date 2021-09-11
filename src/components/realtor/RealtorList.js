@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react"
 import { RealtorContext } from "./RealtorProvider"
 import { RealtorDetail } from "./RealtorDetail"
-// import { useHistory } from "react-router-dom"
+// import { useHistory } from "react-router-dom"g
 
 export const RealtorList = () => {
     const { realtors, getRealtors, searchTerms } = useContext(RealtorContext)
