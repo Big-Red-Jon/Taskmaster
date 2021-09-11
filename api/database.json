@@ -1,0 +1,187 @@
+{
+    "loanpartners": [
+        {
+            "id": 1,
+            "name": "Thor",
+            "email": "Thor@yahoo.com"
+        },
+        {
+            "id": 2,
+            "name": "Odin",
+            "email": "Odin@yahoo.com"
+        },
+        {
+            "id": 3,
+            "name": "Loki",
+            "email": "Loki@yahoo.com"
+        },
+        {
+            "id": 4,
+            "name": "Tyr",
+            "email": "Tyr@yahoo.com"
+        }
+    ],
+    "tasks": [
+        {
+            "id": 1,
+            "task": "Follow Up Today",
+            "leadId": 1,
+            "dueDate": "12/31/2021",
+            "iscomplete": false
+        },
+        {
+            "id": 2,
+            "task": "Follow Up Today",
+            "leadId": 2,
+            "dueDate": "12/31/2021",
+            "iscomplete": false
+        },
+        {
+            "id": 3,
+            "task": "Follow Up Today",
+            "leadId": 1,
+            "dueDate": "9/10/2021",
+            "iscomplete": true
+        }
+    ],
+    "leads": [
+        {
+            "id": 1,
+            "name": "Zeus",
+            "email": "Zeus@yahoo.com",
+            "phone": 2405949303,
+            "preferredContact": "email",
+            "notes": "ready to purchase in January",
+            "realtorId": 4,
+            "dateLastCalled": 1631241078,
+            "dateReceived": 1631241078,
+            "isPreapproved": true,
+            "docsComplete": false,
+            "lpId": 1,
+            "docsId": 1,
+            "underContract": false,
+            "isApptSet": true
+        },
+        {
+            "id": 2,
+            "name": "Hades",
+            "email": "Hades@yahoo.com",
+            "phone": 2405949303,
+            "preferredContact": "phone",
+            "notes": "ready to purchase in January",
+            "realtorId": 2,
+            "dateLastCalled": 1631241078,
+            "dateReceived": 1631241078,
+            "isPreapproved": true,
+            "docsComplete": true,
+            "lpId": 2,
+            "docsId": 2,
+            "underContract": false,
+            "isApptSet": true
+        },
+        {
+            "id": 3,
+            "name": "Hera",
+            "email": "Hera@yahoo.com",
+            "phone": 2405949303,
+            "preferredContact": "phone",
+            "notes": "ready to purchase in January",
+            "realtorId": 3,
+            "dateLastCalled": 1631241078,
+            "dateReceived": 1631241078,
+            "isPreapproved": true,
+            "docsComplete": true,
+            "lpId": 3,
+            "docsId": 3,
+            "underContract": false,
+            "isApptSet": true
+        },
+        {
+            "id": 4,
+            "name": "Cupid",
+            "email": "Cupid@yahoo.com",
+            "phone": 2405949303,
+            "preferredContact": "phone",
+            "notes": "ready to purchase in January",
+            "realtorId": 3,
+            "dateLastCalled": 1631241078,
+            "dateReceived": 1631241078,
+            "isPreapproved": true,
+            "docsComplete": true,
+            "lpId": 3,
+            "docsId": 3,
+            "underContract": false,
+            "isApptSet": true
+        }
+    ],
+    "realtors": [
+        {
+            "id": 1,
+            "name": "Bast",
+            "email": "Bast@yahoo.com",
+            "phone": 2405949303,
+            "dateLastCalled": 1631241078,
+            "office": "Egypt Realty",
+            "preferredContact": "phone"
+        },
+        {
+            "id": 2,
+            "name": "Ra",
+            "email": "Ra@yahoo.com",
+            "phone": 2405949303,
+            "dateLastCalled": 1631241078,
+            "office": "Egypt Realty",
+            "preferredContact": "email"
+        },
+        {
+            "id": 3,
+            "name": "Geb",
+            "email": "Geb@yahoo.com",
+            "phone": 2405949303,
+            "dateLastCalled": 1631241078,
+            "office": "Egypt Realty",
+            "preferredContact": "phone"
+        },
+        {
+            "id": 4,
+            "name": "Horus",
+            "email": "Horus@yahoo.com",
+            "phone": 2405949303,
+            "dateLastCalled": 1631241078,
+            "office": "Egypt Realty",
+            "preferredContact": "phone"
+        }
+    ],
+    "documents": [
+        {
+            "id": 1,
+            "leadId": 1,
+            "isLetterSent": true,
+            "isPbSubmitted": true,
+            "isBkSubmitted": false,
+            "isDLSubmitted": true,
+            "isSocialSubmitted": false,
+            "istaxSubmitted": true
+        },
+        {
+            "id": 2,
+            "leadId": 2,
+            "isLetterSent": true,
+            "isPbSubmitted": true,
+            "isBkSubmitted": false,
+            "isDLSubmitted": true,
+            "isSocialSubmitted": false,
+            "istaxSubmitted": true
+        },
+        {
+            "id": 3,
+            "leadId": 3,
+            "isLetterSent": true,
+            "isPbSubmitted": true,
+            "isBkSubmitted": false,
+            "isDLSubmitted": true,
+            "isSocialSubmitted": false,
+            "istaxSubmitted": true
+        }
+    ]
+}
