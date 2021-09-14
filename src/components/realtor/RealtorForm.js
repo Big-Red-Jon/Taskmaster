@@ -5,8 +5,10 @@ import { useHistory, useParams } from 'react-router-dom';
 
 export const RealtorForm = () => {
     const { addRealtor, getRealtorById, updateRealtor } = useContext(RealtorContext)
-    // const { realtors, getRealtors } = useContext(RealtorContext)
     const [realtor, setRealtor] = useState({})
+
+    // const [value, setValue] = useState()
+    // const [callDate, setCallDate] = useState(new Date())
 
     const [isLoading, setIsLoading] = useState(true);
 

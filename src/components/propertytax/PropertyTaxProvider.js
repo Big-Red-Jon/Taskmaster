@@ -4,16 +4,16 @@ export const PropertyTaxContext = createContext()
 const URL = "https://comptroller.tn.gov/office-functions/pa/tax-resources/assessment-information-for-each-county/property-tax-rates/2020/_jcr_content/content/tn_complex_datatable_255281325.apidriven.2020.json?_=1631060688033"
 
 export const PropertyTaxProvider = (props) => {
-    const [propertytaxes, setPropertyTaxs] = useState([])
+    const [propertyTaxes, setPropertyTaxes] = useState([])
 
     const getPropertyTaxes = () => {
-        return fetch(`${URL}/propertytaxs?_expand=userId`)
+        return fetch(`${URL}/data`)
             .then(res => res.json())
-            .then(setPropertyTaxs)
+            .then(setPropertyTaxes)
     }
 
     const addPropertyTax = propertytaxSelect => {
-        return fetch(`${URL}/propertytaxes`, {
+        return fetch(`${URL}/data`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -24,14 +24,14 @@ export const PropertyTaxProvider = (props) => {
     }
 
     const deletePropertyTax = propertytaxId => {
-        return fetch(`${URL}/propertytaxes/${propertytaxId}`, {
+        return fetch(`${URL}/data/${propertytaxId}`, {
             method: "DELETE"
         })
             .then(getPropertyTaxes)
     }
 
     const getPropertyTaxById = (propertytaxId) => {
-        return fetch(`${URL}/propertytaxes/${propertytaxId}
+        return fetch(`${URL}/data/${propertytaxId}
         `)
             .then(res => res.json())
     }
@@ -39,7 +39,7 @@ export const PropertyTaxProvider = (props) => {
 
     return (
         <PropertyTaxContext.Provider value={{
-            propertytaxes, getPropertyTaxes, addPropertyTax, deletePropertyTax, getPropertyTaxById
+            propertyTaxes, getPropertyTaxes, addPropertyTax, deletePropertyTax, getPropertyTaxById
         }}>
             {props.children}
         </PropertyTaxContext.Provider>
@@ -48,10 +48,14 @@ export const PropertyTaxProvider = (props) => {
 
 }
 
-// Table propTax {
-//     id integer
-//     leadId integer
-//     address varchar
-//     price integer
-//     countyTax integer
-//     cityTax integer
+    // "data": [
+    //     {
+    //         "Jurisdiction": "001",
+    //         "CityRate": "0.8646",
+    //         "SpecialSchoolDistrict": "",
+    //         "CountyRate": "2.6016",
+    //         "Total": "3.4662",
+    //         "City": "CLINTON",
+    //         "County": "ANDERSON",
+    //         "TaxYear": "2020"
+    //     },

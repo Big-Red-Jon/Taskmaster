@@ -46,7 +46,7 @@ export const TaskDetail = (props) => {
                 </div>
             </fieldset>
 
-            <button onClick={handleRelease}>Complete</button>
+            <button onClick={handleRelease}>Delete</button>
 
         </section>
     )

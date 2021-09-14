@@ -35,7 +35,7 @@ export const RealtorDetail = (props) => {
             <button onClick={handleRelease}>Delete Realtor </button>
             <button onClick={() => {
                 history.push(`/realtors/edit/${realtor.id}`)
-            }}>Edit</button>
+            }}>Update Agent</button>
         </section>
     )
 

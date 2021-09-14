@@ -1,0 +1,4239 @@
+{
+    "data": [
+        {
+            "Jurisdiction": "001",
+            "CityRate": "0.8646",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.6016",
+            "Total": "3.4662",
+            "City": "CLINTON",
+            "County": "ANDERSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "001",
+            "CityRate": "1.5439",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.6289",
+            "Total": "4.1728",
+            "City": "NORRIS",
+            "County": "ANDERSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "001",
+            "CityRate": "2.3136",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.4560",
+            "Total": "4.7696",
+            "City": "OAK RIDGE",
+            "County": "ANDERSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "001",
+            "CityRate": "1.1394",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.6289",
+            "Total": "3.7683",
+            "City": "OLIVER SPRINGS",
+            "County": "ANDERSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "001",
+            "CityRate": "2.0",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.6289",
+            "Total": "4.6289",
+            "City": "ROCKY TOP",
+            "County": "ANDERSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "001",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.6289",
+            "Total": "2.6289",
+            "City": "",
+            "County": "ANDERSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "002",
+            "CityRate": "0.60",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.66",
+            "Total": "3.26",
+            "City": "BELL BUCKLE",
+            "County": "BEDFORD",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "002",
+            "CityRate": "0.50",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.66",
+            "Total": "3.16",
+            "City": "NORMANDY",
+            "County": "BEDFORD",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "002",
+            "CityRate": "1.77",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.66",
+            "Total": "4.43",
+            "City": "SHELBYVILLE",
+            "County": "BEDFORD",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "002",
+            "CityRate": "1.3094",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.66",
+            "Total": "3.9694",
+            "City": "WARTRACE",
+            "County": "BEDFORD",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "002",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.66",
+            "Total": "2.66",
+            "City": "",
+            "County": "BEDFORD",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "003",
+            "CityRate": "0.85",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.73",
+            "Total": "3.58",
+            "City": "BIG SANDY",
+            "County": "BENTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "003",
+            "CityRate": "0.9380",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.73",
+            "Total": "3.6680",
+            "City": "CAMDEN",
+            "County": "BENTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "003",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.73",
+            "Total": "2.73",
+            "City": "",
+            "County": "BENTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "004",
+            "CityRate": "1.0",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.3860",
+            "Total": "3.3860",
+            "City": "PIKEVILLE",
+            "County": "BLEDSOE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "004",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.3860",
+            "Total": "2.3860",
+            "City": "",
+            "County": "BLEDSOE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "005",
+            "CityRate": "2.27",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.47",
+            "Total": "4.74",
+            "City": "ALCOA",
+            "County": "BLOUNT",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "005",
+            "CityRate": "2.27",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.47",
+            "Total": "4.74",
+            "City": "MARYVILLE",
+            "County": "BLOUNT",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "005",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.47",
+            "Total": "2.47",
+            "City": "",
+            "County": "BLOUNT",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "006",
+            "CityRate": "0.4916",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.7821",
+            "Total": "2.2737",
+            "City": "CHARLESTON",
+            "County": "BRADLEY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "006",
+            "CityRate": "2.06",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.7821",
+            "Total": "3.8421",
+            "City": "CLEVELAND",
+            "County": "BRADLEY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "006",
+            "SpecialSchoolDistrictRate": "0.44",
+            "SpecialSchoolDistrict": "BRADLEY CO  FIRE FRINGE",
+            "CountyRate": "1.7821",
+            "Total": "2.2221",
+            "City": "",
+            "County": "BRADLEY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "006",
+            "SpecialSchoolDistrictRate": "0.44",
+            "SpecialSchoolDistrict": "URBAN FRINGE FIRE DIST",
+            "CountyRate": "1.7821",
+            "Total": "2.2221",
+            "City": "",
+            "County": "BRADLEY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "006",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.7821",
+            "Total": "1.7821",
+            "City": "",
+            "County": "BRADLEY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "007",
+            "CityRate": "2.15",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.0659",
+            "Total": "4.2159",
+            "City": "JELLICO",
+            "County": "CAMPBELL",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "007",
+            "CityRate": "1.2950",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.0659",
+            "Total": "3.3609",
+            "City": "LaFOLLETTE",
+            "County": "CAMPBELL",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "007",
+            "CityRate": "2.0",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.0659",
+            "Total": "4.0659",
+            "City": "ROCKY TOP",
+            "County": "CAMPBELL",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "007",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.0659",
+            "Total": "2.0659",
+            "City": "",
+            "County": "CAMPBELL",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "008",
+            "CityRate": "0.8862",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.46",
+            "Total": "3.3462",
+            "City": "WOODBURY",
+            "County": "CANNON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "008",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.46",
+            "Total": "2.46",
+            "City": "",
+            "County": "CANNON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "009",
+            "CityRate": "2.20",
+            "SpecialSchoolDistrictRate": "1.3246",
+            "SpecialSchoolDistrict": "HOLLOW ROCK BRUCETON SSD",
+            "CountyRate": "1.4131",
+            "Total": "4.9377",
+            "City": "BRUCETON",
+            "County": "CARROLL",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "009",
+            "CityRate": "1.49",
+            "SpecialSchoolDistrictRate": "1.3246",
+            "SpecialSchoolDistrict": "HOLLOW ROCK BRUCETON SSD",
+            "CountyRate": "1.4131",
+            "Total": "4.2277",
+            "City": "HOLLOW ROCK",
+            "County": "CARROLL",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "009",
+            "CityRate": "1.2487",
+            "SpecialSchoolDistrictRate": "1.1211",
+            "SpecialSchoolDistrict": "HUNTINGDON SSD",
+            "CountyRate": "1.4131",
+            "Total": "3.7829",
+            "City": "HUNTINGDON",
+            "County": "CARROLL",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "009",
+            "CityRate": "1.0097",
+            "SpecialSchoolDistrictRate": "1.1844",
+            "SpecialSchoolDistrict": "McKENZIE SSD",
+            "CountyRate": "1.4131",
+            "Total": "3.6072",
+            "City": "McKENZIE",
+            "County": "CARROLL",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "009",
+            "CityRate": "0.6957",
+            "SpecialSchoolDistrictRate": "1.2207",
+            "SpecialSchoolDistrict": "WEST CARROLL CO SSD",
+            "CountyRate": "1.4131",
+            "Total": "3.3295",
+            "City": "McLEMORESVILLE",
+            "County": "CARROLL",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "009",
+            "CityRate": "0.6504",
+            "SpecialSchoolDistrictRate": "1.2207",
+            "SpecialSchoolDistrict": "WEST CARROLL CO SSD",
+            "CountyRate": "1.4131",
+            "Total": "3.2842",
+            "City": "TREZEVANT",
+            "County": "CARROLL",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "009",
+            "SpecialSchoolDistrictRate": "1.3246",
+            "SpecialSchoolDistrict": "HOLLOW ROCK BRUCETON SSD",
+            "CountyRate": "1.4131",
+            "Total": "2.7377",
+            "City": "",
+            "County": "CARROLL",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "009",
+            "SpecialSchoolDistrictRate": "1.1211",
+            "SpecialSchoolDistrict": "HUNTINGDON SSD",
+            "CountyRate": "1.4131",
+            "Total": "2.5342",
+            "City": "",
+            "County": "CARROLL",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "009",
+            "SpecialSchoolDistrictRate": "1.1844",
+            "SpecialSchoolDistrict": "McKENZIE SSD",
+            "CountyRate": "1.4131",
+            "Total": "2.5975",
+            "City": "",
+            "County": "CARROLL",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "009",
+            "SpecialSchoolDistrictRate": "1.3539",
+            "SpecialSchoolDistrict": "SOUTH CARROLL CO SSD",
+            "CountyRate": "1.4131",
+            "Total": "2.7670",
+            "City": "",
+            "County": "CARROLL",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "009",
+            "SpecialSchoolDistrictRate": "1.2207",
+            "SpecialSchoolDistrict": "WEST CARROLL CO SSD",
+            "CountyRate": "1.4131",
+            "Total": "2.6338",
+            "City": "",
+            "County": "CARROLL",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "009",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.4131",
+            "Total": "1.4131",
+            "City": "",
+            "County": "CARROLL",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "010",
+            "CityRate": "1.85",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.47",
+            "Total": "4.32",
+            "City": "ELIZABETHTON",
+            "County": "CARTER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "010",
+            "CityRate": "1.83",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.47",
+            "Total": "4.30",
+            "City": "JOHNSON CITY",
+            "County": "CARTER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "010",
+            "CityRate": "0.70",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.47",
+            "Total": "3.17",
+            "City": "WATAUGA",
+            "County": "CARTER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "010",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.47",
+            "Total": "2.47",
+            "City": "",
+            "County": "CARTER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "011",
+            "CityRate": "0.5037",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.4766",
+            "Total": "2.9803",
+            "City": "ASHLAND CITY",
+            "County": "CHEATHAM",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "011",
+            "CityRate": "0.72",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.4766",
+            "Total": "3.1966",
+            "City": "KINGSTON SPRINGS",
+            "County": "CHEATHAM",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "011",
+            "CityRate": "0.4839",
+            "SpecialSchoolDistrictRate": "0.31",
+            "SpecialSchoolDistrict": "PEGRAM FIRE DISTRICT",
+            "CountyRate": "2.4766",
+            "Total": "3.2705",
+            "City": "PEGRAM",
+            "County": "CHEATHAM",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "011",
+            "CityRate": "0.4839",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.4766",
+            "Total": "2.9605",
+            "City": "PEGRAM",
+            "County": "CHEATHAM",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "011",
+            "SpecialSchoolDistrictRate": "0.2150",
+            "SpecialSchoolDistrict": "ASHLAND CITY RURAL FIRE",
+            "CountyRate": "2.4766",
+            "Total": "2.6916",
+            "City": "",
+            "County": "CHEATHAM",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "011",
+            "SpecialSchoolDistrictRate": "0.1073",
+            "SpecialSchoolDistrict": "HARPETH RIDGE FIRE DEPT",
+            "CountyRate": "2.4766",
+            "Total": "2.5839",
+            "City": "",
+            "County": "CHEATHAM",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "011",
+            "SpecialSchoolDistrictRate": "0.2150",
+            "SpecialSchoolDistrict": "HENRIETTA FIRE DISTRICT",
+            "CountyRate": "2.4766",
+            "Total": "2.6916",
+            "City": "",
+            "County": "CHEATHAM",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "011",
+            "SpecialSchoolDistrictRate": "0.20",
+            "SpecialSchoolDistrict": "KINGSTON SPRINGS RURAL FIRE",
+            "CountyRate": "2.4766",
+            "Total": "2.6766",
+            "City": "",
+            "County": "CHEATHAM",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "011",
+            "SpecialSchoolDistrictRate": "0.31",
+            "SpecialSchoolDistrict": "PEGRAM RURAL FIRE",
+            "CountyRate": "2.4766",
+            "Total": "2.7866",
+            "City": "",
+            "County": "CHEATHAM",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "011",
+            "SpecialSchoolDistrictRate": "0.2150",
+            "SpecialSchoolDistrict": "PLEASANT VIEW RURAL FIRE",
+            "CountyRate": "2.4766",
+            "Total": "2.6916",
+            "City": "",
+            "County": "CHEATHAM",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "011",
+            "SpecialSchoolDistrictRate": "0.2150",
+            "SpecialSchoolDistrict": "TWO RIVERS FIRE DISTRICT",
+            "CountyRate": "2.4766",
+            "Total": "2.6916",
+            "City": "",
+            "County": "CHEATHAM",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "011",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.4766",
+            "Total": "2.4766",
+            "City": "",
+            "County": "CHEATHAM",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "012",
+            "CityRate": "1.05",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.4861",
+            "Total": "3.5361",
+            "City": "HENDERSON",
+            "County": "CHESTER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "012",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.4861",
+            "Total": "2.4861",
+            "City": "",
+            "County": "CHESTER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "013",
+            "CityRate": "0.90",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5777",
+            "Total": "3.4777",
+            "City": "CUMBERLAND GAP",
+            "County": "CLAIBORNE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "013",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5777",
+            "Total": "2.5777",
+            "City": "",
+            "County": "CLAIBORNE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "014",
+            "CityRate": "0.8732",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "3.10",
+            "Total": "3.9732",
+            "City": "CELINA",
+            "County": "CLAY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "014",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "3.10",
+            "Total": "3.10",
+            "City": "",
+            "County": "CLAY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "015",
+            "CityRate": "2.4120",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5650",
+            "Total": "4.9770",
+            "City": "NEWPORT",
+            "County": "COCKE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "015",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5650",
+            "Total": "2.5650",
+            "City": "",
+            "County": "COCKE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "016",
+            "CityRate": "1.9316",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.6481",
+            "Total": "4.5797",
+            "City": "MANCHESTER",
+            "County": "COFFEE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "016",
+            "CityRate": "2.4305",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5819",
+            "Total": "5.0124",
+            "City": "TULLAHOMA",
+            "County": "COFFEE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "016",
+            "SpecialSchoolDistrictRate": "0.2536",
+            "SpecialSchoolDistrict": "INDUSTRIAL  PARK",
+            "CountyRate": "2.9324",
+            "Total": "3.1860",
+            "City": "",
+            "County": "COFFEE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "016",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.9324",
+            "Total": "2.9324",
+            "City": "",
+            "County": "COFFEE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "017",
+            "CityRate": "1.42",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.64",
+            "Total": "4.06",
+            "City": "ALAMO",
+            "County": "CROCKETT",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "017",
+            "CityRate": "1.34",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.64",
+            "Total": "3.98",
+            "City": "BELLS",
+            "County": "CROCKETT",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "017",
+            "CityRate": "1.8522",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.64",
+            "Total": "4.4922",
+            "City": "FRIENDSHIP",
+            "County": "CROCKETT",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "017",
+            "CityRate": "1.0426",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.64",
+            "Total": "3.6826",
+            "City": "MAURY CITY",
+            "County": "CROCKETT",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "017",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.64",
+            "Total": "2.64",
+            "City": "",
+            "County": "CROCKETT",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "018",
+            "CityRate": "0.5905",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.5653",
+            "Total": "2.1558",
+            "City": "CROSSVILLE",
+            "County": "CUMBERLAND",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "018",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.5653",
+            "Total": "1.5653",
+            "City": "",
+            "County": "CUMBERLAND",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "019",
+            "CityRate": "0.30",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "3.7880",
+            "Total": "4.0880",
+            "City": "BELLE MEADE",
+            "County": "DAVIDSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "019",
+            "CityRate": "0.91",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "3.7880",
+            "Total": "4.6980",
+            "City": "GOODLETTSVILLE",
+            "County": "DAVIDSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "019",
+            "CityRate": "0.4330",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "3.7880",
+            "Total": "4.2210",
+            "City": "NASHVILLE",
+            "County": "DAVIDSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "019",
+            "CityRate": "0.6325",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "3.7880",
+            "Total": "4.4205",
+            "City": "RIDGETOP",
+            "County": "DAVIDSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "019",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "3.7880",
+            "Total": "3.7880",
+            "City": "",
+            "County": "DAVIDSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "020",
+            "CityRate": "0.8687",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.58",
+            "Total": "3.4487",
+            "City": "DECATURVILLE",
+            "County": "DECATUR",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "020",
+            "CityRate": "0.8495",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.58",
+            "Total": "3.4295",
+            "City": "PARSONS",
+            "County": "DECATUR",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "020",
+            "CityRate": "0.6252",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.58",
+            "Total": "3.2052",
+            "City": "SCOTTS HILL",
+            "County": "DECATUR",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "020",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.58",
+            "Total": "2.58",
+            "City": "",
+            "County": "DECATUR",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "021",
+            "CityRate": "0.7944",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.1235",
+            "Total": "2.9179",
+            "City": "ALEXANDRIA",
+            "County": "DEKALB",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "021",
+            "CityRate": "0.1890",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.1235",
+            "Total": "2.3125",
+            "City": "LIBERTY",
+            "County": "DEKALB",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "021",
+            "CityRate": "0.8990",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.1235",
+            "Total": "3.0225",
+            "City": "SMITHVILLE",
+            "County": "DEKALB",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "021",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.1235",
+            "Total": "2.1235",
+            "City": "",
+            "County": "DEKALB",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "022",
+            "CityRate": "0.4013",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.35",
+            "Total": "2.7513",
+            "City": "BURNS",
+            "County": "DICKSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "022",
+            "CityRate": "0.1702",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.35",
+            "Total": "2.5202",
+            "City": "CHARLOTTE",
+            "County": "DICKSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "022",
+            "CityRate": "0.7735",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.35",
+            "Total": "3.1235",
+            "City": "DICKSON",
+            "County": "DICKSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "022",
+            "CityRate": "0.0457",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.35",
+            "Total": "2.3957",
+            "City": "VANLEER",
+            "County": "DICKSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "022",
+            "CityRate": "0.50",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.35",
+            "Total": "2.85",
+            "City": "WHITE BLUFF",
+            "County": "DICKSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "022",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.35",
+            "Total": "2.35",
+            "City": "",
+            "County": "DICKSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "023",
+            "CityRate": "2.37",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.37",
+            "Total": "4.74",
+            "City": "DYERSBURG",
+            "County": "DYER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "023",
+            "CityRate": "1.3145",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.37",
+            "Total": "3.6845",
+            "City": "NEWBERN",
+            "County": "DYER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "023",
+            "CityRate": "1.71",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.37",
+            "Total": "4.08",
+            "City": "TRIMBLE",
+            "County": "DYER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "023",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.37",
+            "Total": "2.37",
+            "City": "",
+            "County": "DYER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "024",
+            "CityRate": "1.3408",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.5074",
+            "Total": "2.8482",
+            "City": "GALLAWAY",
+            "County": "FAYETTE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "024",
+            "CityRate": "0.75",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.5074",
+            "Total": "2.2574",
+            "City": "GRAND JUNCTION",
+            "County": "FAYETTE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "024",
+            "CityRate": "1.4313",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.5074",
+            "Total": "2.9387",
+            "City": "LaGRANGE",
+            "County": "FAYETTE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "024",
+            "CityRate": "2.0",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.5074",
+            "Total": "3.5074",
+            "City": "MOSCOW",
+            "County": "FAYETTE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "024",
+            "CityRate": "0.5220",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.5074",
+            "Total": "2.0294",
+            "City": "OAKLAND",
+            "County": "FAYETTE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "024",
+            "CityRate": "0.3749",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.5074",
+            "Total": "1.8823",
+            "City": "PIPERTON",
+            "County": "FAYETTE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "024",
+            "CityRate": "1.1552",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.5074",
+            "Total": "2.6626",
+            "City": "ROSSVILLE",
+            "County": "FAYETTE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "024",
+            "CityRate": "0.6802",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.5074",
+            "Total": "2.1876",
+            "City": "SOMERVILLE",
+            "County": "FAYETTE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "024",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.5074",
+            "Total": "1.5074",
+            "City": "",
+            "County": "FAYETTE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "025",
+            "CityRate": "0.72",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.91",
+            "Total": "2.63",
+            "City": "JAMESTOWN",
+            "County": "FENTRESS",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "025",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.91",
+            "Total": "1.91",
+            "City": "",
+            "County": "FENTRESS",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "026",
+            "CityRate": "1.53",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.8045",
+            "Total": "4.3345",
+            "City": "COWAN",
+            "County": "FRANKLIN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "026",
+            "CityRate": "1.2070",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.8045",
+            "Total": "4.0115",
+            "City": "DECHERD",
+            "County": "FRANKLIN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "026",
+            "CityRate": "0.83",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.8045",
+            "Total": "3.6345",
+            "City": "ESTILL SPRINGS",
+            "County": "FRANKLIN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "026",
+            "CityRate": "1.3090",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.8045",
+            "Total": "4.1135",
+            "City": "HUNTLAND",
+            "County": "FRANKLIN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "026",
+            "CityRate": "2.4305",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5612",
+            "Total": "4.9917",
+            "City": "TULLAHOMA",
+            "County": "FRANKLIN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "026",
+            "CityRate": "0.9733",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5612",
+            "Total": "3.5345",
+            "City": "WINCHESTER",
+            "County": "FRANKLIN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "026",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.8786",
+            "Total": "2.8786",
+            "City": "",
+            "County": "FRANKLIN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "027",
+            "CityRate": "1.77",
+            "SpecialSchoolDistrictRate": "1.7349",
+            "SpecialSchoolDistrict": "BRADFORD SSD",
+            "CountyRate": "1.0322",
+            "Total": "4.5371",
+            "City": "BRADFORD",
+            "County": "GIBSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "027",
+            "CityRate": "1.93",
+            "SpecialSchoolDistrictRate": "2.0103",
+            "SpecialSchoolDistrict": "GIBSON CO SSD",
+            "CountyRate": "1.0322",
+            "Total": "4.9725",
+            "City": "DYER",
+            "County": "GIBSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "027",
+            "CityRate": "0.9864",
+            "SpecialSchoolDistrictRate": "2.0103",
+            "SpecialSchoolDistrict": "GIBSON CO SSD",
+            "CountyRate": "1.0322",
+            "Total": "4.0289",
+            "City": "GIBSON",
+            "County": "GIBSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "027",
+            "CityRate": "2.7297",
+            "SpecialSchoolDistrict": "HUMBOLDT SSD",
+            "CountyRate": "1.0322",
+            "Total": "3.7619",
+            "City": "HUMBOLDT",
+            "County": "GIBSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "027",
+            "CityRate": "1.4883",
+            "SpecialSchoolDistrictRate": "2.4203",
+            "SpecialSchoolDistrict": "KENTON SSD/GIBSON CO SSD",
+            "CountyRate": "1.0322",
+            "Total": "4.9408",
+            "City": "KENTON",
+            "County": "GIBSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "027",
+            "CityRate": "1.5671",
+            "SpecialSchoolDistrictRate": "2.0103",
+            "SpecialSchoolDistrict": "GIBSON CO SSD",
+            "CountyRate": "1.0322",
+            "Total": "4.6096",
+            "City": "MEDINA",
+            "County": "GIBSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "027",
+            "CityRate": "1.6022",
+            "SpecialSchoolDistrictRate": "2.23",
+            "SpecialSchoolDistrict": "MILAN SSD",
+            "CountyRate": "1.0322",
+            "Total": "4.8644",
+            "City": "MILAN",
+            "County": "GIBSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "027",
+            "CityRate": "1.94",
+            "SpecialSchoolDistrictRate": "2.0103",
+            "SpecialSchoolDistrict": "GIBSON CO SSD",
+            "CountyRate": "1.0322",
+            "Total": "4.9825",
+            "City": "RUTHERFORD",
+            "County": "GIBSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "027",
+            "CityRate": "1.63",
+            "SpecialSchoolDistrictRate": "2.1105",
+            "SpecialSchoolDistrict": "TRENTON SSD",
+            "CountyRate": "1.0322",
+            "Total": "4.7727",
+            "City": "TRENTON",
+            "County": "GIBSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "027",
+            "CityRate": "0.5614",
+            "SpecialSchoolDistrictRate": "2.0103",
+            "SpecialSchoolDistrict": "GIBSON CO SSD",
+            "CountyRate": "1.0322",
+            "Total": "3.6039",
+            "City": "YORKVILLE",
+            "County": "GIBSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "027",
+            "SpecialSchoolDistrictRate": "1.7349",
+            "SpecialSchoolDistrict": "BRADFORD SSD",
+            "CountyRate": "1.0322",
+            "Total": "2.7671",
+            "City": "",
+            "County": "GIBSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "027",
+            "SpecialSchoolDistrictRate": "2.0103",
+            "SpecialSchoolDistrict": "GIBSON CO SSD",
+            "CountyRate": "1.0322",
+            "Total": "3.0425",
+            "City": "",
+            "County": "GIBSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "027",
+            "SpecialSchoolDistrictRate": "0.41",
+            "SpecialSchoolDistrict": "KENTON SSD",
+            "CountyRate": "1.0322",
+            "Total": "1.4422",
+            "City": "",
+            "County": "GIBSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "027",
+            "SpecialSchoolDistrictRate": "2.4203",
+            "SpecialSchoolDistrict": "KENTON SSD/GIBSON CO SSD",
+            "CountyRate": "1.0322",
+            "Total": "3.4525",
+            "City": "",
+            "County": "GIBSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "027",
+            "SpecialSchoolDistrictRate": "2.23",
+            "SpecialSchoolDistrict": "MILAN SSD",
+            "CountyRate": "1.0322",
+            "Total": "3.2622",
+            "City": "",
+            "County": "GIBSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "027",
+            "SpecialSchoolDistrictRate": "2.1105",
+            "SpecialSchoolDistrict": "TRENTON SSD",
+            "CountyRate": "1.0322",
+            "Total": "3.1427",
+            "City": "",
+            "County": "GIBSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "027",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.0322",
+            "Total": "1.0322",
+            "City": "",
+            "County": "GIBSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "028",
+            "CityRate": "0.24",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.8247",
+            "Total": "3.0647",
+            "City": "ARDMORE",
+            "County": "GILES",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "028",
+            "CityRate": "0.50",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.8247",
+            "Total": "3.3247",
+            "City": "ELKTON",
+            "County": "GILES",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "028",
+            "CityRate": "0.5840",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.8247",
+            "Total": "3.4087",
+            "City": "LYNNVILLE",
+            "County": "GILES",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "028",
+            "CityRate": "0.5612",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.8247",
+            "Total": "3.3859",
+            "City": "PULASKI",
+            "County": "GILES",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "028",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.8247",
+            "Total": "2.8247",
+            "City": "",
+            "County": "GILES",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "029",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.80",
+            "Total": "2.80",
+            "City": "",
+            "County": "GRAINGER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "030",
+            "CityRate": "2.1775",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.9845",
+            "Total": "4.1620",
+            "City": "GREENEVILLE",
+            "County": "GREENE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "030",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.0145",
+            "Total": "2.0145",
+            "City": "",
+            "County": "GREENE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "031",
+            "CityRate": "0.5347",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2131",
+            "Total": "2.7478",
+            "City": "TRACY CITY",
+            "County": "GRUNDY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "031",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2131",
+            "Total": "2.2131",
+            "City": "",
+            "County": "GRUNDY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "032",
+            "CityRate": "1.3958",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.76",
+            "Total": "3.1558",
+            "City": "MORRISTOWN",
+            "County": "HAMBLEN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "032",
+            "CityRate": "1.2627",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.97",
+            "Total": "3.2327",
+            "City": "WHITE PINE",
+            "County": "HAMBLEN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "032",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.97",
+            "Total": "1.97",
+            "City": "",
+            "County": "HAMBLEN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "033",
+            "CityRate": "2.2770",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.7652",
+            "Total": "5.0422",
+            "City": "CHATTANOOGA",
+            "County": "HAMILTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "033",
+            "CityRate": "1.65",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.7652",
+            "Total": "4.4152",
+            "City": "COLLEGEDALE",
+            "County": "HAMILTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "033",
+            "CityRate": "1.3381",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.7652",
+            "Total": "4.1033",
+            "City": "EAST RIDGE",
+            "County": "HAMILTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "033",
+            "CityRate": "0.2350",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.7652",
+            "Total": "3.0002",
+            "City": "LAKESITE",
+            "County": "HAMILTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "033",
+            "CityRate": "2.09",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.7652",
+            "Total": "4.8552",
+            "City": "LOOKOUT MOUNTAIN",
+            "County": "HAMILTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "033",
+            "CityRate": "1.39",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.7652",
+            "Total": "4.1552",
+            "City": "RED BANK",
+            "County": "HAMILTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "033",
+            "CityRate": "2.7310",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.7652",
+            "Total": "5.4962",
+            "City": "RIDGESIDE",
+            "County": "HAMILTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "033",
+            "CityRate": "1.8866",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.7652",
+            "Total": "4.6518",
+            "City": "SIGNAL MOUNTAIN",
+            "County": "HAMILTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "033",
+            "CityRate": "1.3524",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.7652",
+            "Total": "4.1176",
+            "City": "SODDY DAISY",
+            "County": "HAMILTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "033",
+            "CityRate": "0.6053",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.7652",
+            "Total": "3.3705",
+            "City": "WALDEN",
+            "County": "HAMILTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "033",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.7652",
+            "Total": "2.7652",
+            "City": "",
+            "County": "HAMILTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "034",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.22",
+            "Total": "2.22",
+            "City": "",
+            "County": "HANCOCK",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "035",
+            "CityRate": "1.1542",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.55",
+            "Total": "3.7042",
+            "City": "BOLIVAR",
+            "County": "HARDEMAN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "035",
+            "CityRate": "0.75",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.55",
+            "Total": "3.30",
+            "City": "GRAND JUNCTION",
+            "County": "HARDEMAN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "035",
+            "CityRate": "0.1608",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.55",
+            "Total": "2.7108",
+            "City": "HICKORY VALLEY",
+            "County": "HARDEMAN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "035",
+            "CityRate": "0.4783",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.55",
+            "Total": "3.0283",
+            "City": "HORNSBY",
+            "County": "HARDEMAN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "035",
+            "CityRate": "0.9287",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.55",
+            "Total": "3.4787",
+            "City": "MIDDLETON",
+            "County": "HARDEMAN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "035",
+            "CityRate": "0.60",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.55",
+            "Total": "3.15",
+            "City": "TOONE",
+            "County": "HARDEMAN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "035",
+            "CityRate": "0.8621",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.55",
+            "Total": "3.4121",
+            "City": "WHITEVILLE",
+            "County": "HARDEMAN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "035",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.55",
+            "Total": "2.55",
+            "City": "",
+            "County": "HARDEMAN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "036",
+            "CityRate": "0.7595",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.06",
+            "Total": "2.8195",
+            "City": "ADAMSVILLE",
+            "County": "HARDIN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "036",
+            "CityRate": "0.70",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.06",
+            "Total": "2.76",
+            "City": "SAVANNAH",
+            "County": "HARDIN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "036",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.06",
+            "Total": "2.06",
+            "City": "",
+            "County": "HARDIN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "037",
+            "CityRate": "0.72",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5323",
+            "Total": "3.2523",
+            "City": "BULLS GAP",
+            "County": "HAWKINS",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "037",
+            "CityRate": "1.1034",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5323",
+            "Total": "3.6357",
+            "City": "CHURCH HILL",
+            "County": "HAWKINS",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "037",
+            "CityRate": "1.89",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5323",
+            "Total": "4.4223",
+            "City": "KINGSPORT",
+            "County": "HAWKINS",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "037",
+            "CityRate": "1.67",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5323",
+            "Total": "4.2023",
+            "City": "MOUNT CARMEL",
+            "County": "HAWKINS",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "037",
+            "CityRate": "1.67",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5323",
+            "Total": "4.2023",
+            "City": "ROGERSVILLE",
+            "County": "HAWKINS",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "037",
+            "CityRate": "1.20",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5323",
+            "Total": "3.7323",
+            "City": "SURGOINSVILLE",
+            "County": "HAWKINS",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "037",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5323",
+            "Total": "2.5323",
+            "City": "",
+            "County": "HAWKINS",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "038",
+            "CityRate": "1.9666",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.7563",
+            "Total": "4.7229",
+            "City": "BROWNSVILLE",
+            "County": "HAYWOOD",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "038",
+            "CityRate": "1.2420",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.7563",
+            "Total": "3.9983",
+            "City": "STANTON",
+            "County": "HAYWOOD",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "038",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.7563",
+            "Total": "2.7563",
+            "City": "",
+            "County": "HAYWOOD",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "039",
+            "CityRate": "1.2075",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.1806",
+            "Total": "3.3881",
+            "City": "LEXINGTON",
+            "County": "HENDERSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "039",
+            "CityRate": "0.50",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.1806",
+            "Total": "2.6806",
+            "City": "SARDIS",
+            "County": "HENDERSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "039",
+            "CityRate": "0.6809",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.1806",
+            "Total": "2.8615",
+            "City": "SCOTTS HILL",
+            "County": "HENDERSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "039",
+            "SpecialSchoolDistrictRate": "0.19",
+            "SpecialSchoolDistrict": "HENDERSON COUNTY FIRE DISTRICT",
+            "CountyRate": "2.1806",
+            "Total": "2.3706",
+            "City": "",
+            "County": "HENDERSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "039",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.1806",
+            "Total": "2.1806",
+            "City": "",
+            "County": "HENDERSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "040",
+            "CityRate": "0.4453",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.8933",
+            "Total": "2.3386",
+            "City": "COTTAGE GROVE",
+            "County": "HENRY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "040",
+            "CityRate": "0.7899",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.8933",
+            "Total": "2.6832",
+            "City": "HENRY",
+            "County": "HENRY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "040",
+            "CityRate": "1.0097",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.8933",
+            "Total": "2.9030",
+            "City": "McKENZIE",
+            "County": "HENRY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "040",
+            "CityRate": "0.72",
+            "SpecialSchoolDistrictRate": "0.5065",
+            "SpecialSchoolDistrict": "PARIS SSD",
+            "CountyRate": "1.8933",
+            "Total": "3.1198",
+            "City": "PARIS",
+            "County": "HENRY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "040",
+            "CityRate": "0.72",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.8933",
+            "Total": "2.6133",
+            "City": "PARIS",
+            "County": "HENRY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "040",
+            "CityRate": "0.61",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.8933",
+            "Total": "2.5033",
+            "City": "PURYEAR",
+            "County": "HENRY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "040",
+            "SpecialSchoolDistrictRate": "0.5065",
+            "SpecialSchoolDistrict": "PARIS SSD",
+            "CountyRate": "1.8933",
+            "Total": "2.3998",
+            "City": "",
+            "County": "HENRY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "040",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.8933",
+            "Total": "1.8933",
+            "City": "",
+            "County": "HENRY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "041",
+            "CityRate": "1.1154",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.80",
+            "Total": "3.9154",
+            "City": "CENTERVILLE",
+            "County": "HICKMAN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "041",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.80",
+            "Total": "2.80",
+            "City": "",
+            "County": "HICKMAN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "042",
+            "CityRate": "1.0422",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.7989",
+            "Total": "3.8411",
+            "City": "ERIN",
+            "County": "HOUSTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "042",
+            "CityRate": "0.7250",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.7989",
+            "Total": "3.5239",
+            "City": "TENN RIDGE",
+            "County": "HOUSTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "042",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.7989",
+            "Total": "2.7989",
+            "City": "",
+            "County": "HOUSTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "043",
+            "CityRate": "0.4799",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.10",
+            "Total": "2.5799",
+            "City": "McEWEN",
+            "County": "HUMPHREYS",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "043",
+            "CityRate": "0.8698",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.10",
+            "Total": "2.9698",
+            "City": "NEW JOHNSONVILLE",
+            "County": "HUMPHREYS",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "043",
+            "CityRate": "1.11",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.10",
+            "Total": "3.21",
+            "City": "WAVERLY",
+            "County": "HUMPHREYS",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "043",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.18",
+            "Total": "2.18",
+            "City": "",
+            "County": "HUMPHREYS",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "044",
+            "CityRate": "0.4951",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.79",
+            "Total": "3.2851",
+            "City": "GAINESBORO",
+            "County": "JACKSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "044",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.79",
+            "Total": "2.79",
+            "City": "",
+            "County": "JACKSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "045",
+            "CityRate": "0.8242",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.19",
+            "Total": "3.0142",
+            "City": "BANEBERRY",
+            "County": "JEFFERSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "045",
+            "CityRate": "0.91",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.19",
+            "Total": "3.10",
+            "City": "DANDRIDGE",
+            "County": "JEFFERSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "045",
+            "CityRate": "1.20",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.19",
+            "Total": "3.39",
+            "City": "JEFFERSON CITY",
+            "County": "JEFFERSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "045",
+            "CityRate": "1.3958",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.19",
+            "Total": "3.5858",
+            "City": "MORRISTOWN",
+            "County": "JEFFERSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "045",
+            "CityRate": "0.60",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.19",
+            "Total": "2.79",
+            "City": "NEW MARKET",
+            "County": "JEFFERSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "045",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.19",
+            "Total": "2.19",
+            "City": "",
+            "County": "JEFFERSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "046",
+            "CityRate": "1.1111",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.05",
+            "Total": "3.1611",
+            "City": "MOUNTAIN CITY",
+            "County": "JOHNSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "046",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.05",
+            "Total": "2.05",
+            "City": "",
+            "County": "JOHNSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "047",
+            "CityRate": "2.4638",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.12",
+            "Total": "4.5838",
+            "City": "KNOXVILLE",
+            "County": "KNOX",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "047",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.12",
+            "Total": "2.12",
+            "City": "",
+            "County": "KNOX",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "048",
+            "CityRate": "1.87",
+            "SpecialSchoolDistrict": "LAKE LCL",
+            "CountyRate": "2.85",
+            "Total": "4.72",
+            "City": "RIDGELY",
+            "County": "LAKE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "048",
+            "CityRate": "1.87",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.85",
+            "Total": "4.72",
+            "City": "RIDGELY",
+            "County": "LAKE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "048",
+            "CityRate": "1.8727",
+            "SpecialSchoolDistrict": "LAKE LCL",
+            "CountyRate": "2.85",
+            "Total": "4.7227",
+            "City": "TIPTONVILLE",
+            "County": "LAKE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "048",
+            "CityRate": "1.8727",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.85",
+            "Total": "4.7227",
+            "City": "TIPTONVILLE",
+            "County": "LAKE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "048",
+            "SpecialSchoolDistrict": "LAKE MBL",
+            "CountyRate": "2.85",
+            "Total": "2.85",
+            "City": "",
+            "County": "LAKE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "048",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.85",
+            "Total": "2.85",
+            "City": "",
+            "County": "LAKE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "049",
+            "CityRate": "2.0586",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.9541",
+            "Total": "5.0127",
+            "City": "GATES",
+            "County": "LAUDERDALE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "049",
+            "CityRate": "1.6415",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.9541",
+            "Total": "4.5956",
+            "City": "HALLS",
+            "County": "LAUDERDALE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "049",
+            "CityRate": "2.0446",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.9541",
+            "Total": "4.9987",
+            "City": "HENNING",
+            "County": "LAUDERDALE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "049",
+            "CityRate": "2.55",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.9541",
+            "Total": "5.5041",
+            "City": "RIPLEY",
+            "County": "LAUDERDALE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "049",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.9541",
+            "Total": "2.9541",
+            "City": "",
+            "County": "LAUDERDALE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "050",
+            "CityRate": "1.4368",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.9589",
+            "Total": "4.3957",
+            "City": "LAWRENCEBURG",
+            "County": "LAWRENCE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "050",
+            "CityRate": "0.40",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.9589",
+            "Total": "3.3589",
+            "City": "LORETTO",
+            "County": "LAWRENCE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "050",
+            "CityRate": "0.7280",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.9589",
+            "Total": "3.6869",
+            "City": "SAINT JOSEPH",
+            "County": "LAWRENCE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "050",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.9589",
+            "Total": "2.9589",
+            "City": "",
+            "County": "LAWRENCE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "051",
+            "CityRate": "1.1253",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.8838",
+            "Total": "3.0091",
+            "City": "HOHENWALD",
+            "County": "LEWIS",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "051",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.8838",
+            "Total": "1.8838",
+            "City": "",
+            "County": "LEWIS",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "052",
+            "CityRate": "0.2122",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.1020",
+            "Total": "2.3142",
+            "City": "ARDMORE",
+            "County": "LINCOLN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "052",
+            "CityRate": "1.50",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.1020",
+            "Total": "3.6020",
+            "City": "FAYETTEVILLE",
+            "County": "LINCOLN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "052",
+            "CityRate": "0.7670",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.1020",
+            "Total": "2.8690",
+            "City": "PETERSBURG",
+            "County": "LINCOLN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "052",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.1020",
+            "Total": "2.1020",
+            "City": "",
+            "County": "LINCOLN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "053",
+            "CityRate": "0.9955",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.5897",
+            "Total": "2.5852",
+            "City": "LENOIR CITY",
+            "County": "LOUDON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "053",
+            "CityRate": "1.2367",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.8035",
+            "Total": "3.0402",
+            "City": "LOUDON",
+            "County": "LOUDON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "053",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.8035",
+            "Total": "1.8035",
+            "City": "",
+            "County": "LOUDON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "054",
+            "CityRate": "1.2676",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.5469",
+            "Total": "2.8145",
+            "City": "ATHENS",
+            "County": "MCMINN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "054",
+            "CityRate": "0.4701",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.5469",
+            "Total": "2.0170",
+            "City": "CALHOUN",
+            "County": "MCMINN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "054",
+            "CityRate": "1.3177",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.5469",
+            "Total": "2.8646",
+            "City": "ENGLEWOOD",
+            "County": "MCMINN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "054",
+            "CityRate": "1.77",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.5469",
+            "Total": "3.3169",
+            "City": "ETOWAH",
+            "County": "MCMINN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "054",
+            "CityRate": "1.2101",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.5469",
+            "Total": "2.7570",
+            "City": "NIOTA",
+            "County": "MCMINN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "054",
+            "CityRate": "1.38",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.5469",
+            "Total": "2.9269",
+            "City": "SWEETWATER",
+            "County": "MCMINN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "054",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.5469",
+            "Total": "1.5469",
+            "City": "",
+            "County": "MCMINN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "055",
+            "CityRate": "0.7775",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.0464",
+            "Total": "2.8239",
+            "City": "ADAMSVILLE",
+            "County": "MCNAIRY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "055",
+            "CityRate": "0.74",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.0464",
+            "Total": "2.7864",
+            "City": "BETHEL SPRINGS",
+            "County": "MCNAIRY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "055",
+            "CityRate": "0.8180",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.0464",
+            "Total": "2.8644",
+            "City": "SELMER",
+            "County": "MCNAIRY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "055",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.0464",
+            "Total": "2.0464",
+            "City": "",
+            "County": "MCNAIRY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "056",
+            "CityRate": "0.70",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.40",
+            "Total": "3.10",
+            "City": "LaFAYETTE",
+            "County": "MACON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "056",
+            "CityRate": "1.45",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.40",
+            "Total": "3.85",
+            "City": "RED BOILING SPG",
+            "County": "MACON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "056",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.40",
+            "Total": "2.40",
+            "City": "",
+            "County": "MACON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "057",
+            "CityRate": "2.7297",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.35",
+            "Total": "5.0797",
+            "City": "HUMBOLDT",
+            "County": "MADISON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "057",
+            "CityRate": "1.9619",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.35",
+            "Total": "4.3119",
+            "City": "JACKSON",
+            "County": "MADISON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "057",
+            "CityRate": "0.5536",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.35",
+            "Total": "2.9036",
+            "City": "THREE WAY",
+            "County": "MADISON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "057",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.35",
+            "Total": "2.35",
+            "City": "",
+            "County": "MADISON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "058",
+            "CityRate": "0.4153",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.1686",
+            "Total": "2.5839",
+            "City": "JASPER",
+            "County": "MARION",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "058",
+            "CityRate": "0.10",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.1686",
+            "Total": "2.2686",
+            "City": "KIMBALL",
+            "County": "MARION",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "058",
+            "CityRate": "0.3485",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.1686",
+            "Total": "2.5171",
+            "City": "NEW HOPE",
+            "County": "MARION",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "058",
+            "CityRate": "0.99",
+            "SpecialSchoolDistrictRate": "0.1921",
+            "SpecialSchoolDistrict": "RICHARD CITY SSD",
+            "CountyRate": "1.9650",
+            "Total": "3.1471",
+            "City": "SOUTH PITTSBURG",
+            "County": "MARION",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "058",
+            "CityRate": "0.99",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.1686",
+            "Total": "3.1586",
+            "City": "SOUTH PITTSBURG",
+            "County": "MARION",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "058",
+            "CityRate": "1.01",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.1686",
+            "Total": "3.1786",
+            "City": "WHITWELL",
+            "County": "MARION",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "058",
+            "SpecialSchoolDistrictRate": "0.1921",
+            "SpecialSchoolDistrict": "RICHARD CITY SSD",
+            "CountyRate": "1.9650",
+            "Total": "2.1571",
+            "City": "",
+            "County": "MARION",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "058",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.1686",
+            "Total": "2.1686",
+            "City": "",
+            "County": "MARION",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "059",
+            "CityRate": "1.4970",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.8117",
+            "Total": "4.3087",
+            "City": "CHAPEL HILL",
+            "County": "MARSHALL",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "059",
+            "CityRate": "1.10",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.8117",
+            "Total": "3.9117",
+            "City": "CORNERSVILLE",
+            "County": "MARSHALL",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "059",
+            "CityRate": "1.84",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.8117",
+            "Total": "4.6517",
+            "City": "LEWISBURG",
+            "County": "MARSHALL",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "059",
+            "CityRate": "0.9353",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.8117",
+            "Total": "3.7470",
+            "City": "PETERSBURG",
+            "County": "MARSHALL",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "059",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.8117",
+            "Total": "2.8117",
+            "City": "",
+            "County": "MARSHALL",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "060",
+            "CityRate": "1.1597",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2364",
+            "Total": "3.3961",
+            "City": "COLUMBIA",
+            "County": "MAURY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "060",
+            "CityRate": "1.66",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2364",
+            "Total": "3.8964",
+            "City": "MOUNT PLEASANT",
+            "County": "MAURY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "060",
+            "CityRate": "0.96",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2364",
+            "Total": "3.1964",
+            "City": "SPRING HILL",
+            "County": "MAURY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "060",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2364",
+            "Total": "2.2364",
+            "City": "",
+            "County": "MAURY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "061",
+            "CityRate": "0.3429",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.9813",
+            "Total": "2.3242",
+            "City": "DECATUR",
+            "County": "MEIGS",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "061",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.9813",
+            "Total": "1.9813",
+            "City": "",
+            "County": "MEIGS",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "062",
+            "CityRate": "0.8473",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2396",
+            "Total": "3.0869",
+            "City": "MADISONVILLE",
+            "County": "MONROE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "062",
+            "CityRate": "1.38",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2396",
+            "Total": "3.6196",
+            "City": "SWEETWATER",
+            "County": "MONROE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "062",
+            "CityRate": "0.4410",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2396",
+            "Total": "2.6806",
+            "City": "TELLICO PLAINS",
+            "County": "MONROE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "062",
+            "CityRate": "0.3504",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2396",
+            "Total": "2.59",
+            "City": "VONORE",
+            "County": "MONROE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "062",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2396",
+            "Total": "2.2396",
+            "City": "",
+            "County": "MONROE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "063",
+            "CityRate": "1.0296",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.99",
+            "Total": "4.0196",
+            "City": "CLARKSVILLE",
+            "County": "MONTGOMERY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "063",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.99",
+            "Total": "2.99",
+            "City": "",
+            "County": "MONTGOMERY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "064",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.40",
+            "Total": "2.40",
+            "City": "LYNCHBURG",
+            "County": "MOORE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "064",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.38",
+            "Total": "2.38",
+            "City": "",
+            "County": "MOORE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "065",
+            "CityRate": "2.08",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "3.27",
+            "Total": "5.35",
+            "City": "OAKDALE",
+            "County": "MORGAN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "065",
+            "CityRate": "1.3053",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "3.27",
+            "Total": "4.5753",
+            "City": "OLIVER SPRINGS",
+            "County": "MORGAN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "065",
+            "CityRate": "0.60",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "3.27",
+            "Total": "3.87",
+            "City": "SUNBRIGHT",
+            "County": "MORGAN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "065",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "3.27",
+            "Total": "3.27",
+            "City": "",
+            "County": "MORGAN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "066",
+            "CityRate": "1.09",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.90",
+            "Total": "2.99",
+            "City": "HORNBEAK",
+            "County": "OBION",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "066",
+            "CityRate": "1.4438",
+            "SpecialSchoolDistrictRate": "0.41",
+            "SpecialSchoolDistrict": "KENTON SSD",
+            "CountyRate": "1.90",
+            "Total": "3.7538",
+            "City": "KENTON",
+            "County": "OBION",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "066",
+            "CityRate": "1.4438",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.90",
+            "Total": "3.3438",
+            "City": "KENTON",
+            "County": "OBION",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "066",
+            "CityRate": "1.7391",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.90",
+            "Total": "3.6391",
+            "City": "OBION CITY",
+            "County": "OBION",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "066",
+            "CityRate": "1.9464",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.90",
+            "Total": "3.8464",
+            "City": "RIVES",
+            "County": "OBION",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "066",
+            "CityRate": "1.0813",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.90",
+            "Total": "2.9813",
+            "City": "SAMBURG",
+            "County": "OBION",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "066",
+            "CityRate": "1.6748",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.90",
+            "Total": "3.5748",
+            "City": "SOUTH FULTON",
+            "County": "OBION",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "066",
+            "CityRate": "1.71",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.90",
+            "Total": "3.61",
+            "City": "TRIMBLE",
+            "County": "OBION",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "066",
+            "CityRate": "1.7420",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.90",
+            "Total": "3.6420",
+            "City": "TROY",
+            "County": "OBION",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "066",
+            "CityRate": "2.12",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.60",
+            "Total": "3.72",
+            "City": "UNION CITY",
+            "County": "OBION",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "066",
+            "CityRate": "0.75",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.90",
+            "Total": "2.65",
+            "City": "WOODLAND MILLS",
+            "County": "OBION",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "066",
+            "SpecialSchoolDistrictRate": "0.41",
+            "SpecialSchoolDistrict": "KENTON SSD",
+            "CountyRate": "1.90",
+            "Total": "2.31",
+            "City": "",
+            "County": "OBION",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "066",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.90",
+            "Total": "1.90",
+            "City": "",
+            "County": "OBION",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "067",
+            "CityRate": "1.5087",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.9706",
+            "Total": "3.4793",
+            "City": "LIVINGSTON",
+            "County": "OVERTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "067",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.9706",
+            "Total": "1.9706",
+            "City": "",
+            "County": "OVERTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "068",
+            "CityRate": "0.5032",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.48",
+            "Total": "2.9832",
+            "City": "LINDEN",
+            "County": "PERRY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "068",
+            "CityRate": "0.5481",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.48",
+            "Total": "3.0281",
+            "City": "LOBELVILLE",
+            "County": "PERRY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "068",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.48",
+            "Total": "2.48",
+            "City": "",
+            "County": "PERRY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "069",
+            "CityRate": "0.4980",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.41",
+            "Total": "2.9080",
+            "City": "BYRDSTOWN",
+            "County": "PICKETT",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "069",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.41",
+            "Total": "2.41",
+            "City": "",
+            "County": "PICKETT",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "070",
+            "CityRate": "0.77",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5120",
+            "Total": "3.2820",
+            "City": "BENTON",
+            "County": "POLK",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "070",
+            "CityRate": "1.1444",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5120",
+            "Total": "3.6564",
+            "City": "COPPERHILL",
+            "County": "POLK",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "070",
+            "CityRate": "0.7889",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5120",
+            "Total": "3.3009",
+            "City": "DUCKTOWN",
+            "County": "POLK",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "070",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5120",
+            "Total": "2.5120",
+            "City": "",
+            "County": "POLK",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "071",
+            "CityRate": "0.4407",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.9260",
+            "Total": "3.3667",
+            "City": "ALGOOD",
+            "County": "PUTNAM",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "071",
+            "CityRate": "1.3901",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.9260",
+            "Total": "4.3161",
+            "City": "BAXTER",
+            "County": "PUTNAM",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "071",
+            "CityRate": "0.99",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.9260",
+            "Total": "3.9160",
+            "City": "COOKEVILLE",
+            "County": "PUTNAM",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "071",
+            "CityRate": "1.36",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.9260",
+            "Total": "4.2860",
+            "City": "MONTEREY",
+            "County": "PUTNAM",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "071",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.9260",
+            "Total": "2.9260",
+            "City": "",
+            "County": "PUTNAM",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "072",
+            "CityRate": "0.58",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2548",
+            "Total": "2.8348",
+            "City": "DAYTON",
+            "County": "RHEA",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "072",
+            "CityRate": "1.3484",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2548",
+            "Total": "3.6032",
+            "City": "GRAYSVILLE",
+            "County": "RHEA",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "072",
+            "CityRate": "1.33",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2548",
+            "Total": "3.5848",
+            "City": "SPRING CITY",
+            "County": "RHEA",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "072",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2548",
+            "Total": "2.2548",
+            "City": "",
+            "County": "RHEA",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "073",
+            "CityRate": "1.0880",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.4066",
+            "Total": "3.4946",
+            "City": "HARRIMAN",
+            "County": "ROANE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "073",
+            "CityRate": "1.3109",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.4066",
+            "Total": "3.7175",
+            "City": "KINGSTON",
+            "County": "ROANE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "073",
+            "CityRate": "2.3136",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.26",
+            "Total": "4.5736",
+            "City": "OAK RIDGE",
+            "County": "ROANE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "073",
+            "CityRate": "1.1394",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.4066",
+            "Total": "3.5460",
+            "City": "OLIVER SPRINGS",
+            "County": "ROANE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "073",
+            "CityRate": "0.9220",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.4066",
+            "Total": "3.3286",
+            "City": "ROCKWOOD",
+            "County": "ROANE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "073",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.4709",
+            "Total": "2.4709",
+            "City": "",
+            "County": "ROANE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "074",
+            "CityRate": "0.3491",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5759",
+            "Total": "2.9250",
+            "City": "ADAMS",
+            "County": "ROBERTSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "074",
+            "CityRate": "0.2251",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5759",
+            "Total": "2.8010",
+            "City": "CEDAR HILL",
+            "County": "ROBERTSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "074",
+            "CityRate": "0.35",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5759",
+            "Total": "2.9259",
+            "City": "COOPERTOWN",
+            "County": "ROBERTSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "074",
+            "CityRate": "1.57",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5759",
+            "Total": "4.1459",
+            "City": "GREENBRIER",
+            "County": "ROBERTSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "074",
+            "CityRate": "1.0",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5759",
+            "Total": "3.5759",
+            "City": "MILLERSVILLE",
+            "County": "ROBERTSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "074",
+            "CityRate": "1.06",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5759",
+            "Total": "3.6359",
+            "City": "PORTLAND",
+            "County": "ROBERTSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "074",
+            "CityRate": "0.6325",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5759",
+            "Total": "3.2084",
+            "City": "RIDGETOP",
+            "County": "ROBERTSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "074",
+            "CityRate": "1.0720",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5759",
+            "Total": "3.6479",
+            "City": "SPRINGFIELD",
+            "County": "ROBERTSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "074",
+            "CityRate": "1.0362",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5759",
+            "Total": "3.6121",
+            "City": "WHITE HOUSE",
+            "County": "ROBERTSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "074",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5759",
+            "Total": "2.5759",
+            "City": "",
+            "County": "ROBERTSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "075",
+            "CityRate": "0.5570",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2194",
+            "Total": "2.7764",
+            "City": "EAGLEVILLE",
+            "County": "RUTHERFORD",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "075",
+            "CityRate": "0.71",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2194",
+            "Total": "2.9294",
+            "City": "LaVERGNE",
+            "County": "RUTHERFORD",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "075",
+            "CityRate": "1.2894",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2194",
+            "Total": "3.5088",
+            "City": "MURFREESBORO",
+            "County": "RUTHERFORD",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "075",
+            "CityRate": "0.7007",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2194",
+            "Total": "2.9201",
+            "City": "SMYRNA",
+            "County": "RUTHERFORD",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "075",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2194",
+            "Total": "2.2194",
+            "City": "",
+            "County": "RUTHERFORD",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "076",
+            "CityRate": "0.50",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.4639",
+            "Total": "2.9639",
+            "City": "HUNTSVILLE",
+            "County": "SCOTT",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "076",
+            "CityRate": "1.35",
+            "SpecialSchoolDistrictRate": "0.51",
+            "SpecialSchoolDistrict": "ONEIDA SSD",
+            "CountyRate": "2.4424",
+            "Total": "4.3024",
+            "City": "ONEIDA",
+            "County": "SCOTT",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "076",
+            "CityRate": "1.35",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.4639",
+            "Total": "3.8139",
+            "City": "ONEIDA",
+            "County": "SCOTT",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "076",
+            "SpecialSchoolDistrictRate": "0.51",
+            "SpecialSchoolDistrict": "ONEIDA SSD",
+            "CountyRate": "2.4424",
+            "Total": "2.9524",
+            "City": "",
+            "County": "SCOTT",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "076",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.4639",
+            "Total": "2.4639",
+            "City": "",
+            "County": "SCOTT",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "077",
+            "CityRate": "0.8260",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.4422",
+            "Total": "3.2682",
+            "City": "DUNLAP",
+            "County": "SEQUATCHIE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "077",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.4422",
+            "Total": "2.4422",
+            "City": "",
+            "County": "SEQUATCHIE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "078",
+            "CityRate": "0.1592",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.86",
+            "Total": "2.0192",
+            "City": "GATLINBURG",
+            "County": "SEVIER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "078",
+            "CityRate": "0.20",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.86",
+            "Total": "2.06",
+            "City": "PIGEON FORGE",
+            "County": "SEVIER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "078",
+            "CityRate": "0.85",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.86",
+            "Total": "2.71",
+            "City": "PITTMAN CENTER",
+            "County": "SEVIER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "078",
+            "CityRate": "0.4970",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.86",
+            "Total": "2.3570",
+            "City": "SEVIERVILLE",
+            "County": "SEVIER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "078",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.86",
+            "Total": "1.86",
+            "City": "",
+            "County": "SEVIER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "079",
+            "CityRate": "1.37",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "4.05",
+            "Total": "5.42",
+            "City": "ARLINGTON",
+            "County": "SHELBY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "079",
+            "CityRate": "1.83",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "4.05",
+            "Total": "5.88",
+            "City": "BARTLETT",
+            "County": "SHELBY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "079",
+            "CityRate": "1.83",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "4.05",
+            "Total": "5.88",
+            "City": "COLLIERVILLE",
+            "County": "SHELBY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "079",
+            "CityRate": "1.95",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "4.05",
+            "Total": "6.0",
+            "City": "GERMANTOWN",
+            "County": "SHELBY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "079",
+            "CityRate": "1.24",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "4.05",
+            "Total": "5.29",
+            "City": "LAKELAND",
+            "County": "SHELBY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "079",
+            "CityRate": "3.195986",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "4.05",
+            "Total": "7.245986",
+            "City": "MEMPHIS",
+            "County": "SHELBY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "079",
+            "CityRate": "1.53",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "4.05",
+            "Total": "5.58",
+            "City": "MILLINGTON",
+            "County": "SHELBY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "079",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "4.05",
+            "Total": "4.05",
+            "City": "",
+            "County": "SHELBY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "080",
+            "CityRate": "1.1258",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.73",
+            "Total": "3.8558",
+            "City": "CARTHAGE",
+            "County": "SMITH",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "080",
+            "CityRate": "0.7629",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.73",
+            "Total": "3.4929",
+            "City": "GORDONSVILLE",
+            "County": "SMITH",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "080",
+            "CityRate": "0.9704",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.73",
+            "Total": "3.7004",
+            "City": "SOUTH CARTHAGE",
+            "County": "SMITH",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "080",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.73",
+            "Total": "2.73",
+            "City": "",
+            "County": "SMITH",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "081",
+            "CityRate": "0.69",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5488",
+            "Total": "3.2388",
+            "City": "CUMBERLAND CITY",
+            "County": "STEWART",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "081",
+            "CityRate": "1.30",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5488",
+            "Total": "3.8488",
+            "City": "DOVER",
+            "County": "STEWART",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "081",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5488",
+            "Total": "2.5488",
+            "City": "",
+            "County": "STEWART",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "082",
+            "CityRate": "1.28",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.57",
+            "Total": "3.85",
+            "City": "BLUFF CITY",
+            "County": "SULLIVAN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "082",
+            "CityRate": "2.1612",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.57",
+            "Total": "4.7312",
+            "City": "BRISTOL",
+            "County": "SULLIVAN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "082",
+            "CityRate": "1.95",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.57",
+            "Total": "4.52",
+            "City": "JOHNSON CITY",
+            "County": "SULLIVAN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "082",
+            "CityRate": "2.0643",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.57",
+            "Total": "4.6343",
+            "City": "KINGSPORT",
+            "County": "SULLIVAN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "082",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.57",
+            "Total": "2.57",
+            "City": "",
+            "County": "SULLIVAN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "083",
+            "CityRate": "0.8001",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2620",
+            "Total": "3.0621",
+            "City": "GALLATIN",
+            "County": "SUMNER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "083",
+            "CityRate": "0.79",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2620",
+            "Total": "3.0520",
+            "City": "GOODLETTSVILLE",
+            "County": "SUMNER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "083",
+            "CityRate": "0.9187",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2620",
+            "Total": "3.1807",
+            "City": "HENDERSONVILLE",
+            "County": "SUMNER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "083",
+            "CityRate": "1.0",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2620",
+            "Total": "3.2620",
+            "City": "MILLERSVILLE",
+            "County": "SUMNER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "083",
+            "CityRate": "0.4662",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2620",
+            "Total": "2.7282",
+            "City": "MITCHELLVILLE",
+            "County": "SUMNER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "083",
+            "CityRate": "1.06",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2620",
+            "Total": "3.3220",
+            "City": "PORTLAND",
+            "County": "SUMNER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "083",
+            "CityRate": "1.1318",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2620",
+            "Total": "3.3938",
+            "City": "WESTMORELAND",
+            "County": "SUMNER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "083",
+            "CityRate": "1.0362",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2620",
+            "Total": "3.2982",
+            "City": "WHITE HOUSE",
+            "County": "SUMNER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "083",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.2620",
+            "Total": "2.2620",
+            "City": "",
+            "County": "SUMNER",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "084",
+            "CityRate": "0.9786",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.0392",
+            "Total": "3.0178",
+            "City": "ATOKA",
+            "County": "TIPTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "084",
+            "CityRate": "0.8638",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.0392",
+            "Total": "2.9030",
+            "City": "BRIGHTON",
+            "County": "TIPTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "084",
+            "CityRate": "1.2413",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.0392",
+            "Total": "3.2805",
+            "City": "COVINGTON",
+            "County": "TIPTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "084",
+            "CityRate": "1.4635",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.0392",
+            "Total": "3.5027",
+            "City": "MASON",
+            "County": "TIPTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "084",
+            "CityRate": "1.1695",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.0392",
+            "Total": "3.2087",
+            "City": "MUNFORD",
+            "County": "TIPTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "084",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.0392",
+            "Total": "2.0392",
+            "City": "",
+            "County": "TIPTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "085",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "3.3141",
+            "Total": "3.3141",
+            "City": "HARTSVILLE",
+            "County": "TROUSDALE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "085",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.4388",
+            "Total": "2.4388",
+            "City": "",
+            "County": "TROUSDALE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "086",
+            "CityRate": "1.8620",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.8538",
+            "Total": "4.7158",
+            "City": "ERWIN",
+            "County": "UNICOI",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "086",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.8538",
+            "Total": "2.8538",
+            "City": "",
+            "County": "UNICOI",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "087",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.1399",
+            "Total": "2.1399",
+            "City": "",
+            "County": "UNION",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "088",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.76",
+            "Total": "2.76",
+            "City": "",
+            "County": "VAN BUREN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "089",
+            "CityRate": "0.1006",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.9677",
+            "Total": "2.0683",
+            "City": "MORRISON",
+            "County": "WARREN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "089",
+            "CityRate": "1.8497",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.9677",
+            "Total": "3.8174",
+            "City": "McMINNVILLE",
+            "County": "WARREN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "089",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.9677",
+            "Total": "1.9677",
+            "City": "",
+            "County": "WARREN",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "090",
+            "CityRate": "1.71",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.15",
+            "Total": "3.86",
+            "City": "JOHNSON CITY",
+            "County": "WASHINGTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "090",
+            "CityRate": "1.20",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.15",
+            "Total": "3.35",
+            "City": "JONESBOROUGH",
+            "County": "WASHINGTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "090",
+            "CityRate": "0.70",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.15",
+            "Total": "2.85",
+            "City": "WATAUGA",
+            "County": "WASHINGTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "090",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.15",
+            "Total": "2.15",
+            "City": "",
+            "County": "WASHINGTON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "091",
+            "CityRate": "1.0",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.30",
+            "Total": "3.30",
+            "City": "CLIFTON",
+            "County": "WAYNE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "091",
+            "CityRate": "1.6319",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.30",
+            "Total": "3.9319",
+            "City": "COLLINWOOD",
+            "County": "WAYNE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "091",
+            "CityRate": "1.4474",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.30",
+            "Total": "3.7474",
+            "City": "WAYNESBORO",
+            "County": "WAYNE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "091",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.30",
+            "Total": "2.30",
+            "City": "",
+            "County": "WAYNE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "092",
+            "CityRate": "1.4837",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.9727",
+            "Total": "3.4564",
+            "City": "DRESDEN",
+            "County": "WEAKLEY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "092",
+            "CityRate": "1.6638",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.9727",
+            "Total": "3.6365",
+            "City": "GLEASON",
+            "County": "WEAKLEY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "092",
+            "CityRate": "1.7322",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.9727",
+            "Total": "3.7049",
+            "City": "GREENFIELD",
+            "County": "WEAKLEY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "092",
+            "CityRate": "1.7544",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.9727",
+            "Total": "3.7271",
+            "City": "MARTIN",
+            "County": "WEAKLEY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "092",
+            "CityRate": "1.0661",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.9727",
+            "Total": "3.0388",
+            "City": "McKENZIE",
+            "County": "WEAKLEY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "092",
+            "CityRate": "1.8004",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.9727",
+            "Total": "3.7731",
+            "City": "SHARON",
+            "County": "WEAKLEY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "092",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "1.9727",
+            "Total": "1.9727",
+            "City": "",
+            "County": "WEAKLEY",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "093",
+            "CityRate": "0.9183",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.05",
+            "Total": "2.9683",
+            "City": "SPARTA",
+            "County": "WHITE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "093",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.05",
+            "Total": "2.05",
+            "City": "",
+            "County": "WHITE",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "094",
+            "CityRate": "0.36",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.22",
+            "Total": "2.58",
+            "City": "BRENTWOOD",
+            "County": "WILLIAMSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "094",
+            "CityRate": "0.8765",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.22",
+            "Total": "3.0965",
+            "City": "FAIRVIEW",
+            "County": "WILLIAMSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "094",
+            "CityRate": "0.4176",
+            "SpecialSchoolDistrictRate": "0.8290",
+            "SpecialSchoolDistrict": "9TH SSD",
+            "CountyRate": "1.98",
+            "Total": "3.2266",
+            "City": "FRANKLIN IN 9TH SSD",
+            "County": "WILLIAMSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "094",
+            "CityRate": "0.4176",
+            "SpecialSchoolDistrictRate": "2.16",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.16",
+            "Total": "4.7376",
+            "City": "FRANKLIN IN 9TH SSD",
+            "County": "WILLIAMSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "094",
+            "CityRate": "0.29",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.22",
+            "Total": "2.51",
+            "City": "NOLENSVILLE",
+            "County": "WILLIAMSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "094",
+            "CityRate": "1.01",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.16",
+            "Total": "3.17",
+            "City": "SPRING HILL",
+            "County": "WILLIAMSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "094",
+            "CityRate": "0.1030",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.22",
+            "Total": "2.3230",
+            "City": "THOMPSON\u0027S STATION",
+            "County": "WILLIAMSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "094",
+            "SpecialSchoolDistrictRate": "0.8290",
+            "SpecialSchoolDistrict": "9TH SSD",
+            "CountyRate": "1.98",
+            "Total": "2.8090",
+            "City": "",
+            "County": "WILLIAMSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "094",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.22",
+            "Total": "2.22",
+            "City": "",
+            "County": "WILLIAMSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "095",
+            "CityRate": "0.8575",
+            "SpecialSchoolDistrictRate": "0.3827",
+            "SpecialSchoolDistrict": "LEBANON SSD",
+            "CountyRate": "2.5189",
+            "Total": "3.7591",
+            "City": "LEBANON",
+            "County": "WILSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "095",
+            "CityRate": "0.8575",
+            "SpecialSchoolDistrict": "WILSON SSD",
+            "CountyRate": "2.5189",
+            "Total": "3.3764",
+            "City": "LEBANON",
+            "County": "WILSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "095",
+            "CityRate": "0.1664",
+            "SpecialSchoolDistrict": "WILSON SSD",
+            "CountyRate": "2.5189",
+            "Total": "2.6853",
+            "City": "MOUNT JULIET",
+            "County": "WILSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "095",
+            "CityRate": "0.8822",
+            "SpecialSchoolDistrict": "WILSON SSD",
+            "CountyRate": "2.5189",
+            "Total": "3.4011",
+            "City": "WATERTOWN",
+            "County": "WILSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "095",
+            "SpecialSchoolDistrictRate": "0.3827",
+            "SpecialSchoolDistrict": "LEBANON SSD",
+            "CountyRate": "2.5189",
+            "Total": "2.9016",
+            "City": "",
+            "County": "WILSON",
+            "TaxYear": "2020"
+        },
+        {
+            "Jurisdiction": "095",
+            "SpecialSchoolDistrict": "",
+            "CountyRate": "2.5189",
+            "Total": "2.5189",
+            "City": "",
+            "County": "WILSON",
+            "TaxYear": "2020"
+        }
+    ]
+}

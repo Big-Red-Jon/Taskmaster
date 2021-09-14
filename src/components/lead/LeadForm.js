@@ -6,25 +6,40 @@ import { useHistory, useParams } from 'react-router-dom';
 import 'react-phone-number-input/style.css'
 import PhoneInput from 'react-phone-number-input/input'
 import DatePicker from "react-datepicker";
-
 import "react-datepicker/dist/react-datepicker.css";
 
 export const LeadForm = () => {
     const { addLead, getLeadById, updateLead } = useContext(LeadContext)
     const { realtors, getRealtors } = useContext(RealtorContext)
-    const [lead, setLead] = useState({})
+    const [lead, setLead] = useState({
+        id: 0,
+        name: "",
+        email: "",
+        preferredContact: "",
+        notes: "",
+        realtorId: 0,
+        isPreapproved: false,
+        docsComplete: false,
+        lpId: 0,
+        docsId: 0,
+        underContract: false,
+        isApptSet: false
+    })
+
     const [value, setValue] = useState()
-    const [startDate, setStartDate] = useState(new Date());
+    const [callDate, setCallDate] = useState(new Date())
+    const [receiveDate, setReceiveDate] = useState(new Date())
 
     const [isLoading, setIsLoading] = useState(true);
 
     const { leadId } = useParams();
     const history = useHistory();
 
-    const toggleCheckedObject = () => setLead({
-        ...lead,
-        completed: !lead.isApptSet
-    });
+    const editCheckChange = (event) => {
+        const newLead = { ...lead }
+        newLead[event.target.id] = event.target.checked
+        setLead(newLead)
+    }
 
     const editInputChange = (event) => {
         const newLead = { ...lead }
@@ -43,15 +58,16 @@ export const LeadForm = () => {
                 id: parseInt(leadId),
                 name: lead.name,
                 email: lead.email,
-                phone: lead.phone,
+                phone: value,
                 preferredContact: lead.preferredContact,
                 notes: lead.notes,
                 realtorId: parseInt(lead.realtorId),
                 dateLastCalled: lead.dateLastCalled,
-                dateReceived: lead.dateReceived,
+                dateLastCalled: callDate,
+                dateReceived: receiveDate,
                 isPreapproved: lead.isPreapproved,
                 docsComplete: lead.docsComplete,
-                lpId: lead.lpId,
+                lpId: 1,
                 docId: lead.docsId,
                 underContract: lead.underContract,
                 isApptSet: lead.isApptSet,
@@ -60,17 +76,17 @@ export const LeadForm = () => {
                 .then(() => history.push(`/leads`))
         } else {
             addLead({
-                // userId: parseInt(userId),
                 name: lead.name,
                 email: lead.email,
-                phone: lead.phone,
+                phone: value,
                 preferredContact: lead.preferredContact,
                 notes: lead.notes,
                 realtorId: parseInt(lead.realtorId),
-                dateLastCalled: lead.dateLastCalled,
-                dateReceived: lead.dateReceived,
+                dateLastCalled: callDate,
+                dateReceived: receiveDate,
                 isPreapproved: lead.isPreapproved,
                 docsComplete: lead.docsComplete,
+                lpId: 1,
                 underContract: lead.underContract,
                 isApptSet: lead.isApptSet
             })
@@ -120,7 +136,7 @@ export const LeadForm = () => {
                         placeholder="Enter phone number"
                         value={value}
                         onChange={setValue}
-                        defaultValue={lead.phone} />
+                        defaultValue={value} />
                 </div>
             </fieldset>
             <fieldset>
@@ -162,37 +178,37 @@ export const LeadForm = () => {
             <fieldset>
                 <div className="form-group">
                     <label htmlFor="dateLastCalled"> Date Last Called: </label>
-                    <DatePicker id="dateLastCalled" selected={startDate} onChange={(date) => setStartDate(date)} />
+                    <DatePicker id="dateLastCalled" selected={callDate} onChange={(date) => setCallDate(date)} />
                 </div>
             </fieldset>
             <fieldset>
                 <div className="form-group">
                     <label htmlFor="dateReceived"> Date Received: </label>
-                    <DatePicker id="dateReceived" selected={startDate} onChange={(date) => setStartDate(date)} />
+                    <DatePicker id="dateReceived" selected={receiveDate} onChange={(date) => setReceiveDate(date)} />
                 </div>
             </fieldset>
             <fieldset>
                 <div className="form-group">
-                    <label htmlFor="isPreapproved"> Client Preapproved: </label>
-                    <input type="checkbox" id="isPreapproved" checked={lead.isPreapproved} onChange={toggleCheckedObject} />
+                    <label htmlFor="isApproved"> Client Preapproved: </label>
+                    <input type="checkbox" id="isPreapproved" checked={lead.isPreapproved} onChange={editCheckChange} />
                 </div>
             </fieldset>
             <fieldset>
                 <div className="form-group">
                     <label htmlFor="underContract"> Client Under Contract: </label>
-                    <input type="checkbox" id="underContract" checked={lead.underContract} onChange={toggleCheckedObject} />
+                    <input type="checkbox" id="underContract" checked={lead.underContract} onChange={editCheckChange} />
                 </div>
             </fieldset>
             <fieldset>
                 <div className="form-group">
                     <label htmlFor="isApptSet"> Appointment Set: </label>
-                    <input type="checkbox" id="isApptSet" checked={lead.isApptSet} onChange={toggleCheckedObject} />
+                    <input type="checkbox" id="isApptSet" checked={lead.isApptSet} onChange={editCheckChange} />
                 </div>
             </fieldset>
             <fieldset>
                 <div className="form-group">
                     <label htmlFor="docsComplete"> All Docs Submitted: </label>
-                    <input type="checkbox" id="docsComplete" checked={lead.docsComplete} onChange={toggleCheckedObject} />
+                    <input type="checkbox" id="docsComplete" checked={lead.docsComplete} onChange={editCheckChange} />
                 </div>
             </fieldset>
             <button

@@ -7,7 +7,7 @@ import { useHistory } from "react-router-dom"
 export const LeadDetail = (props) => {
     const { leads } = useContext(LeadContext)
     const { deleteLead } = useContext(LeadContext)
-    const [lead, setlead] = useState(props.lead || { loanpartner: {} })
+    const [lead, setLead] = useState(props.lead || { loanpartner: {} })
 
     const { leadId } = useParams();
     const history = useHistory()
@@ -22,7 +22,7 @@ export const LeadDetail = (props) => {
     useEffect(() => {
         if (!props.lead) {
             const thisLead = leads.find(lead => lead.id === parseInt(leadId)) || { loanpartner: {} }
-            setlead(thisLead)
+            setLead(thisLead)
         }
     }, [leadId])
 

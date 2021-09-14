@@ -10,7 +10,6 @@ export const TaskForm = () => {
     const [task, setTask] = useState({})
 
     const [isLoading, setIsLoading] = useState(true);
-
     const { taskId } = useParams();
     const history = useHistory();
 
