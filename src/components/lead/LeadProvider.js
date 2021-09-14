@@ -10,7 +10,7 @@ export const LeadProvider = (props) => {
     const [searchTerms, setSearchTerms] = useState("")
 
     const getLeads = () => {
-        return fetch(`${URL}/leads?_expand=realtorId&expand=lpId`)
+        return fetch(`${URL}/leads?_expand=realtor&_expand=lp`)
             .then(res => res.json())
             .then(setLeads)
     }

@@ -7,6 +7,7 @@ import 'react-phone-number-input/style.css'
 import PhoneInput from 'react-phone-number-input/input'
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import NumberFormat from 'react-number-format';
 
 export const LeadForm = () => {
     const { addLead, getLeadById, updateLead } = useContext(LeadContext)
@@ -132,7 +133,7 @@ export const LeadForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="phone">Phone:</label><br />
-                    <PhoneInput maxLength="16" country="US" className="form--item" id="phone" name="phone" required autoFocus
+                    <PhoneInput country="US" className="form--item" id="phone" name="phone" required autoFocus
                         placeholder="Enter phone number"
                         value={value}
                         onChange={setValue}

@@ -21,14 +21,14 @@ export const DocumentDetail = (props) => {
 
     useEffect(() => {
         if (!props.document) {
-            const thisDocument = documents.find(document => document.id === parseInt(documentId)) || { lead: {} }
+            const thisDocument = documents.find(document => document.id === parseInt(documentId)) || { document: {} }
             setdocument(thisDocument)
         }
     }, [documentId])
 
     return (
         <section className="document">
-            <h4>{document.leadId.name}</h4>
+            <h4>{document.lead.name}</h4>
             <div>Taxes Received? {document.istaxSubmitted ? "Yes" : "No"}</div>
             <div>Paystubs Received? {document.isPbSubmitted ? "Yes" : "No"}</div>
             <div>Bank Statement Received? {document.isBkSubmitted ? "Yes" : "No"}</div>
@@ -36,7 +36,7 @@ export const DocumentDetail = (props) => {
             <div>Social Security Received? {document.isSocialSubmitted ? "Yes" : "No"}</div>
             <div>Preapproval Letter Sent? {document.isLetterSent ? "Yes" : "No"}</div>
 
-            <button onClick={handleRelease}>Received </button>
+            <button onClick={handleRelease}>Delete List </button>
 
         </section>
     )

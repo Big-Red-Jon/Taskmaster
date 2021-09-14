@@ -3,6 +3,7 @@ import { LeadContext } from "./LeadProvider"
 import "./Lead.css"
 import { useParams } from "react-router-dom"
 import { useHistory } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 export const LeadDetail = (props) => {
     const { leads } = useContext(LeadContext)
@@ -31,6 +32,8 @@ export const LeadDetail = (props) => {
             <h4>{lead.name}</h4>
             <div>Phone: {lead.phone}</div>
             <div>Email: {lead.email}</div>
+            <div>Realtor: {lead.realtor.name} from {lead.realtor.office}</div>
+            <Link to="/documents">View Documents</Link>< br />
 
             <button onClick={handleRelease}>Delete Lead </button>
             <button onClick={() => {

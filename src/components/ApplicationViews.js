@@ -19,6 +19,12 @@ import { TaskDetail } from "./task/TaskDetail"
 import { TaskForm } from "./task/TaskForm"
 import { TaskSearch } from "./task/TaskSearch"
 //Calculator
+//Documents
+import { DocumentProvider } from "./documents/DocumentProvider"
+import { DocumentList } from "./documents/DocumentList"
+import { DocumentDetail } from "./documents/DocumentDetail"
+// import { DocumentForm } from "./documents/DocumentForm"
+import { DocumentSearch } from "./documents/DocumentSearch"
 
 export const ApplicationViews = () => {
     return (
@@ -26,47 +32,54 @@ export const ApplicationViews = () => {
             <LeadProvider>
                 <TaskProvider>
                     <RealtorProvider>
-                        <Route exact path="/">
-                            <TaskSearch />
-                            <TaskList />
-                        </Route>
-                        <Route path="/tasks/detail/:leadId(/d+)">
-                            <TaskDetail />
-                        </Route>
-                        <Route path="/tasks/edit/:taskId(\d+)">
-                            <TaskForm />
-                        </Route>
-                        <Route path="/tasks/create">
-                            <TaskForm />
-                        </Route>
+                        <DocumentProvider>
+                            <Route exact path="/">
+                                <TaskSearch />
+                                <TaskList />
+                            </Route>
+                            <Route path="/tasks/detail/:leadId(/d+)">
+                                <TaskDetail />
+                            </Route>
+                            <Route path="/tasks/edit/:taskId(\d+)">
+                                <TaskForm />
+                            </Route>
+                            <Route path="/tasks/create">
+                                <TaskForm />
+                            </Route>
 
-                        <Route exact path="/realtors">
-                            <RealtorSearch />
-                            <RealtorList />
-                        </Route>
-                        <Route path="/realtors/detail/:realtorId(\d+)">
-                            <RealtorDetail />
-                        </Route>
-                        <Route path="/realtors/edit/:realtorId(\d+)">
-                            <RealtorForm />
-                        </Route>
-                        <Route path="/realtors/create">
-                            <RealtorForm />
-                        </Route>
+                            <Route exact path="/realtors">
+                                <RealtorSearch />
+                                <RealtorList />
+                            </Route>
+                            <Route path="/realtors/detail/:realtorId(\d+)">
+                                <RealtorDetail />
+                            </Route>
+                            <Route path="/realtors/edit/:realtorId(\d+)">
+                                <RealtorForm />
+                            </Route>
+                            <Route path="/realtors/create">
+                                <RealtorForm />
+                            </Route>
 
-                        <Route exact path="/leads">
-                            <LeadSearch />
-                            <LeadList />
-                        </Route>
-                        <Route path="/leads/detail/:leadId(\d+)">
-                            <LeadDetail />
-                        </Route>
-                        <Route path="/leads/edit/:leadId(\d+)">
-                            <LeadForm />
-                        </Route>
-                        <Route path="/leads/create">
-                            <LeadForm />
-                        </Route>
+                            <Route exact path="/leads">
+                                <LeadSearch />
+                                <LeadList />
+                            </Route>
+                            <Route path="/leads/detail/:leadId(\d+)">
+                                <LeadDetail />
+                            </Route>
+                            <Route path="/leads/edit/:leadId(\d+)">
+                                <LeadForm />
+                            </Route>
+                            <Route path="/leads/create">
+                                <LeadForm />
+                            </Route>
+                            <Route exact path="/documents">
+                                <DocumentSearch />
+                                <DocumentList />
+                            </Route>
+
+                        </DocumentProvider>
                     </RealtorProvider>
                 </TaskProvider>
             </LeadProvider>

@@ -20,14 +20,9 @@ export const TaskDetail = (props) => {
             })
     }
 
-    const toggleCheckedObject = () => setTask({
-        ...task,
-        completed: !task.isComplete
-    });
-
     useEffect(() => {
         if (!props.task) {
-            const thisTask = tasks.find(task => task.id === parseInt(taskId)) || { lead: {} }
+            const thisTask = tasks.find(task => task.id === parseInt(taskId)) || { task: {} }
             setTask(thisTask)
         }
     }, [taskId])
@@ -38,15 +33,13 @@ export const TaskDetail = (props) => {
             <h3>{task.leadId.name}</h3>
             <div>Task: {task.task} </div>
             <div>Due: {task.dueDate}</div>
-            {/* <div>Completed? {task.iscomplete ? "Yes" : "No"} </div> */}
-            <fieldset>
-                <div>
-                    <label htmlFor="isComplete"> TaskComplete: </label>
-                    <input type="checkbox" id="isComplete" checked={task.isComplete} onChange={toggleCheckedObject} />
-                </div>
-            </fieldset>
+            <div>Completed? {task.isComplete ? "Yes" : "No"} </div>
+
 
             <button onClick={handleRelease}>Delete</button>
+            <button onClick={() => {
+                history.push(`/tasks/edit/${task.id}`)
+            }}>Update Task</button>
 
         </section>
     )

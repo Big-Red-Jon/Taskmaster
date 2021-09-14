@@ -24,36 +24,22 @@
   "tasks": [
     {
       "id": 1,
-      "task": "Follow Up Today",
-      "leadId": 1,
-      "dueDate": "12/31/2021",
-      "iscomplete": false
+      "task": "Yell",
+      "leadId": 2,
+      "dueDate": "2021-09-14T05:08:51.696Z",
+      "isComplete": false
     },
     {
       "id": 2,
       "task": "Follow Up Today",
       "leadId": 2,
       "dueDate": "12/31/2021",
-      "iscomplete": false
+      "isComplete": true
     },
     {
-      "id": 3,
-      "task": "Follow Up Today",
+      "task": "Call This Guy",
       "leadId": 3,
-      "dueDate": "12/31/2021",
-      "iscomplete": false
-    },
-    {
-      "id": 4,
-      "task": "Follow Up Today",
-      "leadId": 4,
-      "dueDate": "12/31/2021",
-      "iscomplete": false
-    },
-    {
-      "task": "hbjj",
-      "leadId": null,
-      "dueDate": "dflkkjasd",
+      "dueDate": "2021-09-25T04:55:42.000Z",
       "isComplete": false,
       "id": 5
     }
@@ -63,11 +49,12 @@
       "id": 1,
       "name": "Zeus",
       "email": "Zeus@yahoo.com",
+      "phone": "+19530294309",
       "preferredContact": "email",
       "notes": "ready to purchase in January",
       "realtorId": 2,
-      "dateLastCalled": "2021-09-14T02:17:39.887Z",
-      "dateReceived": "2021-09-14T02:17:39.887Z",
+      "dateLastCalled": "2021-09-14T05:09:00.541Z",
+      "dateReceived": "2021-09-14T05:09:00.541Z",
       "isPreapproved": true,
       "docsComplete": false,
       "lpId": 1,
@@ -78,11 +65,12 @@
       "id": 2,
       "name": "Hades",
       "email": "Hades@yahoo.com",
+      "phone": "+12345234523",
       "preferredContact": "phone",
       "notes": "ready to purchase in January",
       "realtorId": 2,
-      "dateLastCalled": "2021-09-14T02:18:05.478Z",
-      "dateReceived": "2021-09-14T02:18:05.478Z",
+      "dateLastCalled": "2021-09-14T02:27:48.411Z",
+      "dateReceived": "2021-09-14T02:27:48.411Z",
       "isPreapproved": false,
       "docsComplete": true,
       "lpId": 1,
@@ -93,11 +81,12 @@
       "id": 3,
       "name": "Hera",
       "email": "Hera@yahoo.com",
+      "phone": "+14534523454",
       "preferredContact": "phone",
       "notes": "Ready to purchase in January",
       "realtorId": 3,
-      "dateLastCalled": "2021-09-14T02:18:15.717Z",
-      "dateReceived": "2021-09-14T02:18:15.717Z",
+      "dateLastCalled": "2021-09-14T02:27:54.454Z",
+      "dateReceived": "2021-09-14T02:27:54.454Z",
       "isPreapproved": false,
       "docsComplete": true,
       "lpId": 1,
@@ -125,11 +114,12 @@
       "id": 5,
       "name": "Mercury",
       "email": "Mercury@yahoo.com",
+      "phone": "+15425345445",
       "preferredContact": "Phone",
       "notes": "Fast and Eager",
       "realtorId": 2,
-      "dateLastCalled": "2021-09-14T02:18:31.272Z",
-      "dateReceived": "2021-09-14T02:18:31.272Z",
+      "dateLastCalled": "2021-09-14T02:28:01.286Z",
+      "dateReceived": "2021-09-14T02:28:01.286Z",
       "isPreapproved": false,
       "docsComplete": false,
       "lpId": 1,
@@ -139,20 +129,20 @@
   ],
   "realtors": [
     {
-      "id": 1,
-      "name": "Bast",
-      "email": "Bast@yahoo.com",
-      "phone": 2405949303,
-      "dateLastCalled": 1631241078,
+      "id": 2,
+      "name": "Sobek",
+      "email": "Sobek@yahoo.com",
+      "phone": "+15425345445",
+      "dateLastCalled": "2021-09-15T04:37:34.000Z",
       "office": "Egypt Realty",
-      "preferredContact": "phone"
+      "preferredContact": "email"
     },
     {
       "id": 2,
       "name": "Ra",
       "email": "Ra@yahoo.com",
-      "phone": 2405949303,
-      "dateLastCalled": 1631241078,
+      "phone": "+15425345445",
+      "dateLastCalled": "2021-09-15T04:37:34.000Z",
       "office": "Egypt Realty",
       "preferredContact": "email"
     },
@@ -160,8 +150,8 @@
       "id": 3,
       "name": "Geb",
       "email": "Geb@yahoo.com",
-      "phone": 2405949303,
-      "dateLastCalled": 1631241078,
+      "phone": "+15425345445",
+      "dateLastCalled": "2021-09-15T04:37:34.000Z",
       "office": "Egypt Realty",
       "preferredContact": "phone"
     },
@@ -169,8 +159,8 @@
       "id": 4,
       "name": "Horus",
       "email": "Horus@yahoo.com",
-      "phone": 2405949303,
-      "dateLastCalled": 1631241078,
+      "phone": "+15425345445",
+      "dateLastCalled": "2021-09-15T04:37:34.000Z",
       "office": "Egypt Realty",
       "preferredContact": "phone"
     }

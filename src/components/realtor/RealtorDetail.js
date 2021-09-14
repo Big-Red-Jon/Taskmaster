@@ -5,13 +5,10 @@ import { useParams } from "react-router-dom"
 import { useHistory } from "react-router-dom"
 
 export const RealtorDetail = (props) => {
-    const { realtors } = useContext(RealtorContext)
-    const { deleteRealtor } = useContext(RealtorContext)
-    const [realtor, setRealtor] = useState(props.realtor || { lead: {} })
-
+    const { realtors, deleteRealtor } = useContext(RealtorContext)
+    const [realtor, setRealtor] = useState(props.realtor || { realtor: {} })
     const { realtorId } = useParams();
     const history = useHistory()
-
     const handleRelease = () => {
         deleteRealtor(realtor.id)
             .then(() => {
@@ -21,7 +18,7 @@ export const RealtorDetail = (props) => {
 
     useEffect(() => {
         if (!props.realtor) {
-            const thisRealtor = realtors.find(realtor => realtor.id === parseInt(realtorId)) || { lead: {} }
+            const thisRealtor = realtors.find(realtor => realtor.id === parseInt(realtorId)) || { realtor: {} }
             setRealtor(thisRealtor)
         }
     }, [realtorId])

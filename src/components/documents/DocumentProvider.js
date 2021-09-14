@@ -8,7 +8,7 @@ export const DocumentProvider = (props) => {
     const [searchTerms, setSearchTerms] = useState("")
 
     const getDocuments = () => {
-        return fetch(`${URL}/documents`)
+        return fetch(`${URL}/documents?_expand=lead`)
             .then(res => res.json())
             .then(setDocuments)
     }

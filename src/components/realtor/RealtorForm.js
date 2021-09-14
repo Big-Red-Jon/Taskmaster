@@ -2,13 +2,16 @@ import React, { useContext, useEffect, useState } from "react"
 import { RealtorContext } from "./RealtorProvider"
 import "./Realtor.css"
 import { useHistory, useParams } from 'react-router-dom';
+import DatePicker from "react-datepicker";
+import 'react-phone-number-input/style.css'
+import PhoneInput from 'react-phone-number-input/input'
 
 export const RealtorForm = () => {
     const { addRealtor, getRealtorById, updateRealtor } = useContext(RealtorContext)
     const [realtor, setRealtor] = useState({})
 
-    // const [value, setValue] = useState()
-    // const [callDate, setCallDate] = useState(new Date())
+    const [value, setValue] = useState()
+    const [callDate, setCallDate] = useState(new Date())
 
     const [isLoading, setIsLoading] = useState(true);
 
@@ -28,8 +31,8 @@ export const RealtorForm = () => {
                 id: parseInt(realtorId),
                 name: realtor.name,
                 email: realtor.email,
-                phone: realtor.phone,
-                dateLastCalled: realtor.dateLastCalled,
+                phone: value,
+                dateLastCalled: callDate,
                 office: realtor.office,
                 preferredContact: realtor.preferredContact
 
@@ -39,8 +42,8 @@ export const RealtorForm = () => {
             addRealtor({
                 name: realtor.name,
                 email: realtor.email,
-                phone: realtor.phone,
-                dateLastCalled: realtor.dateLastCalled,
+                phone: value,
+                dateLastCalled: callDate,
                 office: realtor.office,
                 preferredContact: realtor.preferredContact
 
@@ -87,10 +90,11 @@ export const RealtorForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="phone">Phone:</label><br />
-                    <input maxLength="16" className="form--item" type="text" id="Phone" name="Phone" required autoFocus
-                        placeholder="Realtor Phone"
-                        onChange={editInputChange}
-                        defaultValue={realtor.phone} />
+                    <PhoneInput maxLength="16" country="US" className="form--item" id="phone" name="phone" required autoFocus
+                        placeholder="Enter phone number"
+                        value={value}
+                        onChange={setValue}
+                        defaultValue={value} />
                 </div>
             </fieldset>
             <fieldset>
@@ -102,6 +106,12 @@ export const RealtorForm = () => {
                         <option value="Phone">Phone</option>
                         <option value="Text">Text</option>
                     </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <div className="form-group">
+                    <label htmlFor="dateLastContact"> Date Last Contacted: </label>
+                    <DatePicker id="dateLastContact" selected={callDate} onChange={(date) => setCallDate(date)} />
                 </div>
             </fieldset>
             <fieldset>
