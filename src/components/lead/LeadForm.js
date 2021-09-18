@@ -16,6 +16,7 @@ export const LeadForm = () => {
         id: 0,
         name: "",
         email: "",
+        phone: "",
         preferredContact: "",
         notes: "",
         realtorId: 0,
@@ -27,9 +28,9 @@ export const LeadForm = () => {
         isApptSet: false
     })
 
-    const [value, setValue] = useState()
-    const [callDate, setCallDate] = useState(new Date())
-    const [receiveDate, setReceiveDate] = useState(new Date())
+    const [value, setValue] = useState("")
+    const [callDate, setCallDate] = useState("")
+    const [receiveDate, setReceiveDate] = useState("")
 
     const [isLoading, setIsLoading] = useState(true);
 
@@ -59,7 +60,7 @@ export const LeadForm = () => {
                 id: parseInt(leadId),
                 name: lead.name,
                 email: lead.email,
-                phone: value,
+                phone: value || lead.phone,
                 preferredContact: lead.preferredContact,
                 notes: lead.notes,
                 realtorId: parseInt(lead.realtorId),
@@ -79,7 +80,7 @@ export const LeadForm = () => {
             addLead({
                 name: lead.name,
                 email: lead.email,
-                phone: value,
+                phone: value || lead.phone,
                 preferredContact: lead.preferredContact,
                 notes: lead.notes,
                 realtorId: parseInt(lead.realtorId),
@@ -135,16 +136,16 @@ export const LeadForm = () => {
                     <label htmlFor="phone">Phone:</label><br />
                     <PhoneInput country="US" className="form--item" id="phone" name="phone" required autoFocus
                         placeholder="Enter phone number"
-                        value={value}
+                        value={lead.phone || value}
                         onChange={setValue}
-                        defaultValue={value} />
+                        defaultValue={lead.phone} />
                 </div>
             </fieldset>
             <fieldset>
                 <div>
                     <label htmlFor="preferredContact">Preferred Method of Contact</label> < br />
                     <select name="preferredContact" id="preferredContact" onChange={editInputChange}
-                        defaultValue={lead.email} >
+                        defaultValue={lead.preferredContact} >
                         <option value="Email">Email</option>
                         <option value="Phone">Phone</option>
                         <option value="Text">Text</option>

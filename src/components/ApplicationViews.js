@@ -23,7 +23,7 @@ import { TaskSearch } from "./task/TaskSearch"
 import { DocumentProvider } from "./documents/DocumentProvider"
 import { DocumentList } from "./documents/DocumentList"
 import { DocumentDetail } from "./documents/DocumentDetail"
-// import { DocumentForm } from "./documents/DocumentForm"
+import { DocumentForm } from "./documents/DocumentForm"
 import { DocumentSearch } from "./documents/DocumentSearch"
 
 export const ApplicationViews = () => {
@@ -74,9 +74,18 @@ export const ApplicationViews = () => {
                             <Route path="/leads/create">
                                 <LeadForm />
                             </Route>
+
                             <Route exact path="/documents">
                                 <DocumentSearch />
                                 <DocumentList />
+                            </Route>
+                            <Route path="/documents/detail/:leadId(\d+)">
+                                <DocumentList />
+                                <DocumentDetail />
+                            </Route>
+                            <Route path="/documents/create">
+
+                                <DocumentForm />
                             </Route>
 
                         </DocumentProvider>

@@ -14,7 +14,7 @@ export const DocumentProvider = (props) => {
     }
 
     const addDocument = documentSelect => {
-        return fetch(`${URL}documents`, {
+        return fetch(`${URL}/documents`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

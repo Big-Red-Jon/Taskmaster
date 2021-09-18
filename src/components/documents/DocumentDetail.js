@@ -7,7 +7,8 @@ import { useHistory } from "react-router-dom"
 export const DocumentDetail = (props) => {
     const { documents } = useContext(DocumentContext)
     const { deleteDocument } = useContext(DocumentContext)
-    const [document, setdocument] = useState(props.document || { lead: {} })
+    const [document, setDocument] = useState(props.document || { lead: {} })
+
 
     const { documentId } = useParams();
     const history = useHistory()
@@ -21,15 +22,15 @@ export const DocumentDetail = (props) => {
 
     useEffect(() => {
         if (!props.document) {
-            const thisDocument = documents.find(document => document.id === parseInt(documentId)) || { document: {} }
-            setdocument(thisDocument)
+            const thisDocument = documents.find(document => document.id === parseInt(documentId)) || { lead: {} }
+            setDocument(thisDocument)
         }
     }, [documentId])
 
     return (
         <section className="document">
             <h4>{document.lead.name}</h4>
-            <div>Taxes Received? {document.istaxSubmitted ? "Yes" : "No"}</div>
+            <div>Taxes Received? {document.isTaxSubmitted ? "Yes" : "No"}</div>
             <div>Paystubs Received? {document.isPbSubmitted ? "Yes" : "No"}</div>
             <div>Bank Statement Received? {document.isBkSubmitted ? "Yes" : "No"}</div>
             <div>ID Received? {document.isDLSubmitted ? "Yes" : "No"}</div>

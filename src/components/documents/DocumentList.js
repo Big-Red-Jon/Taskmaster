@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from "react"
 import { DocumentContext } from "./DocumentProvider"
 import { DocumentDetail } from "./DocumentDetail"
 import { useHistory } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 export const DocumentList = () => {
     const { documents, getDocuments, searchTerms } = useContext(DocumentContext)

@@ -23,6 +23,8 @@ export const LeadList = () => {
         }
     }, [searchTerms, leads])
 
+    //useEffect unmounting the component
+
     return (
         <>
             <h1>Leads</h1>
