@@ -8,7 +8,18 @@ import PhoneInput from 'react-phone-number-input/input'
 
 export const RealtorForm = () => {
     const { addRealtor, getRealtorById, updateRealtor } = useContext(RealtorContext)
-    const [realtor, setRealtor] = useState({})
+    const { realtors, getRealtors } = useContext(RealtorContext)
+    const [realtor, setRealtor] = useState({
+        id: 0,
+        name: "",
+        email: "",
+        phone: "",
+        dateLastCalled: "",
+        office: "",
+        preferredContact: ""
+
+    })
+
 
     const [value, setValue] = useState()
     const [callDate, setCallDate] = useState(new Date())
@@ -24,6 +35,23 @@ export const RealtorForm = () => {
         setRealtor(newRealtor)
     }
 
+    useEffect(() => {
+        getRealtors()
+    }, [])
+
+    useEffect(() => {
+        if (realtorId) {
+            getRealtorById(realtorId)
+                .then(realtor => {
+                    setRealtor(realtor)
+                    setCallDate(Date.parse(realtor.dateLastCalled.substring(0, 10).replace("-", "/")))
+                    setIsLoading(false)
+                })
+        } else {
+            setIsLoading(false)
+        }
+    }, [])
+
     const saveRealtor = () => {
         setIsLoading(true);
         if (realtorId) {
@@ -31,7 +59,7 @@ export const RealtorForm = () => {
                 id: parseInt(realtorId),
                 name: realtor.name,
                 email: realtor.email,
-                phone: value,
+                phone: value || realtor.phone,
                 dateLastCalled: callDate,
                 office: realtor.office,
                 preferredContact: realtor.preferredContact
@@ -42,7 +70,7 @@ export const RealtorForm = () => {
             addRealtor({
                 name: realtor.name,
                 email: realtor.email,
-                phone: value,
+                phone: value || realtor.phone,
                 dateLastCalled: callDate,
                 office: realtor.office,
                 preferredContact: realtor.preferredContact
@@ -52,18 +80,6 @@ export const RealtorForm = () => {
         }
 
     }
-
-    useEffect(() => {
-        if (realtorId) {
-            getRealtorById(realtorId)
-                .then(realtor => {
-                    setRealtor(realtor)
-                    setIsLoading(false)
-                })
-        } else {
-            setIsLoading(false)
-        }
-    }, [])
 
     return (
 
@@ -92,16 +108,16 @@ export const RealtorForm = () => {
                     <label htmlFor="phone">Phone:</label><br />
                     <PhoneInput maxLength="16" country="US" className="form--item" id="phone" name="phone" required autoFocus
                         placeholder="Enter phone number"
-                        value={value}
+                        value={realtor.phone || value}
                         onChange={setValue}
-                        defaultValue={value} />
+                        defaultValue={realtor.phone} />
                 </div>
             </fieldset>
             <fieldset>
                 <div>
                     <label htmlFor="preferredContact">Preferred Method of Contact</label> <br />
                     <select name="preferredContact" id="preferredContact" onChange={editInputChange}
-                        defaultValue={realtor.email} >
+                        defaultValue={realtor.preferredContact} >
                         <option value="Email">Email</option>
                         <option value="Phone">Phone</option>
                         <option value="Text">Text</option>
@@ -130,7 +146,7 @@ export const RealtorForm = () => {
                     event.preventDefault()
                     saveRealtor()
                 }}>
-                {realtorId ? <>Save Realtor</> : <>Add Realtor</>}</button>
+                {realtorId ? <>Update Realtor</> : <>Add Realtor</>}</button>
         </form>
     )
 

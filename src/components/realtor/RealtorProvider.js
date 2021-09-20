@@ -4,14 +4,14 @@ import React, { useState, createContext } from "react"
 export const RealtorContext = createContext()
 const URL = "http://localhost:8088"
 
-// (`${URL}/leads?_expand=userId`)
+// (`${URL}/realtors?_expand=userId`)
 
 export const RealtorProvider = (props) => {
     const [realtors, setRealtors] = useState([])
     const [searchTerms, setSearchTerms] = useState("")
 
     const getRealtors = () => {
-        return fetch(`${URL}/realtors?_expand=userId`)
+        return fetch(`${URL}/realtors`)
             .then(res => res.json())
             .then(setRealtors)
     }
@@ -45,8 +45,8 @@ export const RealtorProvider = (props) => {
             .then(getRealtors)
     }
 
-    const getRealtorById = (articleId) => {
-        return fetch(`${URL}/${articleId}
+    const getRealtorById = (realtorId) => {
+        return fetch(`${URL}/realtors/${realtorId}
         `)
             .then(res => res.json())
     }

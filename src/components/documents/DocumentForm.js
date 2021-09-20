@@ -2,14 +2,10 @@ import React, { useContext, useEffect, useState } from "react"
 import { LeadContext } from "../lead/LeadProvider"
 import { DocumentContext } from "./DocumentProvider"
 import { useHistory, useParams } from 'react-router-dom';
-// import 'react-phone-number-input/style.css'
-// import PhoneInput from 'react-phone-number-input/input'
-// import DatePicker from "react-datepicker";
-// import "react-datepicker/dist/react-datepicker.css";
-// import NumberFormat from 'react-number-format';
+
 
 export const DocumentForm = () => {
-    const { addDocument, getDocById, updateDoc } = useContext(DocumentContext)
+    const { addDocument, getDocById, updateDocument } = useContext(DocumentContext)
     const { leads, getLeads } = useContext(LeadContext)
     const [document, setDocument] = useState({
         id: 0,
@@ -22,13 +18,10 @@ export const DocumentForm = () => {
         isTaxSubmitted: false
     })
 
-    // const [value, setValue] = useState()
-    // const [callDate, setCallDate] = useState(new Date())
-    // const [receiveDate, setReceiveDate] = useState(new Date())
 
     const [isLoading, setIsLoading] = useState(true);
 
-    const { docId } = useParams();
+    const { documentId } = useParams();
     const history = useHistory();
 
     const editCheckChange = (event) => {
@@ -47,11 +40,23 @@ export const DocumentForm = () => {
         getLeads()
     }, [])
 
+    useEffect(() => {
+        if (documentId) {
+            getDocById(documentId)
+                .then(document => {
+                    setDocument(document)
+                    setIsLoading(false)
+                })
+        } else {
+            setIsLoading(false)
+        }
+    }, [])
+
     const saveDocument = () => {
         setIsLoading(true);
-        if (docId) {
-            updateDoc({
-                id: parseInt(document.docId),
+        if (documentId) {
+            updateDocument({
+                id: parseInt(document.documentId), //issue with docId
                 leadId: parseInt(document.leadId),
                 isLetterSent: document.isLetterSent,
                 isPbSubmitted: document.isPbSubmitted,
@@ -76,18 +81,6 @@ export const DocumentForm = () => {
         }
 
     }
-
-    useEffect(() => {
-        if (docId) {
-            getDocById(docId)
-                .then(document => {
-                    setDocument(document)
-                    setIsLoading(false)
-                })
-        } else {
-            setIsLoading(false)
-        }
-    }, [])
 
     return (
 
@@ -150,7 +143,7 @@ export const DocumentForm = () => {
                     event.preventDefault()
                     saveDocument()
                 }}>
-                {docId ? <>Save Documents</> : <>Add Documents</>}</button>
+                {documentId ? <>Save Documents</> : <>Add Documents</>}</button>
         </form>
     )
 

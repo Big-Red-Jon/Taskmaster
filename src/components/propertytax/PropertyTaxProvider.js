@@ -12,26 +12,37 @@ export const PropertyTaxProvider = (props) => {
             .then(setPropertyTaxes)
     }
 
-    const addPropertyTax = propertytaxSelect => {
+    const addPropertyTax = propertyTaxSelect => {
         return fetch(`${URL}/data`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify(propertytaxSelect)
+            body: JSON.stringify(propertyTaxSelect)
         })
             .then(getPropertyTaxes)
     }
 
-    const deletePropertyTax = propertytaxId => {
-        return fetch(`${URL}/data/${propertytaxId}`, {
+    const updatePropertyTax = propertyTax => {
+        return fetch(`${URL}/data/${propertyTax.Jurisdiction && propertyTax.County}`, {
+            method: "PUT",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(propertyTax)
+        })
+            .then(getPropertyTaxes)
+    }
+
+    const deletePropertyTax = propertyTaxId => {
+        return fetch(`${URL}/data/${propertyTaxId}`, {
             method: "DELETE"
         })
             .then(getPropertyTaxes)
     }
 
-    const getPropertyTaxById = (propertytaxId) => {
-        return fetch(`${URL}/data/${propertytaxId}
+    const getPropertyTaxById = (propertyTaxId) => {
+        return fetch(`${URL}/data/${propertyTaxId}
         `)
             .then(res => res.json())
     }
@@ -39,7 +50,7 @@ export const PropertyTaxProvider = (props) => {
 
     return (
         <PropertyTaxContext.Provider value={{
-            propertyTaxes, getPropertyTaxes, addPropertyTax, deletePropertyTax, getPropertyTaxById
+            propertyTaxes, getPropertyTaxes, addPropertyTax, deletePropertyTax, getPropertyTaxById, updatePropertyTax
         }}>
             {props.children}
         </PropertyTaxContext.Provider>

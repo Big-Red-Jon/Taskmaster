@@ -25,7 +25,6 @@ export const RealtorList = () => {
 
     return (
         <>
-
             <h1>Realtors</h1>
             <section className="newButton">
                 <button onClick={() => history.push("/realtors/create")}>

@@ -30,9 +30,10 @@ export const TaskDetail = (props) => {
 
     return (
         <section>
-            <h3>{task.leadId.name}</h3>
+            <h3>{task.lead.name}</h3>
             <div>Task: {task.task} </div>
             <div>Due: {task.dueDate}</div>
+
             <div>Completed? {task.isComplete ? "Yes" : "No"} </div>
 
 

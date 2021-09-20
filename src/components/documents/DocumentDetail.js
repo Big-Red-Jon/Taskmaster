@@ -35,10 +35,12 @@ export const DocumentDetail = (props) => {
             <div>Bank Statement Received? {document.isBkSubmitted ? "Yes" : "No"}</div>
             <div>ID Received? {document.isDLSubmitted ? "Yes" : "No"}</div>
             <div>Social Security Received? {document.isSocialSubmitted ? "Yes" : "No"}</div>
-            <div>Preapproval Letter Sent? {document.isLetterSent ? "Yes" : "No"}</div>
+            <div>Pre-approval Letter Sent? {document.isLetterSent ? "Yes" : "No"}</div>
 
             <button onClick={handleRelease}>Delete List </button>
-
+            <button onClick={() => {
+                history.push(`/documents/edit/${document.id}`)
+            }}>Update Document List</button>
         </section>
     )
 

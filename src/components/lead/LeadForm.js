@@ -7,7 +7,8 @@ import 'react-phone-number-input/style.css'
 import PhoneInput from 'react-phone-number-input/input'
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import NumberFormat from 'react-number-format';
+// import NumberFormat from 'react-number-format';
+import moment from "moment";
 
 export const LeadForm = () => {
     const { addLead, getLeadById, updateLead } = useContext(LeadContext)
@@ -20,6 +21,8 @@ export const LeadForm = () => {
         preferredContact: "",
         notes: "",
         realtorId: 0,
+        dateLastCalled: "",
+        dateReceived: "",
         isPreapproved: false,
         docsComplete: false,
         lpId: 0,
@@ -29,8 +32,9 @@ export const LeadForm = () => {
     })
 
     const [value, setValue] = useState("")
-    const [callDate, setCallDate] = useState("")
-    const [receiveDate, setReceiveDate] = useState("")
+    // debugger
+    const [callDate, setCallDate] = useState(new Date())
+    const [receiveDate, setReceiveDate] = useState(new Date())
 
     const [isLoading, setIsLoading] = useState(true);
 
@@ -53,6 +57,23 @@ export const LeadForm = () => {
         getRealtors()
     }, [])
 
+    useEffect(() => {
+        if (leadId) {
+            getLeadById(leadId)
+                .then(lead => {
+                    setLead(lead)
+                    setCallDate(Date.parse(lead.dateLastCalled.substring(0, 10).replace("-", "/")))
+                    setReceiveDate(Date.parse(lead.dateReceived.substring(0, 10).replace("-", "/")))
+                    setIsLoading(false)
+                })
+        } else {
+            setIsLoading(false)
+        }
+    }, [])
+
+    // const dateChoice = Date.parse(lead.dateLastCalled.substring(0, 10).replace("-", "/"))
+
+
     const saveLead = () => {
         setIsLoading(true);
         if (leadId) {
@@ -65,8 +86,8 @@ export const LeadForm = () => {
                 notes: lead.notes,
                 realtorId: parseInt(lead.realtorId),
                 dateLastCalled: lead.dateLastCalled,
-                dateLastCalled: callDate,
-                dateReceived: receiveDate,
+                dateLastCalled: callDate || lead.dateLastCalled,
+                dateReceived: receiveDate || lead.dateReceived,
                 isPreapproved: lead.isPreapproved,
                 docsComplete: lead.docsComplete,
                 lpId: 1,
@@ -84,8 +105,8 @@ export const LeadForm = () => {
                 preferredContact: lead.preferredContact,
                 notes: lead.notes,
                 realtorId: parseInt(lead.realtorId),
-                dateLastCalled: callDate,
-                dateReceived: receiveDate,
+                dateLastCalled: callDate || lead.dateLastCalled,
+                dateReceived: receiveDate || lead.dateReceived,
                 isPreapproved: lead.isPreapproved,
                 docsComplete: lead.docsComplete,
                 lpId: 1,
@@ -97,17 +118,7 @@ export const LeadForm = () => {
 
     }
 
-    useEffect(() => {
-        if (leadId) {
-            getLeadById(leadId)
-                .then(lead => {
-                    setLead(lead)
-                    setIsLoading(false)
-                })
-        } else {
-            setIsLoading(false)
-        }
-    }, [])
+
 
     return (
 
