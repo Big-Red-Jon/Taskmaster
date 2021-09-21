@@ -27,10 +27,13 @@ export const LeadProvider = (props) => {
     }
 
     const updateLead = lead => {
+        lead.lastDateCalled = new Date(lead.lastDateCalled)
+        lead.dateReceived = new Date(lead.dateReceived)
         return fetch(`${URL}/leads/${lead.id}`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json"
+
             },
             body: JSON.stringify(lead)
         })

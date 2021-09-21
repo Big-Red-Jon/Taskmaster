@@ -1,4 +1,5 @@
 import React, { useState, createContext } from "react"
+import { LeadContext } from "../lead/LeadProvider"
 
 export const DocumentContext = createContext()
 const URL = "http://localhost:8088"
@@ -26,7 +27,7 @@ export const DocumentProvider = (props) => {
 
     const updateDocument = document => {
         return fetch(`${URL}/documents/${document.id}`, {
-            method: "PUT",
+            method: "PATCH",
             header: {
                 "Content-Type": "application/json"
             },

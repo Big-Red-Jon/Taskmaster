@@ -27,6 +27,7 @@ export const TaskProvider = (props) => {
     }
 
     const updateTask = task => {
+        task.dueDate = new Date(task.dueDate)
         return fetch(`${URL}/tasks/${task.id}`, {
             method: "PUT",
             headers: {

@@ -50,7 +50,7 @@ export const TaskForm = () => {
             addTask({
                 task: task.task,
                 leadId: parseInt(task.leadId),
-                dueDate: dueDate,
+                dueDate: dueDate || task.dueDate,
                 isComplete: task.isComplete
 
             })
@@ -64,6 +64,7 @@ export const TaskForm = () => {
             getTaskById(taskId)
                 .then(task => {
                     setTask(task)
+                    setDueDate(Date.parse(task.dueDate.substring(0, 10).replace("-", "/")))
                     setIsLoading(false)
                 })
         } else {

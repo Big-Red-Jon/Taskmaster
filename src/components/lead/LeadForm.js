@@ -8,6 +8,7 @@ import PhoneInput from 'react-phone-number-input/input'
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 // import NumberFormat from 'react-number-format';
+
 import moment from "moment";
 
 export const LeadForm = () => {
@@ -26,18 +27,16 @@ export const LeadForm = () => {
         isPreapproved: false,
         docsComplete: false,
         lpId: 0,
-        docsId: 0,
         underContract: false,
         isApptSet: false
     })
 
+    const FORMAT = "MM/dd/yyyy"
     const [value, setValue] = useState("")
     // debugger
     const [callDate, setCallDate] = useState(new Date())
     const [receiveDate, setReceiveDate] = useState(new Date())
-
     const [isLoading, setIsLoading] = useState(true);
-
     const { leadId } = useParams();
     const history = useHistory();
 
@@ -119,7 +118,6 @@ export const LeadForm = () => {
     }
 
 
-
     return (
 
         <form className="lead--form" >
@@ -143,13 +141,14 @@ export const LeadForm = () => {
                 </div>
             </fieldset>
             <fieldset>
-                <div>
+                <div >
                     <label htmlFor="phone">Phone:</label><br />
                     <PhoneInput country="US" className="form--item" id="phone" name="phone" required autoFocus
                         placeholder="Enter phone number"
                         value={lead.phone || value}
                         onChange={setValue}
-                        defaultValue={lead.phone} />
+                        defaultValue={lead.phone}
+                    />
                 </div>
             </fieldset>
             <fieldset>
@@ -191,13 +190,13 @@ export const LeadForm = () => {
             <fieldset>
                 <div className="form-group">
                     <label htmlFor="dateLastCalled"> Date Last Called: </label>
-                    <DatePicker id="dateLastCalled" selected={callDate} onChange={(date) => setCallDate(date)} />
+                    <DatePicker id="dateLastCalled" dateFormat={FORMAT} selected={callDate} onChange={(FORMAT) => setCallDate(FORMAT)} />
                 </div>
             </fieldset>
             <fieldset>
                 <div className="form-group">
                     <label htmlFor="dateReceived"> Date Received: </label>
-                    <DatePicker id="dateReceived" selected={receiveDate} onChange={(date) => setReceiveDate(date)} />
+                    <DatePicker id="dateReceived" dateFormat={FORMAT} selected={receiveDate} onChange={(FORMAT) => setReceiveDate(FORMAT)} />
                 </div>
             </fieldset>
             <fieldset>

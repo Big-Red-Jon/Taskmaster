@@ -3,6 +3,7 @@ import { RealtorContext } from "./RealtorProvider"
 import "./Realtor.css"
 import { useParams } from "react-router-dom"
 import { useHistory } from "react-router-dom"
+import { formatPhoneNumber } from 'react-phone-number-input'
 
 export const RealtorDetail = (props) => {
     const { realtors, deleteRealtor } = useContext(RealtorContext)
@@ -26,7 +27,7 @@ export const RealtorDetail = (props) => {
     return (
         <section className="realtor">
             <h4>{realtor.name}</h4>
-            <div>Phone: {realtor.phone}</div>
+            <div>Phone: {formatPhoneNumber(realtor.phone)}</div>
             <div>Email: {realtor.email}</div>
 
             <button onClick={handleRelease}>Delete Realtor </button>
