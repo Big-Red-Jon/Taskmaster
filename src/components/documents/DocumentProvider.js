@@ -26,9 +26,10 @@ export const DocumentProvider = (props) => {
     }
 
     const updateDocument = document => {
+        // debugger
         return fetch(`${URL}/documents/${document.id}`, {
             method: "PATCH",
-            header: {
+            headers: {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify(document)

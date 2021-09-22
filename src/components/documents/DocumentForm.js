@@ -56,7 +56,7 @@ export const DocumentForm = () => {
         setIsLoading(true);
         if (documentId) {
             updateDocument({
-                id: parseInt(documentId), //issue with docId
+                id: parseInt(documentId),
                 leadId: parseInt(document.leadId),
                 isLetterSent: document.isLetterSent,
                 isPbSubmitted: document.isPbSubmitted,

@@ -33,7 +33,6 @@ export const LeadForm = () => {
 
     const FORMAT = "MM/dd/yyyy"
     const [value, setValue] = useState("")
-    // debugger
     const [callDate, setCallDate] = useState(new Date())
     const [receiveDate, setReceiveDate] = useState(new Date())
     const [isLoading, setIsLoading] = useState(true);
@@ -84,7 +83,6 @@ export const LeadForm = () => {
                 preferredContact: lead.preferredContact,
                 notes: lead.notes,
                 realtorId: parseInt(lead.realtorId),
-                dateLastCalled: lead.dateLastCalled,
                 dateLastCalled: callDate || lead.dateLastCalled,
                 dateReceived: receiveDate || lead.dateReceived,
                 isPreapproved: lead.isPreapproved,
@@ -174,6 +172,7 @@ export const LeadForm = () => {
             </fieldset>
             <fieldset>
                 <div>
+                    {/* <option value="" disabled selected>Select your option</option> */}
                     <label htmlFor="realtorId">Realtor: </label> <br />
                     <select id="realtorId" onChange={editInputChange} defaultValue={lead.realtorId}>
                         {realtors.map(realtor => (

@@ -28,6 +28,7 @@ export const RealtorProvider = (props) => {
     }
 
     const updateRealtor = realtor => {
+        realtor.dateLastCalled = new Date(realtor.dateLastCalled)
         return fetch(`${URL}/realtors/${realtor.id}`, {
             method: "PUT",
             headers: {
@@ -40,7 +41,7 @@ export const RealtorProvider = (props) => {
 
     const deleteRealtor = realtorId => {
         return fetch(`${URL}/realtors/${realtorId}`, {
-            method: "Delete"
+            method: "DELETE"
         })
             .then(getRealtors)
     }

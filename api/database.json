@@ -66,14 +66,13 @@
       "preferredContact": "email",
       "notes": "Ready to purchase in January",
       "realtorId": 3,
-      "dateLastCalled": "2021-09-10T05:00:00.000Z",
-      "dateReceived": "2021-09-11T05:00:00.000Z",
+      "dateLastCalled": "2021-09-02T05:00:00.000Z",
+      "dateReceived": "2021-10-30T05:00:00.000Z",
       "isPreapproved": true,
-      "docsComplete": false,
+      "docsComplete": true,
       "lpId": 1,
-      "underContract": true,
-      "isApptSet": true,
-      "lastDateCalled": null
+      "underContract": false,
+      "isApptSet": false
     },
     {
       "id": 2,
@@ -163,7 +162,7 @@
       "name": "Sobek",
       "email": "Sobek@yahoo.com",
       "phone": "+18989898989",
-      "dateLastCalled": "2021-09-18T00:53:57.467Z",
+      "dateLastCalled": "2021-09-14T05:00:00.000Z",
       "office": "Ancient Egypt Realtors",
       "preferredContact": "Phone"
     },
@@ -199,12 +198,12 @@
     {
       "id": 1,
       "leadId": 1,
-      "isLetterSent": true,
-      "isPbSubmitted": true,
+      "isLetterSent": false,
+      "isPbSubmitted": false,
       "isBkSubmitted": false,
-      "isDLSubmitted": true,
+      "isDLSubmitted": false,
       "isSocialSubmitted": false,
-      "isTaxSubmitted": true
+      "isTaxSubmitted": false
     },
     {
       "id": 2,

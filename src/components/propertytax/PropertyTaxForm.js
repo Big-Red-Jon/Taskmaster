@@ -93,6 +93,22 @@ export const PropertyTaxForm = () => {
                     </select>
                 </div>
             </fieldset>
+            <fieldset>
+                <div>
+                    <label htmlFor="City">What City is the property in? </label> < br />
+                    <select name="City" id="City" onChange={editInputChange}
+                        defaultValue={propertyTax.City} >
+                        {propertyTaxes.map(propertyTax => (
+                            <option
+                                key={propertyTax.Jurisdiction}
+                                value={propertyTax.Jurisdiction}
+                            >
+                                {propertyTax.City}
+                            </option>
+                        ))}
+                    </select>
+                </div>
+            </fieldset>
 
             {/* <fieldset>
                 <div>

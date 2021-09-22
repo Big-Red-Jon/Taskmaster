@@ -16,7 +16,7 @@ export const TaskList = () => {
     useEffect(() => {
         if (searchTerms !== "") {
 
-            const subset = tasks.filter(task => task.task.toLowerCase().includes(searchTerms))
+            const subset = tasks.filter(task => task.lead.name.toLowerCase().includes(searchTerms))
             setFiltered(subset)
         } else {
             setFiltered(tasks)

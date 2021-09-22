@@ -27,7 +27,7 @@ export const LeadProvider = (props) => {
     }
 
     const updateLead = lead => {
-        lead.lastDateCalled = new Date(lead.lastDateCalled)
+        lead.dateLastCalled = new Date(lead.dateLastCalled)
         lead.dateReceived = new Date(lead.dateReceived)
         return fetch(`${URL}/leads/${lead.id}`, {
             method: "PUT",

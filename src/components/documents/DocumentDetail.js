@@ -3,13 +3,12 @@ import { DocumentContext } from "./DocumentProvider"
 import "./Document.css"
 import { useParams } from "react-router-dom"
 import { useHistory } from "react-router-dom"
+import { LeadContext } from "../lead/LeadProvider"
 
 export const DocumentDetail = (props) => {
-    const { documents } = useContext(DocumentContext)
-    const { deleteDocument } = useContext(DocumentContext)
+    const { documents, getDocuments, deleteDocument } = useContext(DocumentContext)
+    const { getLeads } = useContext(LeadContext)
     const [document, setDocument] = useState(props.document || { lead: {} })
-
-
     const { documentId } = useParams();
     const history = useHistory()
 
@@ -19,17 +18,24 @@ export const DocumentDetail = (props) => {
                 history.push("/documents")
             })
     }
+    useEffect(() => {
+        getDocuments().then(getLeads())
+    }, [])
+
+
 
     useEffect(() => {
         if (!props.document) {
-            const thisDocument = documents.find(document => document.id === parseInt(documentId)) || { lead: {} }
+            const thisDocument = documents.find(document => document.id === parseInt(documentId)) || {
+                lead: {}
+            }
             setDocument(thisDocument)
         }
     }, [documentId])
 
     return (
         <section className="document">
-            <h4>{document.lead.name}</h4>
+            <h4>{document.lead.name} Documentation Checklist</h4>
             <div>Taxes Received? {document.isTaxSubmitted ? "Yes" : "No"}</div>
             <div>Paystubs Received? {document.isPbSubmitted ? "Yes" : "No"}</div>
             <div>Bank Statement Received? {document.isBkSubmitted ? "Yes" : "No"}</div>

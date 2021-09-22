@@ -94,10 +94,11 @@ export const ApplicationViews = () => {
                                 <Route path="/documents/create">
                                     <DocumentForm />
                                 </Route>
+
                                 <Route exact path="/Calculators">
                                     <PropertyTaxList />
                                 </Route>
-                                <Route exact path="/Calculators/detail/:propertyTaxId(\d+">
+                                <Route exact path="/Calculators/detail/:propertyTaxId(\d+)">
                                     <PropertyTaxDetail />
                                 </Route>
 
