@@ -19,7 +19,7 @@ export const RealtorDetail = (props) => {
 
     useEffect(() => {
         if (!props.realtor) {
-            const thisRealtor = realtors.find(realtor => realtor.id === parseInt(realtorId)) || { realtor: {} }
+            const thisRealtor = realtors.find(realtor => realtor.id === parseInt(realtorId))
             setRealtor(thisRealtor)
         }
     }, [realtorId])
@@ -29,6 +29,7 @@ export const RealtorDetail = (props) => {
             <h4>{realtor.name}</h4>
             <div>Phone: {formatPhoneNumber(realtor.phone)}</div>
             <div>Email: {realtor.email}</div>
+            <div>Agency: {realtor.office}</div>
 
             <button onClick={handleRelease}>Delete Realtor </button>
             <button onClick={() => {

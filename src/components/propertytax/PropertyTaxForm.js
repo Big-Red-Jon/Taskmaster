@@ -17,18 +17,19 @@ export const PropertyTaxForm = () => {
     const history = useHistory();
 
 
-    const [selected, setSelected] = React.useState("");
+    // const [selected, setSelected] = React.useState("");
 
 
-    const changeSelectOptionHandler = (event) => {
-        setSelected(event.target.value);
-    };
+    // const changeSelectOptionHandler = (event) => {
+    //     setSelected(event.target.value);
+    // };
+
+    // useEffect(() => {
+
+    // }, [])
 
     useEffect(() => {
         getTaxesByCounty()
-    }, [])
-
-    useEffect(() => {
         if (propertyTaxId) {
             getPropertyTaxById(propertyTaxId)
                 .then(propertyTax => {
@@ -40,38 +41,38 @@ export const PropertyTaxForm = () => {
         }
     }, [])
 
-    /** Different arrays for different dropdowns */
-    const countyChoice = [propertyTax.County]
-    const cityChoice = [propertyTax.City]
-    const specialSchoolDistrictChoice = [propertyTax.SpecialSchoolDistrict]
+    // /** Different arrays for different dropdowns */
+    // const countyChoice = [propertyTaxes.County]
+    // const cityChoice = [propertyTaxes.City]
+    // const specialSchoolDistrictChoice = [propertyTaxes.SpecialSchoolDistrict]
 
-    /** Type variable to store different array for different dropdown */
-    let type = null;
+    // /** Type variable to store different array for different dropdown */
+    // let type = null;
 
-    /** This will be used to create set of options that user will see */
-    let options = null;
+    // /** This will be used to create set of options that user will see */
+    // let options = null;
 
-    /** Setting Type variable according to dropdown */
-    if (selected === propertyTax.County) {
-        type = countyChoice;
-    } else if (selected === propertyTax.City) {
-        type = cityChoice;
-    } else if (selected === propertyTax.SpecialSchoolDistrict) {
-        type = specialSchoolDistrictChoice;
-    }
+    // /** Setting Type variable according to dropdown */
+    // if (selected === propertyTax.County) {
+    //     type = countyChoice;
+    // } else if (selected === propertyTax.City) {
+    //     type = cityChoice;
+    // } else if (selected === propertyTax.SpecialSchoolDistrict) {
+    //     type = specialSchoolDistrictChoice;
+    // }
 
-    /** If "Type" is null or undefined then options will be null,
-     * otherwise it will create a options iterable based on our array
-     */
-    if (type) {
-        options = type.map((el) => <option key={el}>{el}</option>);
-    }
+    // /** If "Type" is null or undefined then options will be null,
+    //  * otherwise it will create a options iterable based on our array
+    //  */
+    // if (type) {
+    //     options = type.map((el) => <option key={el}>{el}</option>);
+    // }
 
     const savePropertyTax = () => {
         setIsLoading(true);
         if (propertyTaxId) {
             updatePropertyTax({
-                Jurisdiction: propertyTax.Jurisdiction,
+                Jurisdiction: propertyTaxes.Jurisdiction,
                 CityRate: propertyTax.CityRate,
                 SpecialSchoolDistrict: propertyTax.SpecialSchoolDistrict,
                 CountyRate: propertyTax.CountyRate,
@@ -113,11 +114,11 @@ export const PropertyTaxForm = () => {
                     />
                 </div>
             </fieldset>
-            <fieldset>
+            {/* <fieldset>
                 <div>
                     <label htmlFor="County">What County is the property in? </label> < br />
                     <select name="County" id="County" onChange={changeSelectOptionHandler}
-                        defaultValue={propertyTax.County} >
+                        defaultValue={propertyTaxes.County} >
                         {propertyTaxes.map(propertyTax => (
                             <option
                                 key={propertyTax.Jurisdiction}
@@ -128,12 +129,12 @@ export const PropertyTaxForm = () => {
                         ))}
                     </select>
                 </div>
-            </fieldset>
-            <fieldset>
+            </fieldset> */}
+            {/* <fieldset>
                 <div>
                     <label htmlFor="City">What City is the property in? </label> < br />
                     <select name="City" id="City" onChange={changeSelectOptionHandler}
-                        defaultValue={propertyTax.City} >
+                        defaultValue={propertyTaxes.City} >
                         {propertyTaxes.map(propertyTax => (
                             <option
                                 key={propertyTax.Jurisdiction}
@@ -144,7 +145,7 @@ export const PropertyTaxForm = () => {
                         ))}
                     </select>
                 </div>
-            </fieldset>
+            </fieldset> */}
 
             {/* <fieldset>
                 <div>

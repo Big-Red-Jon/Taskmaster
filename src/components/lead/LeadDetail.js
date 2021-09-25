@@ -11,7 +11,7 @@ export const LeadDetail = (props) => {
     const { leads } = useContext(LeadContext)
     const { deleteLead } = useContext(LeadContext)
     const [lead, setLead] = useState(props.lead || { loanPartner: {} })
-    const { documents, getDocuments } = useContext(DocumentContext)
+    const { getDocuments } = useContext(DocumentContext)
     const { leadId } = useParams();
     const history = useHistory()
 
@@ -22,11 +22,12 @@ export const LeadDetail = (props) => {
             })
     }
 
-    useEffect(() => {
-        getDocuments()
-    }, [])
+    // useEffect(() => {
+    //     getDocuments()
+    // }, [])
 
     useEffect(() => {
+        getDocuments()
         console.log(props);
         if (!props.lead) {
             const thisLead = leads.find(lead => lead.id === parseInt(leadId)) || { loanPartner: {} }
