@@ -30,6 +30,7 @@ export const RealtorDetail = (props) => {
             <div>Phone: {formatPhoneNumber(realtor.phone)}</div>
             <div>Email: {realtor.email}</div>
             <div>Agency: {realtor.office}</div>
+            <div>Last Contact: {realtor.dateLastCalled}</div>
 
             <button onClick={handleRelease}>Delete Realtor </button>
             <button onClick={() => {

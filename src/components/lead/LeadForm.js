@@ -174,7 +174,7 @@ export const LeadForm = () => {
                 <div>
                     {/* <option value="" disabled selected>Select your option</option> */}
                     <label htmlFor="realtorId">Realtor: </label> <br />
-                    <select id="realtorId" className="form--item" onChange={editInputChange} defaultValue={lead.realtorId}>
+                    <select id="realtorId" className="form--item" onChange={editInputChange} defaultValue={parseInt(lead.realtorId)}>
                         {realtors.map(realtor => (
                             <option
                                 key={realtor.id}
