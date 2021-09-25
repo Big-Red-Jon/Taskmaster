@@ -16,8 +16,8 @@ export const PropertyTaxDetail = (props) => {
                 <div>
                     {/* <h5>County: {props.County}</h5> */}
                     <div>County Rate: {props.CountyRate}</div>
-                    <h5>City: {props.City}</h5>
-                    <div>City Rate: {props.CityRate}</div>
+                    <div>City: {props.City}</div>
+                    <div>City Rate: {props.CityRate}</div><br />
                     <button onClick={() => {
                         history.push(`/Calculators/${props.County}/${props.City}`)
                     }}>View</button>

@@ -89,7 +89,7 @@ export const TaskForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="leadId">Lead Assigned: </label> <br />
-                    <select id="leadId" onChange={editInputChange} defaultValue={task.leadId}>
+                    <select className="form--item" id="leadId" onChange={editInputChange} defaultValue={task.leadId}>
                         {leads.map(lead => (
                             <option
                                 key={lead.id}
@@ -119,7 +119,7 @@ export const TaskForm = () => {
             <fieldset>
                 <div className="form-group">
                     <label htmlFor="dueDate"> Date Last Called: </label>
-                    <DatePicker id="dueDate" selected={dueDate} onChange={(date) => setDueDate(date)} />
+                    <DatePicker className="form--item" id="dueDate" selected={dueDate} onChange={(date) => setDueDate(date)} />
                 </div>
             </fieldset>
             <fieldset>

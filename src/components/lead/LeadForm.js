@@ -152,7 +152,7 @@ export const LeadForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="preferredContact">Preferred Method of Contact</label> < br />
-                    <select name="preferredContact" id="preferredContact" onChange={editInputChange}
+                    <select name="preferredContact" className="form--item" id="preferredContact" onChange={editInputChange}
                         defaultValue={lead.preferredContact} >
                         <option value="Email">Email</option>
                         <option value="Phone">Phone</option>
@@ -163,7 +163,7 @@ export const LeadForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="notes">Notes: <br />
-                        <textarea className="form--item" type="text" id="notes" name="notes" required autoFocus
+                        <textarea type="text" id="notes" name="notes" required autoFocus
                             placeholder="Notes on Lead"
                             onChange={editInputChange}
                             defaultValue={lead.notes} />
@@ -174,7 +174,7 @@ export const LeadForm = () => {
                 <div>
                     {/* <option value="" disabled selected>Select your option</option> */}
                     <label htmlFor="realtorId">Realtor: </label> <br />
-                    <select id="realtorId" onChange={editInputChange} defaultValue={lead.realtorId}>
+                    <select id="realtorId" className="form--item" onChange={editInputChange} defaultValue={lead.realtorId}>
                         {realtors.map(realtor => (
                             <option
                                 key={realtor.id}
@@ -189,13 +189,13 @@ export const LeadForm = () => {
             <fieldset>
                 <div className="form-group">
                     <label htmlFor="dateLastCalled"> Date Last Called: </label>
-                    <DatePicker id="dateLastCalled" dateFormat={FORMAT} selected={callDate} onChange={(FORMAT) => setCallDate(FORMAT)} />
+                    <DatePicker className="form--item" id="dateLastCalled" dateFormat={FORMAT} selected={callDate} onChange={(FORMAT) => setCallDate(FORMAT)} />
                 </div>
             </fieldset>
             <fieldset>
                 <div className="form-group">
                     <label htmlFor="dateReceived"> Date Received: </label>
-                    <DatePicker id="dateReceived" dateFormat={FORMAT} selected={receiveDate} onChange={(FORMAT) => setReceiveDate(FORMAT)} />
+                    <DatePicker className="form--item" id="dateReceived" dateFormat={FORMAT} selected={receiveDate} onChange={(FORMAT) => setReceiveDate(FORMAT)} />
                 </div>
             </fieldset>
             <fieldset>

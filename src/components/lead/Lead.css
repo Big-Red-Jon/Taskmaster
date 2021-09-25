@@ -1,3 +1,7 @@
+h1 {
+    text-align: center;
+}
+
 .lead {
     text-align: center;
     flex-basis: 28%;
@@ -12,3 +16,16 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.input--wider {
+    width: 70%;
+    margin: 0.2em;
+  }
+  
+  .lead--form{
+      text-align: left;
+      margin: 1rem;
+      
+  }
+  
+ 

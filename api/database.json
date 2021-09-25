@@ -208,8 +208,8 @@
     {
       "id": 2,
       "leadId": 2,
-      "isLetterSent": true,
-      "isPbSubmitted": true,
+      "isLetterSent": false,
+      "isPbSubmitted": false,
       "isBkSubmitted": false,
       "isDLSubmitted": true,
       "isSocialSubmitted": false,
@@ -244,16 +244,6 @@
       "isSocialSubmitted": true,
       "isTaxSubmitted": true,
       "id": 5
-    },
-    {
-      "leadId": 6,
-      "isLetterSent": false,
-      "isPbSubmitted": true,
-      "isBkSubmitted": false,
-      "isDLSubmitted": false,
-      "isSocialSubmitted": true,
-      "isTaxSubmitted": true,
-      "id": 6
     }
   ]
 }

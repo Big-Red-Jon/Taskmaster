@@ -89,7 +89,7 @@ export const DocumentForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="leadId">Lead: </label> <br />
-                    <select id="leadId" onChange={editInputChange} defaultValue={document.leadId}>
+                    <select className="form--item" id="leadId" onChange={editInputChange} defaultValue={document.leadId}>
                         {leads.map(lead => (
                             <option
                                 key={lead.id}
