@@ -1,0 +1,14 @@
+.lead {
+    text-align: center;
+    flex-basis: 28%;
+      margin: 1em;
+      padding: 1em;
+      border: 1px dotted silver;
+}
+
+.leads{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

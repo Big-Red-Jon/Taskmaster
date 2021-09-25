@@ -30,7 +30,7 @@ export const TaskList = () => {
             <button onClick={() => history.push("/tasks/create")}>
                 Add New Task
             </button>
-            <div>
+            <div className="tasks">
                 {
                     filteredTasks.map(task => {
                         return <TaskDetail key={task.id} task={task} />

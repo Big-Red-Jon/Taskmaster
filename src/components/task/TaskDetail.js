@@ -29,7 +29,7 @@ export const TaskDetail = (props) => {
 
 
     return (
-        <section>
+        <section className="task" >
             <h3>{task.lead.name}</h3>
             <div>Task: {task.task} </div>
             <div>Due: {task.dueDate}</div>
@@ -42,7 +42,7 @@ export const TaskDetail = (props) => {
                 history.push(`/tasks/edit/${task.id}`)
             }}>Update Task</button>
 
-        </section>
+        </section >
     )
 }
 

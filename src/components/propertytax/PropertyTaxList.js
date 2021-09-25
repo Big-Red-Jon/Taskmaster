@@ -15,7 +15,7 @@ export const PropertyTaxList = () => {
 
     return (
         <>
-            <h1>PropertyTaxes</h1>
+            <h1 className="propertyTaxes">PropertyTaxes</h1>
             <button className="newButton" onClick={() => history.push("/Calculators/create")}>
                 Calculate a Property Tax
             </button>
