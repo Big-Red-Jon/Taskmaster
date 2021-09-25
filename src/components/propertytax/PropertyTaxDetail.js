@@ -1,13 +1,12 @@
-import React, { useContext, useEffect, useState } from "react"
-import { PropertyTaxContext } from "./PropertyTaxProvider"
+// import React, { useContext, useEffect, useState } from "react"
+// import { PropertyTaxContext } from "./PropertyTaxProvider"
 import "./PropertyTax.css"
 // import { useParams } from "react-router-dom"
 import { useHistory } from "react-router-dom"
 
 export const PropertyTaxDetail = (props) => {
-    const { propertyTaxes } = useContext(PropertyTaxContext)
-    const [propertyTax, setPropertyTax] = useState(props.propertyTax)
-    //look at props.propertyTax
+    // const { propertyTaxes } = useContext(PropertyTaxContext)
+    // const [propertyTax, setPropertyTax] = useState(props.propertyTax)
     // const { propertyTaxId } = useParams();
     const history = useHistory()
 
