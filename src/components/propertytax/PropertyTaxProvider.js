@@ -1,48 +1,58 @@
 import React, { useState, createContext } from "react"
 
 export const PropertyTaxContext = createContext()
-const URL = "https://comptroller.tn.gov/office-functions/pa/tax-resources/assessment-information-for-each-county/property-tax-rates/2020/_jcr_content/content/tn_complex_datatable_255281325.apidriven.2020.json?_=1631060688033"
+const URL = "http://localhost:8010/proxy/office-functions/pa/tax-resources/assessment-information-for-each-county/property-tax-rates/2020/_jcr_content/content/tn_complex_datatable_255281325.apidriven.2020.json?_=1631060688033"
 
 export const PropertyTaxProvider = (props) => {
     const [propertyTaxes, setPropertyTaxes] = useState([])
 
-    const getPropertyTaxes = () => {
-        return fetch(`${URL}/data`)
+    const groupByCounties = (array, key) => {
+        return array.reduce((result, currentValue) => {
+            (result[currentValue[key]] = result[currentValue[key]] || []).push(
+                currentValue
+            );
+            return result;
+        }, {})
+    }
+
+    const getTaxesByCounty = () => {
+        return fetch(`${URL}`)
             .then(res => res.json())
-            .then(setPropertyTaxes)
+            .then(res => setPropertyTaxes(groupByCounties(res.data, "County"))
+            )
     }
 
     const addPropertyTax = propertyTaxSelect => {
-        return fetch(`${URL}/data`, {
+        return fetch(`${URL}`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify(propertyTaxSelect)
         })
-            .then(getPropertyTaxes)
+            .then(getTaxesByCounty)
     }
 
     const updatePropertyTax = propertyTax => {
-        return fetch(`${URL}/data/${propertyTax.Jurisdiction && propertyTax.County}`, {
+        return fetch(`${URL}/${propertyTax.Jurisdiction && propertyTax.County}`, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify(propertyTax)
         })
-            .then(getPropertyTaxes)
+            .then(getTaxesByCounty)
     }
 
     const deletePropertyTax = propertyTaxId => {
-        return fetch(`${URL}/data/${propertyTaxId}`, {
+        return fetch(`${URL}/${propertyTaxId}`, {
             method: "DELETE"
         })
-            .then(getPropertyTaxes)
+            .then(getTaxesByCounty)
     }
 
-    const getPropertyTaxById = (propertyTaxId) => {
-        return fetch(`${URL}/data/${propertyTaxId}
+    const getPropertyTaxById = (propertyTaxCounty) => {
+        return fetch(`${URL}/${propertyTaxCounty}
         `)
             .then(res => res.json())
     }
@@ -50,7 +60,7 @@ export const PropertyTaxProvider = (props) => {
 
     return (
         <PropertyTaxContext.Provider value={{
-            propertyTaxes, getPropertyTaxes, addPropertyTax, deletePropertyTax, getPropertyTaxById, updatePropertyTax
+            propertyTaxes, getTaxesByCounty, addPropertyTax, deletePropertyTax, getPropertyTaxById, updatePropertyTax
         }}>
             {props.children}
         </PropertyTaxContext.Provider>

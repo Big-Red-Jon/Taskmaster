@@ -98,7 +98,7 @@ export const ApplicationViews = () => {
                                 <Route exact path="/Calculators">
                                     <PropertyTaxList />
                                 </Route>
-                                <Route exact path="/Calculators/detail/:propertyTaxId(\d+)">
+                                <Route exact path="/Calculators/:County/:City">
                                     <PropertyTaxDetail />
                                 </Route>
 

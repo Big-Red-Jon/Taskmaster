@@ -7,8 +7,7 @@ import { useHistory, useParams } from 'react-router-dom';
 
 export const PropertyTaxForm = () => {
     const { addPropertyTax, getPropertyTaxById, updatePropertyTax } = useContext(PropertyTaxContext)
-    const { leads, getLeads } = useContext(LeadContext)
-    const { propertyTaxes, getPropertyTaxes } = useContext(PropertyTaxContext)
+    const { propertyTaxes, getTaxesByCounty } = useContext(PropertyTaxContext)
     const [propertyTax, setPropertyTax] = useState({})
 
 
@@ -18,14 +17,15 @@ export const PropertyTaxForm = () => {
     const history = useHistory();
 
 
-    const editInputChange = (event) => {
-        const newPropertyTax = { ...propertyTax }
-        newPropertyTax[event.target.id] = event.target.value
-        setPropertyTax(newPropertyTax)
-    }
+    const [selected, setSelected] = React.useState("");
+
+
+    const changeSelectOptionHandler = (event) => {
+        setSelected(event.target.value);
+    };
 
     useEffect(() => {
-        getLeads()
+        getTaxesByCounty()
     }, [])
 
     useEffect(() => {
@@ -39,6 +39,33 @@ export const PropertyTaxForm = () => {
             setIsLoading(false)
         }
     }, [])
+
+    /** Different arrays for different dropdowns */
+    const countyChoice = [propertyTax.County]
+    const cityChoice = [propertyTax.City]
+    const specialSchoolDistrictChoice = [propertyTax.SpecialSchoolDistrict]
+
+    /** Type variable to store different array for different dropdown */
+    let type = null;
+
+    /** This will be used to create set of options that user will see */
+    let options = null;
+
+    /** Setting Type variable according to dropdown */
+    if (selected === propertyTax.County) {
+        type = countyChoice;
+    } else if (selected === propertyTax.City) {
+        type = cityChoice;
+    } else if (selected === propertyTax.SpecialSchoolDistrict) {
+        type = specialSchoolDistrictChoice;
+    }
+
+    /** If "Type" is null or undefined then options will be null,
+     * otherwise it will create a options iterable based on our array
+     */
+    if (type) {
+        options = type.map((el) => <option key={el}>{el}</option>);
+    }
 
     const savePropertyTax = () => {
         setIsLoading(true);
@@ -76,16 +103,25 @@ export const PropertyTaxForm = () => {
     return (
 
         <form className="propertyTax--form" >
+
             <h2>Create New Property Tax Amount</h2>
             <fieldset>
                 <div>
+                    <label htmlFor="Price">Asking Price</label><br />
+                    <input className="form--item" type="text" id="price" name="price" required autoFocus
+                        placeholder="Asking Price On Property"
+                    />
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
                     <label htmlFor="County">What County is the property in? </label> < br />
-                    <select name="County" id="County" onChange={editInputChange}
+                    <select name="County" id="County" onChange={changeSelectOptionHandler}
                         defaultValue={propertyTax.County} >
                         {propertyTaxes.map(propertyTax => (
                             <option
                                 key={propertyTax.Jurisdiction}
-                                value={propertyTax.Jurisdiction}
+                                value={propertyTax.County}
                             >
                                 {propertyTax.County}
                             </option>
@@ -96,12 +132,12 @@ export const PropertyTaxForm = () => {
             <fieldset>
                 <div>
                     <label htmlFor="City">What City is the property in? </label> < br />
-                    <select name="City" id="City" onChange={editInputChange}
+                    <select name="City" id="City" onChange={changeSelectOptionHandler}
                         defaultValue={propertyTax.City} >
                         {propertyTaxes.map(propertyTax => (
                             <option
                                 key={propertyTax.Jurisdiction}
-                                value={propertyTax.Jurisdiction}
+                                value={propertyTax.City}
                             >
                                 {propertyTax.City}
                             </option>
@@ -137,3 +173,6 @@ export const PropertyTaxForm = () => {
     )
 
 }
+
+
+

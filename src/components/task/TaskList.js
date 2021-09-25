@@ -9,11 +9,12 @@ export const TaskList = () => {
     const [filteredTasks, setFiltered] = useState([])
     const history = useHistory()
 
-    useEffect(() => {
-        getTasks()
-    }, [])
+    // useEffect(() => {
+
+    // }, [])
 
     useEffect(() => {
+        getTasks()
         if (searchTerms !== "") {
 
             const subset = tasks.filter(task => task.lead.name.toLowerCase().includes(searchTerms))
