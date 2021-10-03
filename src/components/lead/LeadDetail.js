@@ -8,8 +8,7 @@ import { formatPhoneNumber } from 'react-phone-number-input'
 import moment from "moment"
 
 export const LeadDetail = (props) => {
-    const { leads } = useContext(LeadContext)
-    const { deleteLead } = useContext(LeadContext)
+    const { leads, deleteLead } = useContext(LeadContext)
     const [lead, setLead] = useState(props.lead || { loanPartner: {} })
     const { getDocuments } = useContext(DocumentContext)
     const { leadId } = useParams();
@@ -21,10 +20,6 @@ export const LeadDetail = (props) => {
                 history.push("/leads")
             })
     }
-
-    // useEffect(() => {
-    //     getDocuments()
-    // }, [])
 
     useEffect(() => {
         getDocuments()

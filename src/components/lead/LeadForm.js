@@ -119,7 +119,7 @@ export const LeadForm = () => {
     return (
 
         <form className="lead--form" >
-            <h2>Add New Lead</h2>
+            <h2>{leadId ? <>Edit Lead</> : <>Add New Lead</>}</h2>
             <fieldset>
                 <div>
                     <label htmlFor="name">Name</label><br />
