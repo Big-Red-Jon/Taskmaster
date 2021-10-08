@@ -1,9 +1,21 @@
+h1 {
+    text-align: left;
+    color: #282828;;
+    margin: 2rem;
+}
+
+.agent--item {
+    width: 25%;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
 .realtor {
     text-align: center;
     flex-basis: 28%;
       margin: 1em;
       padding: 1em;
-      border: 1px dotted silver;
+      border: 1px solid silver;
 }
 
 .realtors{
@@ -11,4 +23,31 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.searchBarAgent{
+    width: relative;
+    margin: 1rem;
+}
+
+.input--wider {
+    width: 100%;
+    margin: 0.2em;
+  }
+
+  .form--item{
+      width: relative;
+  }
+
+  .newButton{
+    margin: 1rem;
+}
+
+.contact {
+    position: center;
+}
+
+.realtor--form{
+    text-align: left;
+      margin: 1rem;
 }

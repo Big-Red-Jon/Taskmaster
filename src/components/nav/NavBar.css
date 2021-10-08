@@ -1,0 +1,11 @@
+.nav{
+    height: 5rem;
+    padding: 1rem;
+}
+
+.nav-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font: "Gotham A";
+}

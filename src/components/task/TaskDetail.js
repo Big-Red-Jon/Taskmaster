@@ -3,6 +3,12 @@ import { TaskContext } from "./TaskProvider"
 import "./Task.css"
 import { useParams } from "react-router-dom"
 import { useHistory } from "react-router-dom"
+import Card from 'react-bootstrap/Card';
+import { ButtonGroup } from "react-bootstrap"
+import Button from "react-bootstrap/Button"
+import { ListGroup } from "react-bootstrap"
+import ListGroupItem from "react-bootstrap/ListGroupItem"
+// import Collapse from 'react-bootstrap/Collapse'
 // import { PropertyTaxContext } from "../propertytax/PropertyTaxProvider"
 
 export const TaskDetail = (props) => {
@@ -30,18 +36,26 @@ export const TaskDetail = (props) => {
 
     return (
         <section className="task" >
-            <h3>{task.lead.name}</h3>
-            <div>Task: {task.task} </div>
-            <div>Due: {task.dueDate}</div>
-
-            <div>Completed? {task.isComplete ? "Yes" : "No"} </div>
-
-
-            <button onClick={handleRelease}>Delete</button>
-            <button onClick={() => {
-                history.push(`/tasks/edit/${task.id}`)
-            }}>Update Task</button>
-
+            <Card>
+                <Card.Body>
+                    <Card.Title>{task.lead.name}</Card.Title>
+                    <Card.Subtitle>{task.task} </Card.Subtitle>
+                    <ListGroup className="list-group-flush">
+                        <ListGroupItem>Due: {task.dueDate}</ListGroupItem>
+                        <ListGroupItem>Completed? {task.isComplete ? "Yes" : "No"}</ListGroupItem>
+                        <ButtonGroup aria-label="Basic example">
+                            <Button variant="secondary" onClick={handleRelease}>
+                                Delete
+                            </Button>
+                            <Button variant="secondary" onClick={() => {
+                                history.push(`/tasks/edit/${task.id}`)
+                            }}>
+                                Update
+                            </Button>
+                        </ButtonGroup>
+                    </ListGroup>
+                </Card.Body>
+            </Card>
         </section >
     )
 }

@@ -1,10 +1,11 @@
 import React, { useContext, useEffect, useState } from "react"
 import { RealtorContext } from "./RealtorProvider"
-import "./Realtor.css"
 import { useHistory, useParams } from 'react-router-dom';
 import DatePicker from "react-datepicker";
 import 'react-phone-number-input/style.css'
 import PhoneInput from 'react-phone-number-input/input'
+import Button from "react-bootstrap/Button"
+import "./Realtor.css"
 
 export const RealtorForm = () => {
     const { addRealtor, getRealtorById, updateRealtor } = useContext(RealtorContext)
@@ -105,6 +106,15 @@ export const RealtorForm = () => {
             </fieldset>
             <fieldset>
                 <div>
+                    <label htmlFor="office">Agency:</label><br />
+                    <input className="form--item" type="text" id="office" name="office" required autoFocus
+                        placeholder="Name of Agency"
+                        onChange={editInputChange}
+                        defaultValue={realtor.office} />
+                </div>
+            </fieldset>
+            <fieldset>
+                <div>
                     <label htmlFor="phone">Phone:</label><br />
                     <PhoneInput maxLength="16" country="US" className="form--item" id="phone" name="phone" required autoFocus
                         placeholder="Enter phone number"
@@ -114,9 +124,9 @@ export const RealtorForm = () => {
                 </div>
             </fieldset>
             <fieldset>
-                <div>
+                <div className="contact">
                     <label htmlFor="preferredContact">Preferred Method of Contact</label> <br />
-                    <select name="preferredContact" id="preferredContact" onChange={editInputChange}
+                    <select style={{ width: "25%" }} name="preferredContact" id="preferredContact" onChange={editInputChange}
                         defaultValue={realtor.preferredContact} >
                         <option value="Email">Email</option>
                         <option value="Phone">Phone</option>
@@ -130,23 +140,15 @@ export const RealtorForm = () => {
                     <DatePicker id="dateLastContact" selected={callDate} onChange={(date) => setCallDate(date)} />
                 </div>
             </fieldset>
-            <fieldset>
-                <div>
-                    <label htmlFor="office">Agency Office:<br />
-                        <input className="form--item" type="text" id="office" name="office" required autoFocus
-                            placeholder="Name of Agency..."
-                            onChange={editInputChange}
-                            defaultValue={realtor.office} />
-                    </label>
-                </div>
-            </fieldset>
-            <button
+            <br />
+            <Button variant="primary" size="lg"
                 disabled={isLoading}
                 onClick={event => {
                     event.preventDefault()
                     saveRealtor()
                 }}>
-                {realtorId ? <>Update Realtor</> : <>Add Realtor</>}</button>
+                {realtorId ? <>Update Realtor</> : <>Add Realtor</>}</Button>{' '}
+
         </form>
     )
 

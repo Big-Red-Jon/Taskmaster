@@ -5,7 +5,12 @@ import { useParams } from "react-router-dom"
 import { useHistory } from "react-router-dom"
 import { DocumentContext } from "../documents/DocumentProvider"
 import { formatPhoneNumber } from 'react-phone-number-input'
-import moment from "moment"
+import Card from 'react-bootstrap/Card';
+import { ButtonGroup } from "react-bootstrap"
+import Button from "react-bootstrap/Button"
+import { ListGroup } from "react-bootstrap"
+import ListGroupItem from "react-bootstrap/ListGroupItem"
+import Collapse from 'react-bootstrap/Collapse'
 
 export const LeadDetail = (props) => {
     const { leads, deleteLead } = useContext(LeadContext)
@@ -30,34 +35,48 @@ export const LeadDetail = (props) => {
         }
     }, [leadId])
 
+    const [open, setOpen] = useState(false);
+
 
     return (
         <section className="lead">
-            <h4>{lead.name}</h4>
-            <div> Date Last Called: {lead.dateLastCalled} </div>
-            <div>Phone: {formatPhoneNumber(lead.phone)}</div>
-            <div>Email: {lead.email}</div>
-            <div>Realtor: {lead.realtor.name} from {lead.realtor.office}</div>
-            <button onClick={() => {
-                history.push(`/documents/detail/${lead.id}`)
-            }}>View Documents</button>
-            <button onClick={() => {
-                history.push(`/leads/edit/${lead.id}`)
-            }}>Update Lead</button>
-            <button onClick={handleRelease}>Delete Lead </button>
+            < Card className="lead-card" style={{ width: '25rem' }}>
+                <Card.Body>
+                    <Card.Title className="Lead-Name">{lead.name}</Card.Title>
+                    <Card.Subtitle className="mb-2 text">Realtor: {lead.realtor.name} from {lead.realtor.office}</Card.Subtitle>
+                    <Button
+                        className="button"
+                        onClick={() => setOpen(!open)}
+                        aria-controls="example-collapse-text"
+                        aria-expanded={open}
+                        variant="light"
+                    >
+                        See Lead Notes
+                    </Button>
+                    <Collapse in={open}>
+                        <div id="example-collapse-text">
+                            <Card.Text>
+                                {lead.notes}
+                            </Card.Text>
+                        </div>
+                    </Collapse>
+
+                    <ListGroup className="list-group-flush">
+                        <ListGroupItem>Phone: {formatPhoneNumber(lead.phone)}</ListGroupItem>
+                        <ListGroupItem>Email: {lead.email}</ListGroupItem>
+                        <ListGroupItem>Date Last Called: {lead.dateLastCalled}</ListGroupItem>
+                    </ListGroup>
+                    <ButtonGroup aria-label="Basic example">
+                        <Button variant="secondary" onClick={() => {
+                            history.push(`/documents/detail/${lead.id}`)
+                        }} >Docs</Button>
+                        <Button variant="secondary" onClick={() => {
+                            history.push(`/leads/edit/${lead.id}`)
+                        }}>Edit</Button>
+                        <Button variant="secondary" onClick={handleRelease}>Delete</Button>
+                    </ButtonGroup>
+                </Card.Body>
+            </Card >
         </section>
     )
-
-
-
-
 }
-
-{/* <div class="card" style="width: 18rem;">
-    <img class="card-img-top" src="..." alt="Card image cap"/>
-    <div class ="card-body">
-    <h5 class ="card-title">Card title</h5>
-    <p class ="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class ="btn btn-primary">Go somewhere</a>
-    </div>
-</div> */}

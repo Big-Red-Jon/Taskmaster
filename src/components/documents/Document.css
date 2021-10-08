@@ -1,5 +1,7 @@
 h1 {
-    text-align: center;
+    text-align: left;
+    color: #282828;;
+    margin: 2rem;
 }
 
 .document {
@@ -10,16 +12,48 @@ h1 {
       border: 1px dotted silver;
 }
 
-.documents{
+.documents {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
   
   .form--item {
-      width: 50%;
-      justify-content: space-evenly;
+      width: 25%;
+      justify-content: space-around;
+      margin: 1rem;
+  }
+  
+
+  .newButton{
+    margin: 1rem;
+}
+
+.check-item{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+  .lead {
+    text-align: center; 
+}
+
+.leads{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.input--wider {
+    width: 100%;
+    margin: 0.2em;
+  }
+
+  .searchBar{
+      width: relative;
       margin: 1rem;
   }
   

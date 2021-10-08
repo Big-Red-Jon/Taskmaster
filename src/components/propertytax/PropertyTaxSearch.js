@@ -1,9 +1,9 @@
 import React, { useContext } from "react"
-import { LeadContext } from "./LeadProvider"
-import "./Lead.css"
+import { PropertyTaxContext } from "./PropertyTaxProvider"
+import "./PropertyTax.css"
 
-export const LeadSearch = () => {
-    const { setSearchTerms } = useContext(LeadContext)
+export const TaxSearch = () => {
+    const { setSearchTerms } = useContext(PropertyTaxContext)
 
     return (
         <>
@@ -11,7 +11,7 @@ export const LeadSearch = () => {
                 <input type="text"
                     className="input--wider"
                     onKeyUp={(event) => setSearchTerms(event.target.value)}
-                    placeholder="Search for a specific lead... " />
+                    placeholder="Search for a specific County... " />
             </section>
         </>
     )

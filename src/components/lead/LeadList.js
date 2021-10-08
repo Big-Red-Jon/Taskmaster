@@ -2,6 +2,8 @@ import React, { useContext, useEffect, useState } from "react"
 import { LeadContext } from "./LeadProvider"
 import { LeadDetail } from "./LeadDetail"
 import { useHistory } from "react-router-dom"
+import Button from "react-bootstrap/Button"
+import "./Lead.css"
 
 export const LeadList = () => {
     const { leads, getLeads, searchTerms } = useContext(LeadContext)
@@ -27,10 +29,14 @@ export const LeadList = () => {
 
     return (
         <>
-            <h1>Leads</h1>
-            <button className="newButton" onClick={() => history.push("/leads/create")}>
-                Add New Lead
-            </button>
+            <div className="page-top">
+                <h1>Leads</h1>
+                <div className="d-grid gap-2">
+                    <Button variant="dark" size="lg" className="newButton" onClick={() => history.push("/leads/create")}>
+                        Add New Lead
+                    </Button>{' '}
+                </div>
+            </div>
             <div className="leads">
                 {
                     filteredLeads.map(lead => {

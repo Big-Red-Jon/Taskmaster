@@ -80,10 +80,6 @@ export const Register = () => {
                     <input type="email" name="email" id="email" className="form-control" placeholder="Email address" required value={registerUser.email} onChange={handleInputChange} />
                 </fieldset>
                 <fieldset>
-                    <label htmlFor="inputImageURL"> Image URL </label>
-                    <input type="imageURL" name="imageURL" id="imageURL" className="form-control" placeholder="Image URL *must end in .jpg or .jpeg*" required value={registerUser.imageURL} onChange={handleInputChange} />
-                </fieldset>
-                <fieldset>
                     <button type="submit"> Sign in </button>
                 </fieldset>
             </form>
