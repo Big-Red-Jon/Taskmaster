@@ -1,6 +1,6 @@
-#About The Project
+# About The Project
 
-#Built With
+# Built With
 
 This project used the following to make it possible: 
 
