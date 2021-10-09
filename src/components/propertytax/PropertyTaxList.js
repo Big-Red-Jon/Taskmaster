@@ -34,7 +34,7 @@ export const PropertyTaxList = () => {
                     <h1>PropertyTaxes</h1>
                     {
                         countyKeys.map(county => (<>
-                            <h4 className="card-title-tax">{county} COUNTY</h4>
+                            <h4 className="card-title-tax" eventKey="++">{county} COUNTY</h4>
                             {propertyTaxes[county].map(props =>
                                 (<PropertyTaxDetail {...props} />))}</>)
                         )

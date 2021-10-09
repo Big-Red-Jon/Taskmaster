@@ -41,6 +41,8 @@ export const PropertyTaxDetail = (props) => {
                             {/* <ListGroup.Item>County: {props.County}</ListGroup.Item> */}
                             <ListGroup.Item>County Rate: {props.CountyRate}</ListGroup.Item>
                             <ListGroup.Item>City Rate: {props.CityRate}</ListGroup.Item>
+                            <ListGroup.Item>SSD: {props.SpecialSchoolDistrict}</ListGroup.Item>
+                            <ListGroup.Item>SSD Rate: {props.SpecialSchoolDistrictRate}</ListGroup.Item>
                             <ListGroup.Item>Total: {props.Total}</ListGroup.Item>
                         </ListGroup>
                     </Card >
