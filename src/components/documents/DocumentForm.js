@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react"
 import { LeadContext } from "../lead/LeadProvider"
 import { DocumentContext } from "./DocumentProvider"
 import { useHistory, useParams } from 'react-router-dom';
-
+import Button from "react-bootstrap/Button"
 
 export const DocumentForm = () => {
     const { addDocument, getDocById, updateDocument } = useContext(DocumentContext)
@@ -38,7 +38,18 @@ export const DocumentForm = () => {
 
     useEffect(() => {
         getLeads()
+
     }, [])
+
+
+    // useEffect(() => {
+    //     getDocuments()
+    //     console.log(props);
+    //     if (!props.lead) {
+    //         const thisLead = leads.find(lead => lead.id === parseInt(leadId)) || { loanPartner: {} }
+    //         setLead(thisLead)
+    //     }
+    // }, [leadId])
 
     useEffect(() => {
         if (documentId) {
@@ -85,11 +96,12 @@ export const DocumentForm = () => {
     return (
 
         <form className="doc--form" >
-            <h2>Create New Document form</h2>
+            <h2>{document.id ? <>Edit Documents</> : <>Add New Document Form</>}</h2>
             <fieldset>
                 <div>
                     <label htmlFor="leadId">Lead: </label> <br />
-                    <select className="form--item" id="leadId" onChange={editInputChange} defaultValue={document.leadId}>
+                    <select className="form--item" id="leadId" onChange={editInputChange} value={document.leadId} defaultValue={document.leadId}>
+                        <option>Select Lead</option>
                         {leads.map(lead => (
                             <option
                                 key={lead.id}
@@ -103,47 +115,48 @@ export const DocumentForm = () => {
             </fieldset><br />
             <fieldset>
                 <div className="form-group">
+                    <input className="check-item" type="checkbox" id="isLetterSent" checked={document.isLetterSent} onChange={editCheckChange} />
                     <label htmlFor="isLetterSent"> Pre-approval Letter Sent: </label>
-                    <input type="checkbox" id="isLetterSent" checked={document.isLetterSent} onChange={editCheckChange} />
                 </div>
             </fieldset>
             <fieldset>
                 <div className="form-group">
+                    <input className="check-item" type="checkbox" id="isPbSubmitted" checked={document.isPbSubmitted} onChange={editCheckChange} />
                     <label htmlFor="isPbSubmitted"> Paystubs Submitted: </label>
-                    <input type="checkbox" id="isPbSubmitted" checked={document.isPbSubmitted} onChange={editCheckChange} />
                 </div>
             </fieldset>
             <fieldset>
                 <div className="form-group">
+                    <input className="check-item" type="checkbox" id="isBkSubmitted" checked={document.isBkSubmitted} onChange={editCheckChange} />
                     <label htmlFor="isBkSubmitted"> Bank Statements Submitted: </label>
-                    <input type="checkbox" id="isBkSubmitted" checked={document.isBkSubmitted} onChange={editCheckChange} />
                 </div>
             </fieldset>
             <fieldset>
                 <div className="form-group">
+                    <input className="check-item" type="checkbox" id="isDLSubmitted" checked={document.isDLSubmitted} onChange={editCheckChange} />
                     <label htmlFor="isDLSubmitted"> Driver's License Submitted: </label>
-                    <input type="checkbox" id="isDLSubmitted" checked={document.isDLSubmitted} onChange={editCheckChange} />
                 </div>
             </fieldset>
             <fieldset>
                 <div className="form-group">
+                    <input className="check-item" type="checkbox" id="isSocialSubmitted" checked={document.isSocialSubmitted} onChange={editCheckChange} />
                     <label htmlFor="isSocialSubmitted"> Social Security Submitted: </label>
-                    <input type="checkbox" id="isSocialSubmitted" checked={document.isSocialSubmitted} onChange={editCheckChange} />
                 </div>
             </fieldset>
             <fieldset>
                 <div className="form-group">
+                    <input className="check-item" type="checkbox" id="isTaxSubmitted" checked={document.isTaxSubmitted} onChange={editCheckChange} />
                     <label htmlFor="isTaxSubmitted"> Tax Return Submitted: </label>
-                    <input type="checkbox" id="isTaxSubmitted" checked={document.isTaxSubmitted} onChange={editCheckChange} />
                 </div>
             </fieldset>
-            <button
+            <br />
+            <Button variant="primary" size="lg"
                 disabled={isLoading}
                 onClick={event => {
                     event.preventDefault()
                     saveDocument()
                 }}>
-                {documentId ? <>Save Documents</> : <>Add Documents</>}</button>
+                {documentId ? <>Save Documents</> : <>Add Documents</>}</Button>{' '}
         </form>
     )
 

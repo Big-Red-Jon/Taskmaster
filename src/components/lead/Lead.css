@@ -1,13 +1,15 @@
 h1 {
-    text-align: center;
+    text-align: left;
+    color: #282828;;
+    margin: 2rem;
 }
 
 .lead {
-    text-align: center;
-    flex-basis: 28%;
-      margin: 1em;
-      padding: 1em;
-      border: 1px dotted silver;
+    text-align: center; 
+    padding: 1rem;
+    flex-basis: 20%;
+    padding: 1em;
+    border: 1px solid silver;
 }
 
 .leads{
@@ -15,11 +17,21 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
+}
+.check-item{
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 .input--wider {
-    width: 70%;
+    width: 100%;
     margin: 0.2em;
+  }
+
+  .searchBar{
+      width: relative;
+      margin: 1rem;
   }
   
   .lead--form{
@@ -28,4 +40,16 @@ h1 {
       
   }
   
- 
+
+  .newButton{
+      margin: 1rem;
+  }
+
+  #root{
+    background:rgba(130, 147, 166, 1);
+    margin: auto;
+  }
+
+  /* .card-body{
+    background:rgba(32, 108, 238, 1);
+  } */

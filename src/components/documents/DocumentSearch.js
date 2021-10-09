@@ -8,11 +8,10 @@ export const DocumentSearch = () => {
     return (
         <>
             <section className="searchBar">
-                Document Search:
                 <input type="text"
                     className="input--wider"
                     onKeyUp={(event) => setSearchTerms(event.target.value)}
-                    placeholder="Search for a specific document... " />
+                    placeholder="Search for a specific document list... " />
             </section>
         </>
     )

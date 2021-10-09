@@ -3,8 +3,10 @@ import { PropertyTaxContext } from "./PropertyTaxProvider"
 import { PropertyTaxDetail } from "./PropertyTaxDetail"
 import { useHistory } from "react-router-dom"
 
+
 export const PropertyTaxList = () => {
-    const { propertyTaxes, getTaxesByCounty } = useContext(PropertyTaxContext)
+    const { propertyTaxes, getTaxesByCounty, searchTerms } = useContext(PropertyTaxContext)
+    const [filteredTaxes, setFiltered] = useState([])
 
     useEffect(() => {
         getTaxesByCounty()
@@ -13,19 +15,31 @@ export const PropertyTaxList = () => {
     const history = useHistory()
     const countyKeys = Object.keys(propertyTaxes)
 
+    useEffect(() => {
+        if (searchTerms !== "") {
+
+            const subset = countyKeys.filter(county => county.toLowerCase().includes(searchTerms))
+            setFiltered(subset)
+        } else {
+            setFiltered(propertyTaxes)
+        }
+    }, [searchTerms, propertyTaxes])
+
+
+
     return (
         <>
-            <h1 className="propertyTaxes">PropertyTaxes</h1>
-            <button className="newButton" onClick={() => history.push("/Calculators/create")}>
-                Calculate a Property Tax
-            </button>
-            <div className="propertyTaxes">
-                {
-                    countyKeys.map(county => (<>
-                        <h4 class="card-title">{county} COUNTY</h4>{propertyTaxes[county].map(props =>
-                            (<PropertyTaxDetail {...props} />))}</>)
-                    )
-                }
+            <div>
+                <div className="propertyTaxes">
+                    <h1>PropertyTaxes</h1>
+                    {
+                        countyKeys.map(county => (<>
+                            <h4 className="card-title-tax">{county} COUNTY</h4>
+                            {propertyTaxes[county].map(props =>
+                                (<PropertyTaxDetail {...props} />))}</>)
+                        )
+                    }
+                </div>
             </div>
         </>
     )

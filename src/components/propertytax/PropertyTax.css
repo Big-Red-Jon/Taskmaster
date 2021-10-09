@@ -1,15 +1,41 @@
-.propertyTax {
-    text-align: center;
-    flex-basis: 50%;
-      margin: 1em;
-      padding: 1em;
-      border: 1px dotted silver;
+h1 {
+    text-align: left;
+    color: #282828;;
+    margin: 2rem;
+    width: 100%;
 }
 
 .propertyTaxes {
     text-align: center;
-    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    /* flex-direction: row; */
+    /* flex-basis: 25%; */
+    
 }
+
+.card-title-tax{
+    width: 100%;
+    text-align: left;
+    color: #282828;;
+    margin: 2rem;
+    border-bottom: #282828 solid 5px;
+}
+
+.propertyTax {
+    text-align: center;
+    /* display: flex; */
+    flex-direction: row; 
+    flex-basis: 25%;
+    padding: 2em;
+    /* border: 1px solid silver; */
+    
+    
+    
+}
+
+
 
 .form--item {
     width: 50%;
@@ -21,4 +47,4 @@
     text-align: left;
     margin: 1rem;
     
-}
+} 

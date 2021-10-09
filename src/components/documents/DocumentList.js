@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react"
 import { DocumentContext } from "./DocumentProvider"
 import { DocumentDetail } from "./DocumentDetail"
 import { useHistory } from "react-router-dom"
-import { Link } from "react-router-dom"
+import Button from "react-bootstrap/Button"
 
 export const DocumentList = () => {
     const { documents, getDocuments, searchTerms } = useContext(DocumentContext)
@@ -27,9 +27,11 @@ export const DocumentList = () => {
     return (
         <>
             <h1>Documents</h1>
-            <button className="newButton" onClick={() => history.push("/documents/create")}>
-                Add New Document List
-            </button>
+            <div className="d-grid gap-2">
+                <Button variant="dark" size="lg" className="newButton" onClick={() => history.push("/documents/create")}>
+                    Add New Document List
+                </Button>{' '}
+            </div>
             <div className="documents">
                 {
                     filteredDocuments.map(document => {

@@ -16,16 +16,11 @@ export const PropertyTaxForm = () => {
     const { propertyTaxId } = useParams();
     const history = useHistory();
 
-
     // const [selected, setSelected] = React.useState("");
-
-
     // const changeSelectOptionHandler = (event) => {
     //     setSelected(event.target.value);
     // };
-
     // useEffect(() => {
-
     // }, [])
 
     useEffect(() => {
@@ -98,8 +93,6 @@ export const PropertyTaxForm = () => {
         }
 
     }
-
-
 
     return (
 

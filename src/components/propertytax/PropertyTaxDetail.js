@@ -1,8 +1,14 @@
-// import React, { useContext, useEffect, useState } from "react"
+import React, { useState } from "react"
 // import { PropertyTaxContext } from "./PropertyTaxProvider"
 import "./PropertyTax.css"
 // import { useParams } from "react-router-dom"
 import { useHistory } from "react-router-dom"
+import Card from 'react-bootstrap/Card';
+import { ListGroup } from "react-bootstrap";
+import { Collapse } from "react-bootstrap"
+import Button from "react-bootstrap/Button"
+import { Accordion } from "react-bootstrap";
+
 
 export const PropertyTaxDetail = (props) => {
     // const [propertyTax, setPropertyTax] = useState(props.propertyTax)
@@ -10,19 +16,36 @@ export const PropertyTaxDetail = (props) => {
     // const { propertyTaxes, getTaxesByCounty } = useContext(PropertyTaxContext)
     const history = useHistory()
 
+    const [open, setOpen] = useState(false);
+
     return (
         <section className="propertyTax">
-            <div>
-                <div>
-                    {/* <h5>County: {props.County}</h5> */}
-                    <div>County Rate: {props.CountyRate}</div>
-                    <div>City: {props.City}</div>
-                    <div>City Rate: {props.CityRate}</div><br />
-                    <button onClick={() => {
-                        history.push(`/Calculators/${props.County}/${props.City}`)
-                    }}>View</button>
-                </div>
+            <div className="d-grid gap-2">
+                <Button
+
+                    className="button"
+                    onClick={() => setOpen(!open)}
+                    aria-controls="example-collapse-text"
+                    aria-expanded={open}
+                    variant="light"
+                    size="lg"
+                >
+                    {props.City || props.County}
+                </Button>
             </div>
+            <Collapse in={open}>
+                <div id="example-collapse-text">
+                    < Card style={{ width: '25rem' }}>
+                        <ListGroup variant="flush">
+                            {/* <ListGroup.Item>{props.City}</ListGroup.Item> */}
+                            {/* <ListGroup.Item>County: {props.County}</ListGroup.Item> */}
+                            <ListGroup.Item>County Rate: {props.CountyRate}</ListGroup.Item>
+                            <ListGroup.Item>City Rate: {props.CityRate}</ListGroup.Item>
+                            <ListGroup.Item>Total: {props.Total}</ListGroup.Item>
+                        </ListGroup>
+                    </Card >
+                </div>
+            </Collapse>
         </section >
     )
 

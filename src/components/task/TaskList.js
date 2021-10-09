@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from "react"
 import { TaskContext } from "./TaskProvider"
 import { TaskDetail } from "./TaskDetail"
 import { useHistory } from "react-router-dom"
+import Button from "react-bootstrap/Button"
 
 export const TaskList = () => {
     const { tasks, getTasks, searchTerms } = useContext(TaskContext)
@@ -27,9 +28,11 @@ export const TaskList = () => {
     return (
         <>
             <h1>Tasks</h1>
-            <button onClick={() => history.push("/tasks/create")}>
-                Add New Task
-            </button>
+            <div className="d-grid gap-2">
+                <Button variant="dark" size="lg" className="newButton" onClick={() => history.push("/tasks/create")}>
+                    Add New Task
+                </Button>{' '}
+            </div>
             <div className="tasks">
                 {
                     filteredTasks.map(task => {

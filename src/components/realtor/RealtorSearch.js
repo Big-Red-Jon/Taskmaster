@@ -7,8 +7,7 @@ export const RealtorSearch = () => {
 
     return (
         <>
-            <section className="input--all">
-                Realtor Search:
+            <section className="searchBarAgent">
                 <input type="text"
                     className="input--wider"
                     onKeyUp={(event) => setSearchTerms(event.target.value)}

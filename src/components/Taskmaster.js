@@ -4,16 +4,19 @@ import { ApplicationViews } from "./ApplicationViews"
 import { NavBar } from "./nav/NavBar"
 import { Login } from "./loanpartner/Login"
 import { Register } from "./loanpartner/Register"
+import { Footer } from "./footer/Footer"
 
 export const Taskmaster = () => (
     <>
         <Route
             render={() => {
+
                 if (sessionStorage.getItem("taskmaster_loanpartner")) {
                     return (
                         <>
                             <NavBar />
                             <ApplicationViews />
+                            <Footer />
                         </>
                     )
                 } else {

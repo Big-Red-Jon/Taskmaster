@@ -23,6 +23,7 @@ import { PropertyTaxProvider } from "./propertytax/PropertyTaxProvider"
 import { PropertyTaxList } from "./propertytax/PropertyTaxList"
 import { PropertyTaxDetail } from "./propertytax/PropertyTaxDetail"
 import { PropertyTaxForm } from "./propertytax/PropertyTaxForm"
+import { TaxSearch } from "./propertytax/PropertyTaxSearch"
 //Documents
 import { DocumentProvider } from "./documents/DocumentProvider"
 import { DocumentList } from "./documents/DocumentList"
@@ -31,6 +32,7 @@ import { DocumentForm } from "./documents/DocumentForm"
 import { DocumentSearch } from "./documents/DocumentSearch"
 
 export const ApplicationViews = () => {
+    if (window.location.pathname === '/login') return null;
     return (
         <>
             <LeadProvider>
@@ -96,6 +98,7 @@ export const ApplicationViews = () => {
                                 </Route>
 
                                 <Route exact path="/Calculators">
+                                    <TaxSearch />
                                     <PropertyTaxList />
                                 </Route>
                                 <Route exact path="/Calculators/:County/:City">

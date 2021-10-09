@@ -5,6 +5,7 @@ const URL = "http://localhost:8010/proxy/office-functions/pa/tax-resources/asses
 
 export const PropertyTaxProvider = (props) => {
     const [propertyTaxes, setPropertyTaxes] = useState([])
+    const [searchTerms, setSearchTerms] = useState("")
 
     const groupByCounties = (array, key) => {
         return array.reduce((result, currentValue) => {
@@ -60,7 +61,7 @@ export const PropertyTaxProvider = (props) => {
 
     return (
         <PropertyTaxContext.Provider value={{
-            propertyTaxes, getTaxesByCounty, addPropertyTax, deletePropertyTax, getPropertyTaxById, updatePropertyTax
+            propertyTaxes, getTaxesByCounty, addPropertyTax, deletePropertyTax, searchTerms, setSearchTerms, getPropertyTaxById, updatePropertyTax
         }}>
             {props.children}
         </PropertyTaxContext.Provider>
