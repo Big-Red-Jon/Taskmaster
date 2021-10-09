@@ -1,3 +1,17 @@
+#About The Project
+
+#Built With
+
+This project used the following to make it possible: 
+
+* React.Js
+* Bootstrap
+* HTML
+* Javascript
+* CSS
+* React Plugins (TimePicker)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
